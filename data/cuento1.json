@@ -1,12 +1,12 @@
 [
-  { "imagen": "rutade imagen",    
+  { "imagen": "ruta de imagen",    
     "oracion1": "Hello! My name is Amanda",   
-     "tiempo1": [0.025,0.0125,0.025,0.0125,0.5], 
+     "tiempo1": [500,250,500,200,600], 
      "oracion2": "texto oracion1", 
      "tiempo2": [0.025, 0.0125, 0.025, 0.0125, 0.5]
     },
 
-  { "imagen": "rutade imagen",
+  { "imagen": "ruta de imagen",
     "oracion1": "I live in Costa Rica",
     "tiempo1": [0.0125, 0.025, 0.0125, 0.025, 0.025],
     "oracion2": "texto oracion1",
