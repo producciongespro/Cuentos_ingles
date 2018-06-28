@@ -1,6 +1,6 @@
 'use strict'; 
 const v = new View(), m = new Model();
-var w, arrayT, cont=0, limit=0;
+var arrayT, cont=0, limit=0;
 
 $(document).ready(function () {
    m.loadJson("./data/cuento1.json", loadApp)
@@ -10,25 +10,62 @@ $(document).ready(function () {
 
 function loadApp() { 
     v.loadAudios($("#contAudios"));
-    loadPage(0);
+    handlerEvents(); 
 }
 
+function handlerEvents() {
+    var page = -1;  
+      
+    $(".btn-load-page").click(function () {      
+
+        if (page < 1) {
+            switch (this.id) {
+                case "btnAdelante":
+                    page++;
+                break;
+                case "btnAtras":
+                    page--;
+                break;
+            
+                default:
+                console.log("Selector fuera de rango");            
+                break;
+            }
+            loadPage(page);
+            
+        } else {
+            window.alert('The End!');
+            
+        }
+        
+    })  
+        
+
+    
+}
 
 
 function loadPage(page) {
-    v.writePage(m.convertTotArray(page), $("#contImage"), $("#contSentence"), m.getImgName(page) );
-    document.getElementById("audio"+page).play();
-    arrayT = m.getTime(0);
+    //inicializar el contador para que carge una nueva oración
+    cont=0;
+    //console.log(page);
+            
+    v.writePage(m.convertTotArray(page), $("#contImage"), $("#contSentence"), page );
+    var objAudio = document.getElementById("aud"+page);
+    objAudio.play();
+    arrayT = m.getTime(page);
     limit = arrayT.length;
-    highlight();   
+    highlight(); 
 }
 
 
-function highlight () { 
+function highlight () {
+    //console.log("resaltado");     
     $(".span-word").removeClass("highlighted");    
-    if (cont < limit) {
-        console.log(arrayT[cont]); 
+    if (cont < limit) {        
         $("#wrd"+cont).addClass("highlighted");
+        //console.log(arrayT[cont]);
+        //console.log(cont);         
         setTimeout("highlight()", arrayT[cont]);      
         cont++;
     }
@@ -37,20 +74,5 @@ function highlight () {
 
 
 
-
-
-function startWorker() {
-    if(typeof(Worker) !== "undefined") {
-        if(typeof(w) == "undefined") {
-            w = new Worker("./js/worker.js");
-        }
-        w.onmessage = function(event) {
-           console.log(event.data);           
-        };
-    } else {
-        console.log("no soportado");
-        
-    }
-}
 
 

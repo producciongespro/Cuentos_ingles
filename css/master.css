@@ -1,16 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #000;
 }
 
 .container {
     background-color: rgb(238, 226, 212);
-    min-height: 400px;
+    min-height: 600px;
     margin-top: 5%;
 }
 
 #contImage{
     /* background-color:seagreen; */
-    height: 300px;
+    height: 450px;
 }
 
 #contSentence {
@@ -20,6 +24,12 @@ body {
     font-size: 2em;
     font-family: 'Quicksand', sans-serif;
 }
+#contButtons {
+    height: 50px;
+    background-color: aqua;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
 .img-page {
     height: 100%;
@@ -28,7 +38,7 @@ body {
 
 .highlighted {
     background-color: rgba(214, 212, 238, 0.5);
-    padding: 6px;
+    padding: 8px;    
 }
 
 .div-hidden {

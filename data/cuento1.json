@@ -1,11 +1,11 @@
 [
-  { "imagen": "amanda_saludando",    
+  { 
     "oracion": "Hello! My name is Amanda.",   
      "tiempo": [2000,500,600,300,1000]      
     },
 
-  { "imagen": "costa_rica",
+  { 
     "oracion": "I live in Costa Rica.",
-    "tiempo": [125, 250, 125, 500, 500]    
+    "tiempo": [500, 1000, 500, 600, 600]    
   }
 ]

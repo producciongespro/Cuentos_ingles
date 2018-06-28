@@ -23,8 +23,8 @@ Model.prototype.convertTotArray = function (i) {
     return array; 
   }
 
-Model.prototype.getImgName = function (i) { 
-        return Model.prototype.dataSet[i].imagen;
+Model.prototype.getDataset = function () { 
+        return Model.prototype.dataSet;
  }
 
  Model.prototype.getTime = function (i) {
