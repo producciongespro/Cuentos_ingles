@@ -2,31 +2,36 @@
 
 
 function Model() {
-    this.rawSentence="nada";
+    
 }
 
-Model.prototype.rawSentence = "";
+Model.prototype.dataSet = "";
 
 Model.prototype.loadJson = function (path, method) {  
     $.getJSON( path,
         function (data, textStatus, jqXHR) {            
-        Model.prototype.rawSentence = data[0].oracion1;
-        console.log(Model.prototype.rawSentence);
-        method(data);                   
+        Model.prototype.dataSet=data;
+        //console.log(Model.prototype.dataSet);
+        method();                   
         }
       )  
 }
 
-Model.prototype.createArray = function () {
-    console.log(Model.prototype.rawSentence);      
-    //var array =  this.rawSentence.split(" ");
-    //return array; 
+Model.prototype.convertTotArray = function (i) {
+    //console.log(Model.prototype.rawSentence);      
+    var array =  Model.prototype.dataSet[i].oracion.split(" ");       
+    return array; 
   }
 
+Model.prototype.getImgName = function (i) { 
+        return Model.prototype.dataSet[i].imagen;
+ }
 
-Model.prototype.dropArray(array, i) = function () {  
-    return array[i];
-}
+ Model.prototype.getTime = function (i) {
+     return Model.prototype.dataSet[i].tiempo;
+   }
+
+
 
 
 

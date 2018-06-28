@@ -1,15 +1,11 @@
 [
-  { "imagen": "ruta de imagen",    
-    "oracion1": "Hello! My name is Amanda",   
-     "tiempo1": [500,250,500,200,600], 
-     "oracion2": "texto oracion1", 
-     "tiempo2": [0.025, 0.0125, 0.025, 0.0125, 0.5]
+  { "imagen": "amanda_saludando",    
+    "oracion": "Hello! My name is Amanda.",   
+     "tiempo": [2000,500,600,300,1000]      
     },
 
-  { "imagen": "ruta de imagen",
-    "oracion1": "I live in Costa Rica",
-    "tiempo1": [0.0125, 0.025, 0.0125, 0.025, 0.025],
-    "oracion2": "texto oracion1",
-    "tiempo2": [0.025,0.0125,0.025,0.0125,0.5]
+  { "imagen": "costa_rica",
+    "oracion": "I live in Costa Rica.",
+    "tiempo": [125, 250, 125, 500, 500]    
   }
 ]

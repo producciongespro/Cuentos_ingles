@@ -1,0 +1,36 @@
+body {
+    background-color: #000;
+}
+
+.container {
+    background-color: rgb(238, 226, 212);
+    min-height: 400px;
+    margin-top: 5%;
+}
+
+#contImage{
+    /* background-color:seagreen; */
+    height: 300px;
+}
+
+#contSentence {
+    /* background-color: yellow; */
+    height: 100px;
+    padding-top: 0.5em;
+    font-size: 2em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.img-page {
+    height: 100%;
+    text-align: center;
+}
+
+.highlighted {
+    background-color: rgba(214, 212, 238, 0.5);
+    padding: 6px;
+}
+
+.div-hidden {
+    display: none;
+}
