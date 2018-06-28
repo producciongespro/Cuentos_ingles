@@ -26,7 +26,7 @@ body {
 }
 #contButtons {
     height: 50px;
-    background-color: aqua;
+    /* background-color: aqua; */
     padding-top: 5px;
     padding-bottom: 5px;
 }
