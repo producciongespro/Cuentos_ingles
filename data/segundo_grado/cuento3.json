@@ -1,0 +1,67 @@
+[
+  {
+    "oracion1": "Unit 3 - Home Sweet Home",
+     "tiempo1": [2000,500,600,1000,300],
+  },
+
+  {
+    "oracion1": "“I learned about school. Klemen, you’re next.”",
+    "tiempo1": [2000,500,600,300,1000]
+    },
+
+
+  {
+    "oracion1": " ",
+    "tiempo1": []
+  }
+
+  {
+    "oracion1": "Hello. I am Klemen.",
+    "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "Hi, Klemen! How are you?",
+    "tiempo2": [2000,500,600,1000,300],
+    "oracion3": "I am fine.",
+    "tiempo3": [2000,500,600,1000,300]
+  }
+
+  {
+    "oracion1": "What is this?  ",
+    "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "This is my house! We have three bedrooms, two bathrooms, a kitchen, and a living room.",
+    "tiempo2": [2000,500,600,1000,300]
+  }
+
+  {
+    "oracion1": "Please show me your house.",
+    "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "This is the kitchen. We cook food here. That is my brother. He is helping my mom cook.",
+    "tiempo2": [2000,500,600,1000,300]
+  }
+
+  {
+    "oracion1": "Where do you sleep?",
+    "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "This is my bedroom. I sleep here!",
+    "tiempo2": [2000,500,600,1000,300]
+  }
+
+  {
+    "oracion1": "Where do you play?",
+    "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "I play in here with my grandma, but she is sleeping right now.",
+    "tiempo2": [2000,500,600,1000,300]
+  }
+
+  {
+    "oracion1": " ",
+    "tiempo1": []
+  }
+
+  {
+    "oracion1": "Thank you for showing me your house. I will teach my alien friends about human houses. Goodbye.",
+    "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "Bye, Klemen!",
+    "tiempo2": [2000,500,600,1000,300]
+  }
+
+]
