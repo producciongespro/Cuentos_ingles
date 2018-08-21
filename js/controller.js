@@ -1,24 +1,33 @@
 'use strict'; 
 const v = new View(), m = new Model();
-var arrayT, cont=0, limit=0;
+var arrayT, cont=0, limit=0; 
 
 $(document).ready(function () {
-   m.loadJson("./data/cuento1.json", loadApp)
-    
+    //console.log("Ready");    
+    loadModule( 1,"s1" );    
 });
 
-
-function loadApp() { 
-    v.loadAudios($("#contAudios"));
-    handlerEvents(); 
+function loadModule( grade, story ) { 
+   
+    m.loadJson("./data/"+grade+"/"+ story+".json",  function () { 
+        //console.log("Data Loaded");
+        var maxPages = m.getDataset().length;  
+        v.loadAudios($("#contAudios"), maxPages, grade, story   );
+        handlerEvents(maxPages); 
+     });
 }
 
-function handlerEvents() {
+
+
+
+function handlerEvents(maxPages) {
     var page = -1;  
       
-    $(".btn-load-page").click(function () {      
+    $(".btn-load-page").click(function () { 
+        console.log(page);
+             
 
-        if (page < 1) {
+        if (page < maxPages-1   ) {
             switch (this.id) {
                 case "btnAdelante":
                     page++;

@@ -7,15 +7,18 @@ function Model() {
 
 Model.prototype.dataSet = "";
 
-Model.prototype.loadJson = function (path, method) {  
-    $.getJSON( path,
-        function (data, textStatus, jqXHR) {            
-        Model.prototype.dataSet=data;
-        //console.log(Model.prototype.dataSet);
-        method();                   
+Model.prototype.loadJson = function (pathJson, mCallBack) {
+ // console.log("get json");
+    $.getJSON(pathJson,
+        function (data, textStatus, jqXHR) {
+
+            Model.prototype.dataSet=data;
+           // console.log( Model.prototype.dataSet);
+            mCallBack( );
+            
         }
-      )  
-}
+    );
+ }
 
 Model.prototype.convertTotArray = function (i) {
     //console.log(Model.prototype.rawSentence);      

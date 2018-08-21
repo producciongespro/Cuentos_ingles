@@ -23,10 +23,14 @@ View.prototype.writePage = function (arraySentence, contImg, contSnt, idImg) {
 
 }
 
-View.prototype.loadAudios = function (cont) {
-    $(cont).empty();
-    $(cont).append("<audio id='aud0' preload='auto' controls='false' src='./audio/book1/audio0.mp3' >");
-    $(cont).append("<audio id='aud1' preload='auto' controls='false' src='./audio/book1/audio1.mp3' >");
+View.prototype.loadAudios = function (container, maxPages,  grade, story  ) {
+    $(container).empty();
+
+    for (let index = 0; index < maxPages; index++) {
+        $(container).append("<audio id='aud"+ index +"' preload='auto' controls='false' src='./audio/"+ grade +"/"+ story +"/audio"+ index +".mp3' >");
+        
+    }   
+    
 
   }
 
