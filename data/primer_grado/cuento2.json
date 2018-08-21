@@ -1,6 +1,6 @@
 [
   {
-    "oracion": "This is my  Classroom - Chapter 2.",
+    "oracion": "This is my  Classroom - Unit 2.",
      "tiempo": [2000,500,600,1000,300]
     },
 
@@ -36,7 +36,7 @@
   }
 
   {
-    "oracion": "II love my classroom and my teacher.",
+    "oracion": "I love my classroom and my teacher.",
     "tiempo": [500, 1000, 2000]
   }
 
