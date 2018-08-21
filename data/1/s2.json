@@ -13,27 +13,27 @@
   {
     "oracion": "This is my teacher.",
     "tiempo": [500, 1000, 500, 600, 600]
-  }
+  },
 
   {
     "oracion": "This is my desk.",
     "tiempo": [500, 1000, 500, 600, 600]
-  }
+  },
 
   {
     "oracion": "This is my study buddy, Lucia.",
     "tiempo": [500, 1000, 500, 600, 600]
-  }
+  },
 
   {
     "oracion": "This is my notebook. It is on the desk.",
     "tiempo": [500, 1000, 500]
-  }
+  },
 
   {
     "oracion": "This is my pencil. It is red.",
     "tiempo": [500, 1000, 2000]
-  }
+  },
 
   {
     "oracion": "I love my classroom and my teacher.",

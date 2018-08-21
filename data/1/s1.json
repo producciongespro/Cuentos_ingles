@@ -1,11 +1,11 @@
 [
   {
     "oracion": "All about me - Unit 1 .",
-     "tiempo": [2000,500,600,1000,300]
+     "tiempo": [10,500,600,1000,300]
     },
     {
       "oracion": "Hello! I am Amanda.",
-       "tiempo": [2000,500,600,300,1000]
+       "tiempo": [200,500,600,300,1000]
     },
     {
       "oracion": "I am from in Costa Rica.",
