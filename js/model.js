@@ -10,10 +10,10 @@ Model.prototype.dataSet = "";
 Model.prototype.loadJson = function (pathJson, mCallBack) {
  // console.log("get json");
     $.getJSON(pathJson,
-        function (data, textStatus, jqXHR) {
+        function (data) {
 
-            Model.prototype.dataSet=data;
-           // console.log( Model.prototype.dataSet);
+        Model.prototype.dataSet=data;
+        //   console.log( Model.prototype.dataSet);
             mCallBack( );
             
         }
