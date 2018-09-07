@@ -25,7 +25,8 @@ function loadModule( grade, story ) {
 
 function handlerEvents(maxPages) {    
     //inicailizar page
-    var page = -1; 
+    var page = -1,
+    resaltadoRecursivo // objeto que almacena higlith en settimeout
     
 
     $(".btn-load-page").click(function () { 
@@ -45,7 +46,7 @@ function handlerEvents(maxPages) {
                 console.log("Selector fuera de rango");            
                 break;
             }
-            loadPage(page);
+            loadPage(page, resaltadoRecursivo);
             
         } else {
             window.alert('The End!');
@@ -59,13 +60,10 @@ function handlerEvents(maxPages) {
 }
 
 
-function loadPage(page) {
-console.log("página " + page);
-
-
+function loadPage(page, resaltadoRecursivo) {
+    //console.log("página " + page);
     //inicializar el contador para que carge una nueva oración
     cont=-1;
-    //console.log(page);
             
     v.writePage(m.convertTotArray(page), $("#contImage"), $("#contSentence"), page );
     
@@ -79,23 +77,37 @@ console.log("página " + page);
     objAudio.play();
     arrayT = m.getTime(page);
     limit = arrayT.length;
+
+    clearTimeout(resaltadoRecursivo);
+    //resaltado
     highlight(); 
 }
 
 
-function highlight () {
-    //console.log("resaltado");        
+function highlight (resaltadoRecursivo) {
+    console.log("INICIAL");
     
-    $(".span-word").removeClass("highlighted");    
-    if (cont < limit - 1) {        
+ 
+       
+    if (cont < limit   ) { 
+        //apaga el resaltado
+        $(".span-word").removeClass("highlighted");       
+        //console.log("apagado");
+
+       console.log(arrayT[cont]);
+        //console.log(cont);
+        
         $("#wrd"+cont).addClass("highlighted");
-        //console.log(arrayT[cont]);
-        //console.log(cont);         
-        setTimeout( function () {
-            highlight()
-          }, arrayT[cont]);      
+       // console.log("resaltado");       
+        
+        //console.log("Esperando: " + arrayT[cont] + " seg"  + " Valor del indice: " + cont  );
+        
         cont++;
-        console.log("Esperando: " + arrayT[cont] + " seg"  + " Valor del indice: " + cont  );
+
+        resaltadoRecursivo = setTimeout( function () {
+            highlight();                     
+          }, arrayT[cont]);      
+        
         
     }
 }
