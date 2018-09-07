@@ -5,7 +5,7 @@
     },
     {
       "oracion": "Hello! I am Amanda.",
-       "tiempo": [0,  600, 600, 300, 1000]
+       "tiempo": [0,  800, 400, 600, 1000]
     },
     {
       "oracion": "I am from Costa Rica.",
@@ -13,7 +13,7 @@
     }, 
     {
       "oracion": "I am seven years old.",
-      "tiempo": [ 0, 500, 500, 500, 600, 100 ]
+      "tiempo": [ 0, 500, 500, 500, 600, 400 ]
     }, 
     {
       "oracion": "I live in Paso Canoas.",

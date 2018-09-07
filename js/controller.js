@@ -31,28 +31,37 @@ function handlerEvents(maxPages) {
 
     $(".btn-load-page").click(function () { 
         //console.log(page);
-             
+        //Botona adelante: avanzar
 
-        if (page < maxPages-1   ) {
-            switch (this.id) {
-                case "btnAdelante":
-                    page++;
-                break;
-                case "btnAtras":
-                    page--;
-                break;
-            
-                default:
-                console.log("Selector fuera de rango");            
-                break;
+        let idBtnActual = $(this).attr("id");
+
+        if ( idBtnActual == "btnAdelante" ) {
+            //validación de limite superior
+            if (page < maxPages - 1 ) {
+                page++;
+                //carga el método que dibuja la pagina y activa el resaltado
+                loadPage(page, resaltadoRecursivo);
+            }else {
+                alert ("the End");
             }
-            loadPage(page, resaltadoRecursivo);
-            
-        } else {
-            window.alert('The End!');
             
         }
-        
+
+        //Retroceso - botón atrás
+        if (idBtnActual == "btnAtras") {
+            //verificando limite inferior
+            if (page > 0) {
+                page--; 
+                //carga el método que dibuja la pagina y activa el resaltado
+                loadPage(page, resaltadoRecursivo);
+            }
+            if (page==0) {
+                  //Solo carga el método que dibuja la pagina y activa el resaltado
+                  loadPage(page, resaltadoRecursivo);
+            }
+            
+        } 
+        /** Fin evento de botones **/               
     })  
         
 
@@ -61,31 +70,53 @@ function handlerEvents(maxPages) {
 
 
 function loadPage(page, resaltadoRecursivo) {
-    //console.log("página " + page);
+    console.log("página " + page);
     //inicializar el contador para que carge una nueva oración
     cont=-1;
-            
+    
+    //Escribe la oración 
     v.writePage(m.convertTotArray(page), $("#contImage"), $("#contSentence"), page );
     
     //Manejador de audio:
     // si el audio está cargado pausarlo para poder cambiar a otra pagina
-    if (page != 0) {
+    
+    if (page > 0) {
+        //se apusa el audio actual
+        objAudio.load();
         objAudio.pause();
+        //se limpia la variable
+        objAudio = null;
+        console.log("pausa");
+
+        
     }
+    
+
     //regarga el obj audio con el nuevo audio
     objAudio = document.getElementById("aud"+page);
+    console.log("id de aduio: " + objAudio.id);
+    
+  
     objAudio.play();
+    // fin de manejador de audio
+
+
     arrayT = m.getTime(page);
     limit = arrayT.length;
 
+    //Limpia el objeto recursivo que contiene el método: highlight
     clearTimeout(resaltadoRecursivo);
-    //resaltado
+   // console.log(resaltadoRecursivo);
+    
+
+
+    // método resaltado
     highlight(); 
 }
 
 
 function highlight (resaltadoRecursivo) {
-    console.log("INICIAL");
+    //console.log("INICIAL");
     
  
        
@@ -94,7 +125,7 @@ function highlight (resaltadoRecursivo) {
         $(".span-word").removeClass("highlighted");       
         //console.log("apagado");
 
-       console.log(arrayT[cont]);
+        // console.log(arrayT[cont]);
         //console.log(cont);
         
         $("#wrd"+cont).addClass("highlighted");
