@@ -1,39 +1,48 @@
 [
   {
-    "oracion": "All about me. Chapter one.",
-     "tiempo": [0, 800,600,1000,300, 600  ]
+    "oracion": "All about me - Unit 1 .",
+     "tiempo": [2000,500,600,1000,300]
     },
-    {
-      "oracion": "Hello! I am Amanda.",
-       "tiempo": [0,  800, 400, 600, 1000]
+
+  {
+    "oracion": "Hello! I am Amanda.",
+     "tiempo": [2000,500,600,300,1000]
     },
-    {
-      "oracion": "I am from Costa Rica.",
-      "tiempo": [0,  600, 200, 600, 600, 800]
-    }, 
-    {
-      "oracion": "I am seven years old.",
-      "tiempo": [ 0, 500, 500, 500, 600, 400 ]
-    }, 
-    {
-      "oracion": "I live in Paso Canoas.",
-      "tiempo": [0, 800, 500, 200, 600, 600]
-    },
-    {
-      "oracion": "I am tall.",
-      "tiempo": [0, 500, 800, 500, 100]
-    },
-    {
-      "oracion": "I am beautiful.",
-      "tiempo": [0, 400, 900, 200]
-    },
-    {
-      "oracion": "I am happy.",
-      "tiempo": [0, 400, 900, 800]
-    },
-    {
-      "oracion": "Bye!",
-      "tiempo": [0, 1000, 800 ]
-    }
+
+
+  {
+    "oracion": "I am from Costa Rica.",
+    "tiempo": [500, 1000, 500, 600, 600]
+  }
+
+  {
+    "oracion": "I am seven years old.",
+    "tiempo": [500, 1000, 500, 600, 600]
+  }
+
+  {
+    "oracion": "I live in Paso Canoas.",
+    "tiempo": [500, 1000, 500, 600, 600]
+  }
+
+  {
+    "oracion": "I am tall.",
+    "tiempo": [500, 1000, 500]
+  }
+
+  {
+    "oracion": "I am beautiful.",
+    "tiempo": [500, 1000, 2000]
+  }
+
+  {
+    "oracion": "I am happy.",
+    "tiempo": [500, 1000, 2000]
+  }
+
+  {
+    "oracion": "Bye!",
+    "tiempo": [1000]
+  }
 
 ]

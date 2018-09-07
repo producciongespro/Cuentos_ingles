@@ -1,0 +1,60 @@
+[
+  {
+    "oracion1": "Unit 2 - Healthy Habits.",
+     "tiempo1": [2000,500,600,1000,300],
+  },
+
+  {
+    "oracion1": "“I learned about school. Gafikh, you’re next.”",
+    "tiempo1": [2000,500,600,300,1000],
+    },
+
+
+    {
+    "oracion1": "Hello. I am Gafikh.",
+    "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "Hi, Gafikh! How are you today?",
+    "tiempo2": [2000,500,600,1000,300],
+    "oracion3": "I am fine.",
+    "tiempo3": [2000,500,600,1000,300],
+  }
+
+  {
+    "oracion1": "What are these? ",
+    "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "These are fruits and vegetables! We eat fruits and vegetables to be healthy.",
+    "tiempo2": [2000,500,600,1000,300],
+  }
+
+  {
+    "oracion1": "What is healthy?",
+    "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "Healthy means to have a good, strong body. To be healthy, we need to exercise, eat fruits and vegetables, and wash our hands.",
+    "tiempo2": [2000,500,600,1000,300],
+  }
+
+  {
+    "oracion1": "What is your favorite way to exercise?",
+    "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "I like playing soccer.",
+    "tiempo2": [2000,500,600,1000,300],
+  }
+
+  {
+    "oracion1": "What healthy food do you eat?",
+    "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "I eat apples. Here, have an apple!",
+    "tiempo2": [2000,500,600,1000,300],
+  }
+
+  {
+    "oracion1": "I like apples.  Thank you! I will teach my alien friends about being healthy.",
+    "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "Goodbye.",
+    "tiempo2": [2000,500,600,1000,300],
+    "oracion2": "Bye, Gafikh!",
+    "tiempo2": [2000,500,600,1000,300],
+  }
+
+
+]
