@@ -1,4 +1,3 @@
-$(document).ready(function () {
-   
-    loadModule( 1,"s6" );    
+$(document).ready(function () {   
+    loadModule( 1,"s1" );    
 });
