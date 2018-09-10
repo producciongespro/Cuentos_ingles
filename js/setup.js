@@ -1,3 +1,3 @@
 $(document).ready(function () {   
-    loadModule( 1,"s1" );    
+    loadModule( 1,"all_about_me" );    
 });
