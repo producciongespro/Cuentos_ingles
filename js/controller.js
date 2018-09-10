@@ -2,10 +2,7 @@
 const v = new View(), m = new Model();
 var arrayT, cont, limit=0, objAudio; 
 
-$(document).ready(function () {
-    //console.log("Ready");    
-    loadModule( 1,"s1" );    
-});
+
 
 function loadModule( grade, story ) {
     //reset variables
