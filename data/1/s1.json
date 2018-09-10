@@ -9,7 +9,7 @@
     },
     {
       "oracion": "I am from Costa Rica.",
-      "tiempo": [0,  600, 200, 600, 600, 800 ]
+      "tiempo": [0,  600, 400, 600, 600, 800 ]
     }, 
     {
       "oracion": "I am seven years old.",
@@ -21,7 +21,7 @@
     },
     {
       "oracion": "I am tall.",
-      "tiempo": [0, 500, 800, 500, 100]
+      "tiempo": [0, 500, 600, 500]
     },
     {
       "oracion": "I am beautiful.",

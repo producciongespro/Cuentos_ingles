@@ -1,7 +1,7 @@
 [
   {
     "oracion": "This is my Classroom - Unit 2.",
-     "tiempo": [0,800,200, 400,1000, 0, 600, 50  ]
+     "tiempo": [0,1000,200, 400,1000, 0, 600, 50  ]
     },
 
   {
@@ -27,12 +27,12 @@
 
   {
     "oracion": "This is my notebook. It is on the desk.",
-    "tiempo": [0, 500, 400, 500, 400, 400, 400, 400, 400]
+    "tiempo": [0, 1000, 300, 200, 600, 600, 400, 400, 400, 400]
   },
 
   {
     "oracion": "This is my pencil. It is red.",
-    "tiempo": [0,500, 1000, 2000]
+    "tiempo": [0,500, 1000, 2000, 100, 100, 100]
   },
 
   {
