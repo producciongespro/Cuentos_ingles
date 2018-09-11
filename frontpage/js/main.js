@@ -16,7 +16,9 @@ function obtenerParametrosUrl() {
     let nombre = parametro.split("=")[2];
     console.log(grado );
     console.log(nombre);
+
     cargarImagenPortada(grado, nombre );
+    cargarTitulo(nombre);
 
     
     
@@ -26,4 +28,10 @@ function obtenerParametrosUrl() {
 
 function cargarImagenPortada(  grado, nombreCuento  ) {
     $("#imgPortada").attr("src", "./img/"+ grado + "/" + nombreCuento + ".jpg"   );
+}
+
+function cargarTitulo(nombreCuento) {
+    let tmpTitulo = nombreCuento.replace(/_/g, " " ),
+    tmpPrimeraMayuscula = tmpTitulo.slice(0,1).toUpperCase();        
+   $("#tituloNombreCuento").text(tmpPrimeraMayuscula +  tmpTitulo.slice(1) );
 }
