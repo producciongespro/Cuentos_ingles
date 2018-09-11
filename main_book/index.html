@@ -16,6 +16,10 @@
 
     <script src="./vendor/jquery-3.3.1/jquery-3.3.1.min.js"></script>
     <script src="./vendor/bootstrap-4.1/js/bootstrap.min.js"></script>
+    <script src="./js/model.js"></script>
+    <script src="./js/view.js"></script>
+    <script src="./js/controller.js"></script>
+    
 
 
 </head>
@@ -31,22 +35,9 @@
 
 <div class="row fila-imagen-texto">
    <div class="col-1" ></div>
-   <div class="col-7 col-marco3" ><img src="img/Primero/L1/pagina1.jpg" alt="Amanda" class="img-fluid"></div>
-     <div class="col-3 col-marco1" >
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h1>My name is Amanda </h1>
-
-   <div class="col-1" ></div>
-     </div>
+   <div class="col-7 col-marco3" id="contImage"   ><img src="img/1/all_about_me/pic0.jpg" alt="Amanda" class="img-fluid"></div>
+     <div class="col-3 col-marco1"  id="contSentence" > </div>
+     <div class="col-1" ></div>
 
 </div>
 
@@ -56,21 +47,43 @@
 
 
 <div class="row footer-botonera">
-   <div class="col-2" ></div>
-   <div class="col-2" > <a href="boton1" class="btn-3d green">
-     <i class="fas fa-backward"></i>
-   </a></div>
-   <div class="col-2" > <a href="boton2" class="btn-3d purple">
-     <i class="fas fa-play"></i>
-   </a></div>
-  <div class="col-2" > <a href="boton3" class="btn-3d red">
-    <i class="fas fa-pause"></i>
-  </a></div>
-  <div class="col-2" > <a href="boton4" class="btn-3d blue">
-    <i class="fas fa-forward"></i>
-  </a></div>
+  <div class="col-2"></div>
 
-  <div class="col-2" ></div>S
+
+  <div class="col-2">
+    <button class="btn btn-3d green btn-load-page" id="btnAtras" >
+        <i class="fas fa-backward"></i>
+    </button>
+  </div>
+
+  <div class="col-2">
+    <button class="btn btn-3d purple" >
+        <i class="fas fa-play"></i>
+    </button>
+  </div>
+
+
+
+
+  <div class="col-2">
+    <button class="btn btn-3d red"> 
+        <i class="fas fa-pause"></i>
+    </button>
+  </div>
+
+  <div class="col-2" > 
+    <button class="btn btn-3d blue btn-load-page"  id="btnAdelante" >
+        <i class="fas fa-forward"></i>
+    </button>
+  </div>
+
+  <div class="col-2" ></div>
+</div>
+
+<div class="row">
+    <div class="div-hidden" id="contAudios"> 
+      
+      </div>
 </div>
 
 </body>

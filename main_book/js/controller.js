@@ -1,6 +1,21 @@
 'use strict'; 
 const v = new View(), m = new Model();
-var arrayT, cont, limit=0, objAudio; 
+var arrayT, cont, limit=0, objAudio, 
+grado, // grado del cuento
+titulo;  //titulo
+
+$(document).ready(function () {         
+    obtenerInfoSesion();
+});
+
+
+function obtenerInfoSesion() {
+    grado = sessionStorage.getItem("grado");
+    titulo = sessionStorage.getItem("titulo");
+    //carga el json
+    loadModule( grado, titulo );  
+}
+
 
 
 
@@ -66,13 +81,13 @@ function handlerEvents(maxPages) {
 }
 
 
-function loadPage(page, resaltadoRecursivo) {
+function loadPage(page, resaltadoRecursivo ) {
     console.log("página " + page);
     //inicializar el contador para que carge una nueva oración
     cont=-1;
     
     //Escribe la oración 
-    v.writePage(m.convertTotArray(page), $("#contImage"), $("#contSentence"), page );
+    v.writePage(m.convertTotArray(page), $("#contImage"), $("#contSentence"), page, grado, titulo  );
     
     //Manejador de audio:
     // si el audio está cargado pausarlo para poder cambiar a otra pagina

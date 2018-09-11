@@ -13,6 +13,16 @@ h1{
 }
 
 
+.highlighted {
+    background-color: rgba(214, 212, 238, 0.5);
+    padding: 8px;    
+}
+
+.div-hidden {
+    display: none;
+}
+
+
 
 
 

@@ -15,8 +15,8 @@ function obtenerParametrosUrl() {
 
     let grado = parametro.split("=")[1].slice(0,1);
     let nombre = parametro.split("=")[2];
-    console.log(grado );
-    console.log(nombre);
+    //console.log(grado );
+    //console.log(nombre);
 
     //Ubna vez que carga parámetros activa los demáms métodos
     cargarImagenPortada(grado, nombre );
