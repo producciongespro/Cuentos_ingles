@@ -1,6 +1,8 @@
 'use strict'; 
 const v = new View(), m = new Model();
 var arrayT, cont, limit=0, objAudio, 
+page = -1, //setea la pagina en -1 para cargar la pag 0
+resaltadoRecursivo, // objeto que almacena higlith en settimeout
 grado, // grado del cuento
 titulo;  //titulo
 
@@ -29,6 +31,13 @@ function loadModule( grade, story ) {
         var maxPages = m.getDataset().length;  
         v.loadAudios($("#contAudios"), maxPages, grade, story   );
         handlerEvents(maxPages); 
+
+        //Carga de la primera pagina:
+        page++;
+        //carga el método que dibuja la pagina y activa el resaltado
+        loadPage(page, resaltadoRecursivo);
+
+
      });
 }
 
@@ -37,8 +46,8 @@ function loadModule( grade, story ) {
 
 function handlerEvents(maxPages) {    
     //inicailizar page
-    var page = -1,
-    resaltadoRecursivo // objeto que almacena higlith en settimeout
+    
+ 
     
 
     $(".btn-load-page").click(function () { 
