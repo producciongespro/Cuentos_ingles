@@ -1,5 +1,6 @@
 $(document).ready(function () {
     obtenerParametrosUrl();
+   
     
 });
 
@@ -17,8 +18,10 @@ function obtenerParametrosUrl() {
     console.log(grado );
     console.log(nombre);
 
+    //Ubna vez que carga parámetros activa los demáms métodos
     cargarImagenPortada(grado, nombre );
     cargarTitulo(nombre);
+    eCargarLibro(grado, nombre  );
 
     
     
@@ -34,4 +37,14 @@ function cargarTitulo(nombreCuento) {
     let tmpTitulo = nombreCuento.replace(/_/g, " " ),
     tmpPrimeraMayuscula = tmpTitulo.slice(0,1).toUpperCase();        
    $("#tituloNombreCuento").text(tmpPrimeraMayuscula +  tmpTitulo.slice(1) );
+}
+
+function eCargarLibro( grado, nombre ) {
+    $("#btnCargarCuento").click(function (e) { 
+        e.preventDefault();
+      //almacena en variables de sesión el nombre y el grado:
+        sessionStorage.setItem("grado", grado);
+        sessionStorage.setItem("titulo", nombre);
+        window.location.assign( "../main_book/index.html"  );        
+    });
 }
