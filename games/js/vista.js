@@ -13,7 +13,8 @@ View.prototype.lanzarPregunta = function (nivel,titulo,pregunta,id, opcion1, opc
   $("#left").append(opcion1);
   $("#right").append(opcion2);
   var tituloConEspacios = titulo.replace(/_/g, " ");
-  $("#tituloCuento").html("<center><h1 id='tituloDelCuento'>"+tituloConEspacios+"</h1></center>");
+  var tituloMayuscula = tituloConEspacios.charAt(0).toUpperCase() + tituloConEspacios.slice(1);
+  $("#tituloCuento").html("<center><h1 id='tituloDelCuento'>"+tituloMayuscula+"</h1></center>");
   // $("#trivia").append(htmlNext);
   console.log(correcta);
 };
