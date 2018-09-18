@@ -21,6 +21,66 @@ body {
 
 }
 
+
+.col-marco1 {
+  background-color: #005B96;
+  padding: 2em;
+  border-radius: 5px;
+
+}
+.col-marco2 {
+  background-color: #4C8CB5;
+  padding: 2em;
+  border-radius: 5px;
+
+}
+.col-marco3 {
+  background-color: #4C8CB5;
+  padding: 2em;
+  border-radius: 5px;
+
+}
+
+.col-marco4 {
+  background-color: #C8DBE8;
+  padding: 2em;
+  border-radius: 0px;
+
+}
+
+#tituloDelCuento{
+  font-family: 'Muli', sans-serif;
+  color: #ad1212;
+}
+
+#titulo{
+  color: white;
+  text-align: center;
+
+}
+
+#left, #right{
+  color: purple;
+  font-size: 35px;
+  text-align: center;
+  cursor: pointer;
+  background-color: aquamarine;
+  border-radius: 13%;
+}
+
+#siguiente{
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+
+#return{
+  font-size: 32px;
+  font-style: oblique;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
@@ -31,6 +91,60 @@ body {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+#numberOfQuestion, #titulo{
+  font-family: 'Gamja Flower', cursive;
+  color: yellow;
+}
+
+#titulo{
+    font-size: 50px;
+}
+
+#page2 {
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
+  height: 455px;
+  padding-top: 6em !important;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+#totalEstrellas{
+  width: 32px;
+}
+
+#mensajeGanador{
+ font-size: 64px;
+
+}
+
+#totales{
+    height: 52px;
+      width: 72px;
+      float: right;
+      border: 1px solid #aaaaaa;
+      border-radius: 5%;
+      background-color: #e7e7ff;
+}
+.puntosActivos{
+  color: #4805ff;
+  }
+
+#estrellasTotal{
+  font-size: 32px;
+  text-align: center;
+}
+
+.dedos, .signoPregunta{
+  width: 44%;
+}
+
+.celdasPreguntas{
+    width:144px;
+}
+
+
 .offcanvas #page {
   overflow: hidden;
   position: absolute;
