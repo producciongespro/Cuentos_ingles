@@ -63,7 +63,7 @@ function handlerEvents(maxPages) {
                 //carga el método que dibuja la pagina y activa el resaltado
                 loadPage(page, resaltadoRecursivo);
             }else {
-                alert ("the End");
+                loadEnd();
             }
             
         }
@@ -165,7 +165,9 @@ function highlight (resaltadoRecursivo) {
 }
 
 
-
+function loadEnd() {
+    $("#modalEnd").modal();        
+}
 
 
 
