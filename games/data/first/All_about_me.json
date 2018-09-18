@@ -1,0 +1,7 @@
+[
+ {"id":"1","pregunta":"Is her name Amanda?","opc1":"YES","opc2":"NO","correcta":"1"},
+ {"id":"2","pregunta":"Is she from Honduras?","opc1":"YES","opc2":"NO","correcta":"2"},
+ {"id":"3","pregunta":"Is she seven years old?","opc1":"YES","opc2":"NO","correcta":"1"},
+ {"id":"4","pregunta":"Is she sad?","opc1":"YES","opc2":"NO","correcta":"2"},
+ {"id":"5","pregunta":"Is Amanda tall?","opc1":"YES","opc2":"NO","correcta":"1"}
+]
