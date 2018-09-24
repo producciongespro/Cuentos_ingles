@@ -1,8 +1,4 @@
-[
-  {
-    "oracion": "All about me - Unit 1.",
-     "tiempo": [0, 800,600, 200, 0, 800, 300 ]
-    },    
+[   
     {
       "oracion": "Hello! I am Amanda.",
        "tiempo": [0,  800, 400, 600, 1000 ]

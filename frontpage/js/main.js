@@ -20,8 +20,9 @@ function obtenerParametrosUrl() {
 
     //Ubna vez que carga parámetros activa los demáms métodos
     cargarImagenPortada(grado, nombre );
+    reproducirAudio(grado, nombre);
     cargarTitulo(nombre);
-    eCargarLibro(grado, nombre  );
+    eCargarLibro(grado, nombre );
 
     
     
@@ -37,6 +38,15 @@ function cargarTitulo(nombreCuento) {
     let tmpTitulo = nombreCuento.replace(/_/g, " " ),
     tmpPrimeraMayuscula = tmpTitulo.slice(0,1).toUpperCase();        
    $("#tituloNombreCuento").text(tmpPrimeraMayuscula +  tmpTitulo.slice(1) );
+}
+
+
+function reproducirAudio( grado, nombreCuento ) {
+   var pathAudio =  "./audio/"+grado+"/"+nombreCuento+".mp3",
+    audioNombre = document.getElementById("audioNombreCuento");
+    
+    audioNombre.src=pathAudio;
+    audioNombre.play();
 }
 
 function eCargarLibro( grado, nombre ) {
