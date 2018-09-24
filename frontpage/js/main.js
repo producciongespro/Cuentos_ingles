@@ -7,18 +7,7 @@ $(document).ready(function () {
 
 function obtenerParametrosUrl() {
 
-    let urlActual = window.location.href,
-    parametro = urlActual.split("?")[1]; 
-
-    // console.log(urlActual);
-    // console.log(parametro);
-
-    let grado = parametro.split("=")[1].slice(0,1);
-    let nombre = parametro.split("=")[2];
-    //console.log(grado );
-    //console.log(nombre);
-
-    //Ubna vez que carga parámetros activa los demáms métodos
+  
     cargarImagenPortada(grado, nombre );
     reproducirAudio(grado, nombre);
     cargarTitulo(nombre);

@@ -1,3 +1,15 @@
+<?php
+   $grado =  $_GET["grado"];
+   $unidad = $_GET["unidad"];
+   $nombre = $_GET["nombre"];
+?>
+
+<script type="text/javascript">
+    var grado = '<?php echo $grado;?>'
+    var unidad = '<?php echo $unidad;?>'
+    var nombre = '<?php echo $nombre;?>'    
+</script>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
