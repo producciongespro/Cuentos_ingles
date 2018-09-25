@@ -1,14 +1,9 @@
 [
-  {
-    "oracion": "This is my Classroom - Unit 2.",
-     "tiempo": [0,1000,200, 400,1000, 0, 600, 400  ]
-    },
 
   {
     "oracion": "This is my classroom.",
      "tiempo": [0, 1000, 200, 400, 1000]
     },
-
 
   {
     "oracion": "This is my teacher.",

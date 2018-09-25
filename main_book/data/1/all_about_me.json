@@ -1,16 +1,16 @@
-[   
+[
     {
       "oracion": "Hello! I am Amanda.",
-       "tiempo": [0,  800, 400, 600, 1000 ]
+       "tiempo": [0,  1015, 450, 500, 1000 ]
     },
     {
       "oracion": "I am from Costa Rica.",
-      "tiempo": [0,  600, 400, 600, 600, 800 ]
-    }, 
+      "tiempo": [0,  600, 400, 600, 400, 800 ]
+    },
     {
       "oracion": "I am seven years old.",
       "tiempo": [ 0, 500, 500, 500, 600, 400 ]
-    }, 
+    },
     {
       "oracion": "I live in Paso Canoas.",
       "tiempo": [0, 800, 500, 200, 600, 600]
@@ -21,15 +21,15 @@
     },
     {
       "oracion": "I am beautiful.",
-      "tiempo": [0, 400, 900, 200]
+      "tiempo": [0, 700, 600, 200]
     },
     {
       "oracion": "I am happy.",
-      "tiempo": [0, 400, 900, 800]
+      "tiempo": [0, 400, 700, 800]
     },
     {
       "oracion": "Bye!",
-      "tiempo": [0, 1000, 800 ]
+      "tiempo": [0, 1000 ]
     }
 
 ]

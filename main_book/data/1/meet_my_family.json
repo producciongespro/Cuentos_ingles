@@ -1,14 +1,8 @@
 [
   {
-    "oracion": "Meet my Family - Unit 3.",
-     "tiempo": [0,800,500,600,300,400]
-    },
-
-  {
     "oracion": "This is my family. It is small.",
      "tiempo": [0,500,300,300,1000, 400, 400, 600]
     },
-
 
   {
     "oracion": "This is my mother. She is short.",
