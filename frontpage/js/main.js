@@ -5,17 +5,32 @@ $(document).ready(function () {
 });
 
 
-function obtenerParametrosUrl() {
-
-  
+function obtenerParametrosUrl() {  
     cargarImagenPortada(grado, nombre );
+    establecerVinculo(grado);
     reproducirAudio(grado, nombre);
-    cargarTitulo(nombre);
-    eCargarLibro(grado, nombre );
+    cargarTitulo(nombre, unidad );
+    eCargarLibro(grado, nombre );     
+}
 
+function establecerVinculo(grado) {
+    let pathGrado;
+    switch (grado) {
+        case "1":
+        pathGrado = "../navigation/first.html";
+        break;
+        case "2":
+        pathGrado = "../navigation/second.html";
+        break;
+        case "3":
+        pathGrado = "../navigation/third.html";
+        break;
     
-    
-    
+        default:
+        console.log("Selección fuera de rango");        
+        break;
+    }
+    $("#lnkGrado").attr("href", pathGrado);
     
 }
 
@@ -23,10 +38,11 @@ function cargarImagenPortada(  grado, nombreCuento  ) {
     $("#imgPortada").attr("src", "./img/"+ grado + "/" + nombreCuento + ".png"   );
 }
 
-function cargarTitulo(nombreCuento) {
+function cargarTitulo(nombreCuento, unidad ) {
     let tmpTitulo = nombreCuento.replace(/_/g, " " ),
     tmpPrimeraMayuscula = tmpTitulo.slice(0,1).toUpperCase();        
    $("#tituloNombreCuento").text(tmpPrimeraMayuscula +  tmpTitulo.slice(1) );
+   $("#tituloUnidad").text( "Unit " +  unidad);
 }
 
 

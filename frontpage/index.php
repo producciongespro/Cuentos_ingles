@@ -55,9 +55,7 @@
 <div class="row footer1">
   <div class="col-2"></div>
         <div class="col-2">
-        <button type="button" class="btn btn-3d btn-3d-green">Minibooks
-
-        </button>
+        <a id="lnkGrado"  href="" class="btn btn-3d btn-3d-green">Minibooks </a>
       </div>
 
         <div class="col-4 text-center">
@@ -74,7 +72,7 @@
 
 
 <div class="row footer2">
-<div class="col-12" ><h3>Unit 1</h3> </div>
+<div class="col-12" ><h3  id="tituloUnidad" >unidad</h3> </div>
 
 </div>
 
