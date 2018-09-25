@@ -20,7 +20,7 @@ function obtenerParametrosUrl() {
 }
 
 function cargarImagenPortada(  grado, nombreCuento  ) {
-    $("#imgPortada").attr("src", "./img/"+ grado + "/" + nombreCuento + ".jpg"   );
+    $("#imgPortada").attr("src", "./img/"+ grado + "/" + nombreCuento + ".png"   );
 }
 
 function cargarTitulo(nombreCuento) {

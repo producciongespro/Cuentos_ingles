@@ -7,7 +7,7 @@ function View  () {
 
 View.prototype.writePage = function (arraySentence, contImg, contSnt, idImg, grado, titulo   ) {  
     var limit = arraySentence.length,    
-    htmlImage = $("<img class='img-page  img-fluid'  src='img/" + grado + "/" + titulo  + "/pic" +idImg+".jpg'> "),
+    htmlImage = $("<img class='img-page  img-fluid'  src='img/" + grado + "/" + titulo  + "/pic" +idImg+".png'> "),
     //htmlSentence = $("<div class='alert  alert-warning' role='alert'></div>");
     htmlSentence = $("<div class='divOracion' ></div>");
     

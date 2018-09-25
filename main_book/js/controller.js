@@ -18,9 +18,6 @@ function obtenerInfoSesion() {
     loadModule( grado, titulo );  
 }
 
-
-
-
 function loadModule( grade, story ) {
     //reset variables
     
@@ -36,18 +33,13 @@ function loadModule( grade, story ) {
         page++;
         //carga el método que dibuja la pagina y activa el resaltado
         loadPage(page, resaltadoRecursivo);
-
-
      });
 }
 
 
 
 
-function handlerEvents(maxPages) {    
-    //inicailizar page
-    
- 
+function handlerEvents(maxPages) {       
     
 
     $(".btn-load-page").click(function () { 
@@ -63,7 +55,8 @@ function handlerEvents(maxPages) {
                 //carga el método que dibuja la pagina y activa el resaltado
                 loadPage(page, resaltadoRecursivo);
             }else {
-                loadEnd();
+                //Cuadno termina el cuento pAsa al "módulo final" donde se muestran las actividades, evaluación etc
+                window.location.href = "../the_end/the_end.html";
             }
             
         }
@@ -107,9 +100,7 @@ function loadPage(page, resaltadoRecursivo ) {
         objAudio.pause();
         //se limpia la variable
         objAudio = null;
-        console.log("pausa");
-
-        
+        console.log("pausa");        
     }
     
 
@@ -137,8 +128,7 @@ function loadPage(page, resaltadoRecursivo ) {
 
 
 function highlight (resaltadoRecursivo) {
-    //console.log("INICIAL");
-    
+    //console.log("INICIAL");    
  
        
     if (cont < limit   ) { 
@@ -165,9 +155,7 @@ function highlight (resaltadoRecursivo) {
 }
 
 
-function loadEnd() {
-    $("#modalEnd").modal();        
-}
+
 
 
 
