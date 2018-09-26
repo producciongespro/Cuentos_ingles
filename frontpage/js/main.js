@@ -10,7 +10,7 @@ function obtenerParametrosUrl() {
     establecerVinculo(grado);
     reproducirAudio(grado, nombre);
     cargarTitulo(nombre, unidad );
-    eCargarLibro(grado, nombre );     
+    eCargarLibro(grado, unidad, nombre );     
 }
 
 function establecerVinculo(grado) {
@@ -54,12 +54,13 @@ function reproducirAudio( grado, nombreCuento ) {
     audioNombre.play();
 }
 
-function eCargarLibro( grado, nombre ) {
+function eCargarLibro( grado,unidad, nombre ) {
     $("#btnCargarCuento").click(function (e) { 
         e.preventDefault();
       //almacena en variables de sesión el nombre y el grado:
         sessionStorage.setItem("grado", grado);
         sessionStorage.setItem("titulo", nombre);
+        sessionStorage.setItem("unidad", unidad);
         window.location.assign( "../main_book/index.html"  );        
     });
 }
