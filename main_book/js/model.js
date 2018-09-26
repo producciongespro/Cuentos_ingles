@@ -8,14 +8,14 @@ function Model() {
 Model.prototype.dataSet = "";
 
 Model.prototype.loadJson = function (pathJson, mCallBack) {
-  console.log("get json");
-  console.log(pathJson);
+  //console.log("get json");
+  //console.log(pathJson);
   
     $.getJSON(pathJson,
         function (data) {
 
         Model.prototype.dataSet=data;
-        console.log( Model.prototype.dataSet);
+        //console.log( Model.prototype.dataSet);
             mCallBack( );
             
         }

@@ -19,7 +19,10 @@ function obtenerInfoSesion() {
 }
 
 function loadModule( grade, story ) {
-    //reset variables
+    //asigna el estilo  a los botones:
+    $(".btn-load-page").css("cursor", "not-allowed");
+
+
     
     
    
@@ -37,14 +40,29 @@ function loadModule( grade, story ) {
 }
 
 
+function eTerminarReproduccionAudio() {
+    var aud = document.getElementById("myAudio");
+    aud.onended = function() {
+        alert("The audio has ended");
+    };
+}
+
+
 
 
 function handlerEvents(maxPages) {       
     
 
     $(".btn-load-page").click(function () { 
+
+        //desactiva los botones mientras se reproduce el audio
+        $(".btn-load-page").prop("disabled", true);
+        $(".btn-load-page").css("cursor", "not-allowed");
+        //console.log("Desactivado");
+
         //console.log(page);
         //Botona adelante: avanzar
+
 
         let idBtnActual = $(this).attr("id");
 
@@ -84,7 +102,7 @@ function handlerEvents(maxPages) {
 
 
 function loadPage(page, resaltadoRecursivo ) {
-    console.log("página " + page);
+    //console.log("página " + page);
     //inicializar el contador para que carge una nueva oración
     cont=-1;
     
@@ -100,17 +118,27 @@ function loadPage(page, resaltadoRecursivo ) {
         objAudio.pause();
         //se limpia la variable
         objAudio = null;
-        console.log("pausa");        
+        //console.log("pausa");        
     }
     
 
     //regarga el obj audio con el nuevo audio
     objAudio = document.getElementById("aud"+page);
-    console.log("id de aduio: " + objAudio.id);
+    //console.log("id de aduio: " + objAudio.id);
     
   
     objAudio.play();
     // fin de manejador de audio
+
+
+    //Activa los botones cuando se lanza el evento end del audio (cundo termina el audio)
+    objAudio.onended = function() {
+        $(".btn-load-page").prop("disabled", false);
+        
+        $(".btn-load-page").css("cursor", "pointer");
+        //console.log("ACtivado");
+    };
+
 
 
     arrayT = m.getTime(page);
@@ -123,7 +151,10 @@ function loadPage(page, resaltadoRecursivo ) {
 
 
     // método resaltado
-    highlight(); 
+    highlight();
+    
+    
+    
 }
 
 
