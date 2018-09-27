@@ -25,13 +25,30 @@ View.prototype.writePage = function (arraySentence, contImg, contSnt, idImg, gra
 }
 
 View.prototype.loadAudios = function (container, maxPages,  grade, story  ) {
+    //Se limpia el contenedor del DOM
     $(container).empty();
+    //Se genera un contenedor temporal en memoria volátil
+    var htmlStringAudios = $("<div></div>");
 
     for (let index = 0; index < maxPages; index++) {
-        $(container).append("<audio id='aud"+ index +"' preload='auto' controls='false' src='./audio/"+ grade +"/"+ story +"/audio"+ index +".mp3' >");
-        
+        //Se crean los audios y se incrustan en el cont temporal
+        $(htmlStringAudios).append("<audio id='aud"+ index +"' preload='auto' controls='false' src='./audio/"+ grade +"/"+ story +"/audio"+ index +".mp3' >");        
     }   
-    
+    //Se renderiza el contenedor con los audio en el html dentro del contendor de audios
+    $(container).append(htmlStringAudios);
 
   }
 
+
+
+  View.prototype.loadImages = function (container, longArray, grado, titulo  ) {
+      
+      var htmlStringImages = $("<div></div>");
+
+      for (let index = 0; index < longArray; index++) {         
+        $(htmlStringImages).append("<img id='imgTmp"+ index +"' src='img/" + grado + "/" + titulo  + "/pic" +index+".png'> ");
+          
+      }
+      $(container).append(htmlStringImages);
+
+    }

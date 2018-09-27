@@ -21,15 +21,15 @@ function obtenerInfoSesion() {
 function loadModule( grade, story ) {
     //asigna el estilo  a los botones:
     $(".btn-load-page").css("cursor", "not-allowed");
-
-
-    
-    
-   
+  
     m.loadJson("./data/"+grade+"/"+ story+".json",  function () { 
         //console.log("Data Loaded");
         var maxPages = m.getDataset().length;  
         v.loadAudios($("#contAudios"), maxPages, grade, story   );
+        //precarga de imágenes
+        v.loadImages($("#contImages"),maxPages, grade, story );
+
+
         handlerEvents(maxPages); 
 
         //Carga de la primera pagina:
@@ -107,7 +107,7 @@ function loadPage(page, resaltadoRecursivo ) {
     cont=-1;
     
     //Escribe la oración 
-    v.writePage(m.convertTotArray(page), $("#contImage"), $("#contSentence"), page, grado, titulo  );
+    v.writePage(m.convertTotArray(page), $("#visorImage"), $("#contSentence"), page, grado, titulo  );
     
     //Manejador de audio:
     // si el audio está cargado pausarlo para poder cambiar a otra pagina
