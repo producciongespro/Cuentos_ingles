@@ -5,8 +5,6 @@ $(document).ready(function () {
 
 function loadModule() {
     loadDataSession();
-    linkActivity();
-  
 }
 
 
@@ -17,9 +15,7 @@ function loadDataSession() {
     titulo = sessionStorage.getItem("titulo"),
     unidad = sessionStorage.getItem("unidad");
 
-    console.log(grado);
-    console.log(titulo);
-    console.log(unidad);
+  
     
     handlerEvents(grado, unidad, titulo);
 
@@ -32,40 +28,48 @@ function handlerEvents(grado, unidad, titulo) {
     
     //recarga el cuento
     $("#btnReloadTale").click(function () { 
-        console.log("prueba");               
-        window.location.assign("../frontpage/index.php?grado="+grado+"&unidad="+unidad+"&nombre="+titulo);
+       let urlCuento = "../frontpage/index.php?grado="+grado+"&unidad="+unidad+"&nombre="+titulo;             
+        window.location.assign(urlCuento);
     });
+
+
+    //Actividades del cuento
+    $("#btnActivity").click(function () {         
+        let urlActividad = "../games/games.php?level=" + grado + "&taleTitle=" + titulo;
+        window.location.assign(urlActividad);
+    });
+
+    //Los ejercicios en pdf
+    $("#btnWorksheets").click(function () { 
+        let urlPDF = "./worksheets/" + titulo + ".pdf" ;
+        console.log(urlPDF);
+        
+        window.location.assign(urlPDF);        
+    });
+
+
 
     //caraga la página con el grado del cuento
     $("#btnGoToGrade").click(function () { 
-        let tmpPath;
+        let urlGrado;
       switch (grado) {
         case "1":
-            tmpPath =  "../navigation/first.html";
+            urlGrado =  "../navigation/first.html";
         break;
         case "2":
-            tmpPath =  "../navigation/second.html";
+            urlGrado =  "../navigation/second.html";
         break;
         case "3":
-            tmpPath =  "../navigation/third.html";
+            urlGrado =  "../navigation/third.html";
         break;      
         default:
             console.log("fuera de rango");          
         break;
       }
-      window.location.assign(tmpPath);
+      window.location.assign(urlGrado);
     });
 
  
-}
-
-
-
-
-function linkActivity() {
-    let grado = sessionStorage.getItem("grado"),
-    titulo =  sessionStorage.getItem("titulo");
-    $("#lnkActivity").attr("href", "../games/games.php?level=" + grado + "&taleTitle=" + titulo );
 }
 
 
