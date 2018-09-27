@@ -25,16 +25,16 @@ function loadModule( grade, story ) {
     m.loadJson("./data/"+grade+"/"+ story+".json",  function () { 
         //console.log("Data Loaded");
         var maxPages = m.getDataset().length;  
-        v.loadAudios($("#contAudios"), maxPages, grade, story   );
+        v.preLoadAudios($("#contAudios"), maxPages, grade, story );
         //precarga de imágenes
-        v.loadImages($("#contImages"),maxPages, grade, story );
+        v.preLoadImages($("#contImages"),maxPages, grade, story );
 
 
         handlerEvents(maxPages); 
 
         //Carga de la primera pagina:
         page++;
-        //carga el método que dibuja la pagina y activa el resaltado
+        //carga el método que dibuja la pagina y activa el resaltado     
         loadPage(page, resaltadoRecursivo);
      });
 }

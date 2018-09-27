@@ -44,7 +44,7 @@ function handlerEvents(grado, unidad, titulo) {
         let urlPDF = "./worksheets/" + titulo + ".pdf" ;
         console.log(urlPDF);
         
-        window.location.assign(urlPDF);        
+        window.open(urlPDF);        
     });
 
 

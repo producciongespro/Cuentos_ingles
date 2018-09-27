@@ -6,7 +6,7 @@ function View  () {
 }
 
 View.prototype.writePage = function (arraySentence, contImg, contSnt, idImg, grado, titulo   ) {  
-    var limit = arraySentence.length,    
+    var limit = arraySentence.length,      
     htmlImage = $("<img class='img-page  img-fluid'  src='img/" + grado + "/" + titulo  + "/pic" +idImg+".png'> "),
     //htmlSentence = $("<div class='alert  alert-warning' role='alert'></div>");
     htmlSentence = $("<div class='divOracion' ></div>");
@@ -24,7 +24,7 @@ View.prototype.writePage = function (arraySentence, contImg, contSnt, idImg, gra
 
 }
 
-View.prototype.loadAudios = function (container, maxPages,  grade, story  ) {
+View.prototype.preLoadAudios = function (container, maxPages,  grade, story  ) {
     //Se limpia el contenedor del DOM
     $(container).empty();
     //Se genera un contenedor temporal en memoria volátil
@@ -41,8 +41,7 @@ View.prototype.loadAudios = function (container, maxPages,  grade, story  ) {
 
 
 
-  View.prototype.loadImages = function (container, longArray, grado, titulo  ) {
-      
+View.prototype.preLoadImages = function (container, longArray, grado, titulo) {      
       var htmlStringImages = $("<div></div>");
 
       for (let index = 0; index < longArray; index++) {         
@@ -50,5 +49,4 @@ View.prototype.loadAudios = function (container, maxPages,  grade, story  ) {
           
       }
       $(container).append(htmlStringImages);
-
-    }
+}
