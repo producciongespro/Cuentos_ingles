@@ -25,6 +25,7 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:700i" rel="stylesheet">
     <link rel="stylesheet" href="../main_book/vendor/bootstrap-4.1/css/bootstrap.min.css"> 
     <link rel="stylesheet" href="../navigation/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/games.css">
 
     <script src="../main_book/vendor/jquery-3.3.1/jquery-3.3.1.min.js"></script>
     <script src="../main_book/vendor/bootstrap-4.1/js/bootstrap.min.js"></script>
@@ -41,12 +42,38 @@
 </div>
 
 <div class="container">
-    <div class="row">
-        <div class="col-2 text-right" id="vNumber"></div>
-        <div class="col-8" id="vQuestion"  >
-        <div class="col-2"></div>        
+    
+    <div class="row row-questions">
+        <div class="col-2 col-numbers text-right" id="vNumber"></div>
+        <div class="col-8 col-question" id="vQuestion"  ></div>
+        <div class="col-2"></div>       
     </div>
+    <br>
+    <div class="row row-images">
+        <div class="col-2"></div>    
+        <div class="col-4" id="vImage1"></div>    
+        <div class="col-4" id="vImage2"></div>    
+        <div class="col-2"></div>   
     </div>
+    <br>
+    <div class="row row-footer">
+        <div class="col-1"></div>   
+            <div class="col-10 text-center" >
+                <img class="img-stars" src="./img/star_gray.png" alt="estrella 1">
+                <img class="img-stars" src="./img/star_gray.png" alt="estrella 2">
+                <img class="img-stars" src="./img/star_gray.png" alt="estrella 3">
+                <img class="img-stars" src="./img/star_gray.png" alt="estrella 4">
+                <img class="img-stars" src="./img/star_gray.png" alt="estrella 5">
+            </div>    
+        <div class="col-1">
+            <button class="btn btn-outline-success" id="btnForward"> <i class="fas fa-forward ico-bigger"></i>  </button>
+        </div> 
+    </div>
+
+
+
+
+
 </div>
     
 </body>

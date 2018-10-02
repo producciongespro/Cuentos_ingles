@@ -1,0 +1,17 @@
+
+.img-stars {
+    width: 6%;
+    height: auto;    
+}
+
+.ico-bigger {
+    font-size: 4em;
+    padding: auto;
+}
+
+.col-numbers, .col-question { 
+    /*font-family: 'Muli', sans-serif; */
+    font-family: 'Gamja Flower', cursive;
+    font-size: 2.5em;
+}
+
