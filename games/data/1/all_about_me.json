@@ -1,7 +1,6 @@
 [
- {"id":"1","pregunta":"Is her name Amanda?","opc1":"YES","opc2":"NO","correcta":"1"},
- {"id":"2","pregunta":"Is she from Honduras?","opc1":"YES","opc2":"NO","correcta":"2"},
- {"id":"3","pregunta":"Is she seven years old?","opc1":"YES","opc2":"NO","correcta":"1"},
- {"id":"4","pregunta":"Is she sad?","opc1":"YES","opc2":"NO","correcta":"2"},
- {"id":"5","pregunta":"Is Amanda tall?","opc1":"YES","opc2":"NO","correcta":"1"}
+ {"id":"1","pregunta":"Who is Amanda?","opc1":"<img class='opciones' src='img/1/01_1.png'>","opc2":"<img class='opciones' src='img/1/01_2.png'>","correcta":"1"},
+ {"id":"2","pregunta":"Where is Amanda from?","opc1":"<img class='opciones' src='img/1/01_3.png'>","opc2":"<img class='opciones' src='img/1/01_4.png'>","correcta":"1"},
+ {"id":"3","pregunta":"How old is Amanda?","opc1":"<img class='opciones' src='img/1/01_5.png'>","opc2":"<img class='opciones' src='img/1/01_6.png'>","correcta":"1"},
+ {"id":"4","pregunta":"Is Amanda short or tall?","opc1":"<img class='opciones' src='img/1/01_7.png'>","opc2":"<img class='opciones' src='img/1/01_8.png'>","correcta":"2"}
 ]

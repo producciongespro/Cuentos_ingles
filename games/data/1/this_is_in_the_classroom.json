@@ -1,0 +1,6 @@
+[
+  {"id":"1","pregunta":"Amanda is in the classrom?","opc1":"<img class='opciones' src='img/02_1.png'>","opc2":"<img class='opciones' src='img/02_2.png'>","correcta":"1"},
+  {"id":"2","pregunta":"This is Amanda´s teacher?","opc1":"<img class='opciones' src='img/02_3.png'>","opc2":"<img class='opciones' src='img/02_4.png'>","correcta":"1"},
+  {"id":"3","pregunta":"The notebook is on the desk?","opc1":"<img class='opciones' src='img/02_5.png'>","opc2":"<img class='opciones' src='img/02_6.png'>","correcta":"2"},
+  {"id":"4","pregunta":"My pencil is red?","opc1":"<img class='opciones' src='img/02_7.png'>","opc2":"<img class='opciones' src='img/02_8.png'>","correcta":"2"}
+]

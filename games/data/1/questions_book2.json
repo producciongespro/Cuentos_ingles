@@ -1,7 +1,0 @@
-[
- {"id":"1","pregunta":"Question one, tale two, first grade?","opc1":"YES","opc2":"NO","correcta":"1"},
- {"id":"2","pregunta":"Question two, tale two, first grade?","opc1":"YES","opc2":"NO","correcta":"2"},
- {"id":"3","pregunta":"Question three, tale two, first grade","opc1":"YES","opc2":"NO","correcta":"1"},
- {"id":"4","pregunta":"Question four, tale two, first grade?","opc1":"YES","opc2":"NO","correcta":"2"},
- {"id":"5","pregunta":"Question five, tale two, first grade?","opc1":"YES","opc2":"NO","correcta":"1"}
-]
