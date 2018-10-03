@@ -18,12 +18,12 @@ View.prototype.question = function ( record, visor ) {
     $(visor).text(record.id);
 }
 
-View.prototype.image = function ( record, visor1, visor2 ) {
-    console.log(record.id );
+View.prototype.image = function ( index, visor1, visor2 ) {
+    
     $(visor1).empty();
     $(visor2).empty();
-    $(visor1).html(record.opc1);
-    $(visor2).html(record.opc2);
+    $(visor1).html($("#imgA"+ index)  );
+    $(visor2).html($("#imgB"+ index) );
 }
 
 
@@ -35,13 +35,32 @@ View.prototype.preloadImage = function (array) {
     for (let index = 0; index <limit; index++) {
         console.log(array[index].opc1); 
        // $(arrayImages).append(array[index].opc1);
-       let tmpImage = $(array[index].opc1);
-       $(tmpImage).attr("id", "img"+index);
-
-       $(arrayImages).append(tmpImage);
        
+       //imagenes temporales 1 y 2
+       let tmpImage1 = $(array[index].opc1),
+       tmpImage2 = $(array[index].opc2);
+
+       // Imagen de la opción 1        
+       $(tmpImage1).attr("id", "imgA"+index);
+       $(arrayImages).append(tmpImage1);
+    
+          // Imagen de la opción 2        
+       $(tmpImage2).attr("id", "imgB"+index);
+       $(arrayImages).append(tmpImage2);       
     }     
     $(".row-cont-images").append( arrayImages );    
 }
 
+View.prototype.preloadAudio = function (array) {
+    //console.log(array);
+    var limit = array.length, arrayAudios = $("<div class='col-12' id='preloadedAuidos' ></div>");
+     
+
+    for (let index = 0; index <limit; index++) {
+        console.log(array[index].id);       
+       $(arrayAudios).append("<audio  id='aud"+ array[index].id +"' src='./audio/1/all_about_me/"+array[index].id+"' preload > </audio> ");
+          
+    }     
+    $(".row-cont-audios").append( arrayAudios );    
+}
 
