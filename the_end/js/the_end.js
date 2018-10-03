@@ -27,6 +27,7 @@ function handlerEvents(grado, unidad, titulo) {
     
     
     //recarga el cuento
+    // Se pasan los datos a través de parametros get ya que el sript de la plantilla  no deja utilizar sessión 
     $("#btnReloadTale").click(function () { 
        let urlCuento = "../frontpage/index.php?grado="+grado+"&unidad="+unidad+"&nombre="+titulo;             
         window.location.assign(urlCuento);
@@ -34,16 +35,16 @@ function handlerEvents(grado, unidad, titulo) {
 
 
     //Actividades del cuento
+    //Toma los datos de session storage 
     $("#btnActivity").click(function () {         
-        let urlActividad = "../games/games.php?level=" + grado + "&taleTitle=" + titulo;
+        let urlActividad = "../games/games.html";
         window.location.assign(urlActividad);
     });
 
     //Los ejercicios en pdf
     $("#btnWorksheets").click(function () { 
         let urlPDF = "./worksheets/" + titulo + ".pdf" ;
-        console.log(urlPDF);
-        
+        console.log(urlPDF);        
         window.open(urlPDF);        
     });
 
