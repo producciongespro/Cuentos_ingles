@@ -7,15 +7,15 @@ function View() {
 
 
 View.prototype.question = function ( record, visor ) {
-  console.log(record.pregunta );
+  //console.log(record.pregunta );
   $(visor).empty();
   $(visor).text(record.pregunta);
  }
 
  View.prototype.NumberOfQuestion = function ( record, visor ) {
-    console.log(record.id );
+    //console.log(record.id );
     $(visor).empty();
-    $(visor).text(record.id);
+    $(visor).text(record.id+"." );
 }
 
 View.prototype.image = function ( index, visor1, visor2 ) {
@@ -33,7 +33,7 @@ View.prototype.preloadImage = function (array) {
      
 
     for (let index = 0; index <limit; index++) {
-        console.log(array[index].opc1); 
+        //console.log(array[index].opc1); 
        // $(arrayImages).append(array[index].opc1);
        
        //imagenes temporales 1 y 2
@@ -51,16 +51,23 @@ View.prototype.preloadImage = function (array) {
     $(".row-cont-images").append( arrayImages );    
 }
 
-View.prototype.preloadAudio = function (array) {
+View.prototype.preloadAudio = function (array, level, name ) {
     //console.log(array);
-    var limit = array.length, arrayAudios = $("<div class='col-12' id='preloadedAuidos' ></div>");
-     
+    var limit = array.length, arrayAudios = $("<div class='col-12' id='preloadedAuidos' ></div>"); 
+    //Primero se inyecta el audio de la intro
+    $(arrayAudios).append("<audio  id='audIntro' src='./audio/"+level+"/"+name+"/intro.mp3' preload > </audio> ");             
 
     for (let index = 0; index <limit; index++) {
-        console.log(array[index].id);       
-       $(arrayAudios).append("<audio  id='aud"+ array[index].id +"' src='./audio/1/all_about_me/"+array[index].id+"' preload > </audio> ");
-          
-    }     
+        //console.log(array[index].id);       
+       $(arrayAudios).append("<audio  id='aud"+ array[index].id +"' src='./audio/"+level+"/"+name+"/"+array[index].id+".mp3' preload > </audio> ");          
+    }        
     $(".row-cont-audios").append( arrayAudios );    
 }
 
+View.prototype.setGrayScale = function (item) {    
+    $(item).addClass("img-gray");
+}
+
+View.prototype.setColor = function (item) {    
+    $(item).addClass("img-color");
+}

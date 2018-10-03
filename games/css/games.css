@@ -9,9 +9,20 @@
     padding: auto;
 }
 
-.col-numbers, .col-question { 
-    /*font-family: 'Muli', sans-serif; */
+.col-question {     
     font-family: 'Gamja Flower', cursive;
     font-size: 2.5em;
 }
 
+.col-numbers {
+    font-family: 'Muli', sans-serif;
+    font-size: 2.5em;    
+}
+
+.img-gray {   
+        filter:grayscale(100%);   
+}
+
+.img-color {   
+    filter:grayscale(0);   
+}
