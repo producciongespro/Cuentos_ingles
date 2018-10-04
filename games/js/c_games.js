@@ -8,7 +8,7 @@ $(document).ready(function () {
     //----TMP ----
     
     sessionStorage.setItem("grado", "1");
-    sessionStorage.setItem("titulo", "all_about_me");
+    sessionStorage.setItem("titulo", "fun_games_and_activities");
     sessionStorage.setItem("unidad", "1");
 
     //-----------------------
