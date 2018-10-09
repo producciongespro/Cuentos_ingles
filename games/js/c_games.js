@@ -110,7 +110,7 @@ function eventsStart() {
     //Botones del modal  
     //Home:  
     $("#btnGoToGrade").click(function () { 
-        var level = parseInt(sessionStorage.getItem("grado")), urlLevel  ;
+        var level = parseInt( m.gestSessionStorage().grado ), urlLevel  ;
         switch (level) {
             case 1:
             urlLevel = " ../navigation/first.html";
