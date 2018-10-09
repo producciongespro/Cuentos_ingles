@@ -1,6 +1,0 @@
-[
-  {"id":"1","pregunta":"This is the library?","opc1":"<img class='opciones' src='img/04_1.png'>","opc2":"<img class='opciones' src='img/04_2.png'>","correcta":"2"},
-  {"id":"2","pregunta":"This is the playground?","opc1":"<img class='opciones' src='img/04_3.png'>","opc2":"<img class='opciones' src='img/04_4.png'>","correcta":"2"},
-  {"id":"3","pregunta":"I go to School on Monday and Tuesday?","opc1":"<img class='opciones' src='img/04_5.png'>","opc2":"<img class='opciones' src='img/04_6.png'>","correcta":"1"},
-  {"id":"4","pregunta":"This is the school principle?","opc1":"<img class='opciones' src='img/04_7.png'>","opc2":"<img class='opciones' src='img/04_8.png'>","correcta":"2"}
-]

@@ -1,6 +1,0 @@
-[
-  {"id":"1","pregunta":"My family is small?","opc1":"<img class='opciones' src='img/03_1.png'>","opc2":"<img class='opciones' src='img/03_2.png'>","correcta":"1"},
-  {"id":"2","pregunta":"My mother is short?","opc1":"<img class='opciones' src='img/03_3.png'>","opc2":"<img class='opciones' src='img/03_4.png'>","correcta":"2"},
-  {"id":"3","pregunta":"My father is tall?","opc1":"<img class='opciones' src='img/03_5.png'>","opc2":"<img class='opciones' src='img/03_6.png'>","correcta":"1"},
-  {"id":"4","pregunta":"My father sweeps the house?","opc1":"<img class='opciones' src='img/03_7.png'>","opc2":"<img class='opciones' src='img/03_8.png'>","correcta":"2"}
-]
