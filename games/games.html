@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">     
    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"> 
-    <link rel="stylesheet" href="../vendor/bootstrap-4.1/css/bootstrap.min.css">     
+    <link rel="stylesheet" href="../vendor/bootstrap-4.1/css/bootstrap.min.css">
+        
     <link rel="stylesheet" href="./css/games.css">
 
     <script src="../vendor/jquery-3.3.1/jquery-3.3.1.min.js"></script>
@@ -62,11 +63,47 @@
         </div> 
     </div>
 
-    <div class="row row-cont-images nodisplay " ></div>
-    <div class="row row-cont-audios nodisplay " ></div>
+    <div class="row row-cont-images nodisplay" ></div>
+    <div class="row row-cont-audios nodisplay" ></div>
     
 	   	  
 </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="mdlFinish" tabindex="-1" role="dialog" aria-labelledby="labelmdlFinish" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="labelmdlFinish">Microcuentos inglés</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <span class="message">You have earned </span> <span class="message" id="spnNumbersOfStars" > 5 </span>   <i class="fas fa-star message"></i>
+            <br>
+
+         
+        </div>
+        <div class="modal-footer">
+          <div class="row">
+              <div class="col-6">
+                <button type="button" class="btn btn-3d btn-3d-blue" id="btnGoToGrade" >  
+                    <i class="fas fa-home"></i> 
+                </button>
+              </div>
+              <div class="col-6">
+                <button type="button" class="btn btn-3d btn-3d-green"  id="btnReloadTale" >
+                    <i class="fas fa-undo"></i> 
+                </button>
+              </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
     
 </body>
 </html>

@@ -64,10 +64,12 @@ View.prototype.preloadAudio = function (array, level, name ) {
     $(".row-cont-audios").append( arrayAudios );    
 }
 
-View.prototype.setGrayScale = function (item) {    
+View.prototype.setGrayScale = function (item) {
+    $(item).removeClass("img-color");
     $(item).addClass("img-gray");
 }
 
-View.prototype.setColor = function (item) {    
+View.prototype.setColor = function (item) {
+    $(item).removeClass("img-gray");    
     $(item).addClass("img-color");
 }

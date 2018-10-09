@@ -2,6 +2,7 @@
 
 var m = new Model(), v = new View(), 
 enabledBtn = false,
+stars=0, //cantidad de estrellas ganadas
 i=0; // indice que recorre el array de preguntas
 
 $(document).ready(function () {
@@ -17,6 +18,17 @@ $(document).ready(function () {
     eventsStart();
 });
 
+
+function reset() {
+    //imágenes de ña estrellas
+    for (let index = 1; index < 5; index++) {
+        $("#imgStar"+index ).attr("src", "./img/star_gray.png");        
+    }
+    //limpieza de variables
+    enabledBtn = false,
+    stars=0, //cantidad de estrellas ganadas
+    i=0;
+}
 
 function loadMod() {  
     //carga el json de acuerdo a los datos de sessionstorage
@@ -62,7 +74,7 @@ function eventsStart() {
         if (i<4) {
             showItem(i);
             playAudio(i);
-
+            //console.log(i);            
         }       
     });
     
@@ -78,18 +90,63 @@ function eventsStart() {
                 correctStar(i);
             } else {
                 wrongStar(i);
-            }  
-        }
-
-       
+            }
+            //console.log(i);
+            // si el indice es igual a tres ya terminó las preguntas
+            //Espera un tiempo y lanza un modal para mostrrle al usuario cuantas estrellas tiene 
+            // y pregutnarle qué desea hacer
+            
+            if (i>=3) {
+                //antes de mostrr el modal renderiza la cantidad de estrellas obtenidas
+                $("#spnNumbersOfStars").text(stars);
+                setTimeout ( function () {
+                    $("#mdlFinish").modal();
+                  }, 1000 );  
+            }                        
+        };      
         
     });
+
+    //Botones del modal  
+    //Home:  
+    $("#btnGoToGrade").click(function () { 
+        var level = parseInt(sessionStorage.getItem("grado")), urlLevel  ;
+        switch (level) {
+            case 1:
+            urlLevel = " ../navigation/first.html";
+            break;
+            case 2:
+            urlLevel = " ../navigation/second.html";
+            break;
+            case 3:
+            urlLevel = " ../navigation/third.html";
+            break;           
+    
+            default:
+            console.log("opción fuera de rango");
+            break;
+        }
+        window.location.assign(urlLevel);
+        
+    });
+
+
+    //recargar cuento
+    $("#btnReloadTale").click(function (e) { 
+        $("#mdlFinish").modal("hide");
+        reset(); 
+        loadMod();
+                  
+    });
+
+  
 }
 
 function correctStar(index) {  
     console.log("correcta");
     index = index + 1;
-    $("#imgStar"+index ).attr("src", "./img/star_color.png");   
+    $("#imgStar"+index ).attr("src", "./img/star_color.png");
+    stars++;   
 }
 
 function wrongStar(index) {
