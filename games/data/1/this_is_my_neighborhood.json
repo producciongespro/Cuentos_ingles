@@ -1,0 +1,6 @@
+[
+  {"id":"1","pregunta":"Is David from San José or Puntarenas?","opc1":"<img class='img-thumbnail' src='img/1/05_1.png'>","opc2":"<img class='img-thumbnail' src='img/1/05_2.png'>","correcta":"1"},
+  {"id":"2","pregunta":"My Neighborhood has a park, a church and a school?","opc1":"<img class='img-thumbnail' src='img/1/05_3.png'>","opc2":"<img class='img-thumbnail' src='img/1/05_4.png'>","correcta":"1"},
+  {"id":"3","pregunta":"My neighborhood has restaurants and supermarkets?","opc1":"<img class='img-thumbnail' src='img/1/05_5.png'>","opc2":"<img class='img-thumbnail' src='img/1/05_6.png'>","correcta":"1"},
+  {"id":"4","pregunta":"Doctors and teachers are community helpers in my community?","opc1":"<img class='img-thumbnail' src='img/1/05_7.png'>","opc2":"<img class='img-thumbnail' src='img/1/05_8.png'>","correcta":"2"}
+]
