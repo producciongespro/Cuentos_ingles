@@ -1,9 +1,14 @@
 
 .img-stars {
-    width: 10%;
-    height: auto; 
-	
-		
+    width: 7%;
+    height: auto;
+    margin-left: 1.5em;		
+}
+
+.col-contStars {
+    padding: 1em;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
 
 .ico-bigger {
@@ -44,8 +49,8 @@ cursor:pointer;
 		
 }
 .col-10 {
-background-color:#4C8CB5; 
-padding:auto:
+    background-color:#4C8CB5; 
+    padding:auto;
 }
 .nodisplay{
 	display: none;
@@ -53,8 +58,8 @@ padding:auto:
 	
 	body{
 		background-image: url("../img/indice.jpg");
-		 background-repeat: no-repeat;
-    background-size: 100%;
+		background-repeat: no-repeat;
+        background-size: 100%;
     }
     
 .message {      

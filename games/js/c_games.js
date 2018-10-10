@@ -101,7 +101,7 @@ function eventsStart() {
                 $("#spnNumbersOfStars").html(stars + "<i class='fas fa-star'></i>"  );
                 setTimeout ( function () {
                     $("#mdlFinish").modal();
-                  }, 1000 );  
+                  }, 3000 );  
             }                        
         };      
         
