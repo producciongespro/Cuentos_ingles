@@ -8,9 +8,9 @@ i=0; // indice que recorre el array de preguntas
 $(document).ready(function () {
     //----TMP ----
     
-   // sessionStorage.setItem("grado", "1");
-   // sessionStorage.setItem("titulo", "this_is_my_neighborhood");
-   // sessionStorage.setItem("unidad", "1");
+    //sessionStorage.setItem("grado", "1");
+    //sessionStorage.setItem("titulo", "this_is_my_neighborhood");
+    //sessionStorage.setItem("unidad", "1");
 
     //-----------------------
 
@@ -98,7 +98,7 @@ function eventsStart() {
             
             if (i>=3) {
                 //antes de mostrr el modal renderiza la cantidad de estrellas obtenidas
-                $("#spnNumbersOfStars").text(stars);
+                $("#spnNumbersOfStars").html(stars + "<i class='fas fa-star'></i>"  );
                 setTimeout ( function () {
                     $("#mdlFinish").modal();
                   }, 1000 );  
@@ -144,6 +144,7 @@ function eventsStart() {
 
 function correctStar(index) {  
     console.log("correcta");
+    $("#audGood").trigger("play");
     index = index + 1;
     $("#imgStar"+index ).attr("src", "./img/star_color.png");
     stars++;   
@@ -151,6 +152,7 @@ function correctStar(index) {
 
 function wrongStar(index) {
     console.log("equivocada");
+    $("#audWrong").trigger("play");
     index = index + 1;
     $("#imgStar"+index ).attr("src", "./img/star_activa.png"); 
 }

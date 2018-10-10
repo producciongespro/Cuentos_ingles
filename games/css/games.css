@@ -57,10 +57,18 @@ padding:auto:
     background-size: 100%;
     }
     
-.message {
-    /*font-family: 'muli';*/
-	color:  #8ae600;
-    font-size: 3em;
+.message {      
+    color: darkorchid;
+    font-size: 4em;
+    padding-top: 3em;
+    padding-left: 5em;
+}
+
+.modal-body {
+    background-image: url(../img/fin.jpg);
+    min-height: 312px;
+    background-size: 500px 320px;
+    background-repeat: no-repeat;
 }
 
 /*  footer del Modal al final de las preguntas*/
