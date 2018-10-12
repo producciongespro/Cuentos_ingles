@@ -45,12 +45,13 @@ function loadMod() {
 function playIntro() {
     var tmpAudio =  $("#audIntro")[0];
     tmpAudio.play();
-    //Evento que se activa cuando se ha termina el audio de la intro
-    tmpAudio.addEventListener('ended', function(){        
-       playAudio(i);
-       enabledBtn = true;
-       v.setColor(".col-opt-images");
-    });
+        //Evento que se activa cuando se ha termina el audio de la intro
+        tmpAudio.addEventListener('ended', function(){        
+            playAudio(i);
+           // enabledBtn = true;
+           // v.setColor(".col-opt-images");
+         });
+
     
 }
 
@@ -63,8 +64,20 @@ function showItem ( index) {
 
 function playAudio(index ) {
     // reproducción de audio mediante jquery utlizando método trigger
-    index = index + 1;
+    index = index + 1;  
+    
     $("#aud"+index ).trigger("play");
+    var objAudio = $("#aud"+index)[0];
+
+        //Evento que se activa cuando se ha termina el audio de la pregunta
+        
+        objAudio.addEventListener('ended', function(){        
+           
+            enabledBtn = true;
+            v.setColor(".col-opt-images");
+         });
+         
+
 }
 
 function eventsStart() {   
@@ -74,7 +87,12 @@ function eventsStart() {
         if (i<4) {
             showItem(i);
             playAudio(i);
-            //console.log(i);            
+            //console.log(i); 
+            
+            //Deshaboilita los botones de imagenes
+            enabledBtn = false;            
+            v.setGrayScale(".col-opt-images");
+            
         }       
     });
     
