@@ -11,10 +11,12 @@
     border-radius: 10px;
 }
 
-.ico-bigger {
-    font-size: 4em;
-    padding: auto;
+.gif-star {
+    margin-top: -4em;
+    margin-left: 5.5em;
 }
+
+
 
 .col-question {     
     font-family: 'muli';

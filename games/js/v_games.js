@@ -73,3 +73,7 @@ View.prototype.setColor = function (item) {
     $(item).removeClass("img-gray");    
     $(item).addClass("img-color");
 }
+
+View.prototype.modalStars = function (stars) {
+    $("#spnNumbersOfStars").html(stars + "<img class='gif-star' src='./img/estrella.gif' alt='Animated Star'>"  );
+}

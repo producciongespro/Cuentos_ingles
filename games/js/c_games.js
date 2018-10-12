@@ -56,10 +56,15 @@ function playIntro() {
 }
 
 
-function showItem ( index) {    
+function showItem ( index) { 
+    console.log(index);
+       
     v.NumberOfQuestion(m.getItem(index), "#vNumber" );
     v.question(m.getItem(index), "#vQuestion" );
-    v.image(index, "#vImage1", "#vImage2" );    
+    v.image(index, "#vImage1", "#vImage2" );
+    if (index >=3 ) {
+        $("#btnForward").css("display", "none");
+    }    
 }
 
 function playAudio(index ) {
@@ -116,7 +121,7 @@ function eventsStart() {
             
             if (i>=3) {
                 //antes de mostrr el modal renderiza la cantidad de estrellas obtenidas
-                $("#spnNumbersOfStars").html(stars + "<i class='fas fa-star'></i>"  );
+               v.modalStars(stars);
                 setTimeout ( function () {
                     $("#mdlFinish").modal();
                   }, 3000 );  
