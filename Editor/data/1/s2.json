@@ -1,0 +1,43 @@
+[
+  {
+    "oracion": "This is my Classroom - Unit 2.",
+     "tiempo": [0,1000,200, 400,1000, 0, 600, 400  ]
+    },
+
+  {
+    "oracion": "This is my classroom.",
+     "tiempo": [0, 1000, 200, 400, 1000]
+    },
+
+
+  {
+    "oracion": "This is my teacher.",
+    "tiempo": [0, 800, 200, 425, 1000]
+  },
+
+  {
+    "oracion": "This is my desk.",
+    "tiempo": [0, 800, 200, 400, 1000]
+  },
+
+  {
+    "oracion": "This is my study buddy, Lucia.",
+    "tiempo": [0, 800, 200, 300, 200, 600, 600 ]
+  },
+
+  {
+    "oracion": "This is my notebook. It is on the desk.",
+    "tiempo": [0, 1000, 300, 300, 600, 350, 280, 200, 400, 400]
+  },
+
+  {
+    "oracion": "This is my pencil. It is red.",
+    "tiempo": [0,600, 450, 400, 450, 300, 300, 200]
+  },
+
+  {
+    "oracion": "I love my classroom and my teacher.",
+    "tiempo": [0,500, 600, 300, 550, 150, 300, 600]
+  }
+
+]

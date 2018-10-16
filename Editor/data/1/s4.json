@@ -1,0 +1,63 @@
+[
+  {
+    "oracion": "I like to go to School - Unit 4.",
+     "tiempo": [0,600,575,200,200,200,500,0,800,500]
+    },
+
+  {
+    "oracion": "This is my school.",
+     "tiempo": [0,700,300,400,500]
+    },
+
+
+  {
+    "oracion": "This is the library.",
+    "tiempo": [0, 800, 400, 300, 600]
+  },
+
+  {
+    "oracion": "This is the restroom.",
+    "tiempo": [0,1000, 300, 400, 600]
+  },
+
+  {
+    "oracion": "This is the playground.",
+    "tiempo": [0, 800, 400, 350, 800]
+  },
+
+  {
+    "oracion": "I go to school on Monday,",
+    "tiempo": [0, 500, 300, 300, 600, 200, 500]
+  },
+
+  {
+    "oracion": "Tuesday, Wednesday and Thursday.",
+    "tiempo": [0, 1200, 1200, 500, 2000]
+  },
+
+  {
+    "oracion": "I go on Fridays, too.",
+    "tiempo": [0, 500, 500, 500, 700, 500]
+  },
+
+  {
+    "oracion": "I like to go to school.",
+    "tiempo": [0, 500, 600, 200, 300, 200,2000]
+  },
+
+  {
+    "oracion": "I study and I play",
+    "tiempo": [0, 500, 800, 200, 200, 2000]
+  },
+
+  {
+    "oracion": "This is my teacher, classmates and principal.",
+    "tiempo": [0, 500, 200, 300, 1000, 1000, 200, 1000]
+  },
+
+  {
+    "oracion": "My school is so cool!",
+    "tiempo": [0, 500, 750, 200, 300, 2000]
+  }
+
+]

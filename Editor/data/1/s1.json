@@ -1,0 +1,39 @@
+[
+  {
+    "oracion": "All about me - Unit 1.",
+     "tiempo": [0, 1000,600, 300, 500, 200]
+    },
+    {
+      "oracion": "Hello! I am Amanda.",
+       "tiempo": [0,  1015, 450, 500, 1000 ]
+    },
+    {
+    "oracion": "<strong>Ebcad:</strong> Hello I am Ebcad. <br><strong>Amanda:</strong> Hi, Ebcad! How are you? <br><strong>Ebcad:</strong> I am fine.",
+    "tiempo": [0, 0, 500,500,500,600, 0, 800, 800, 600, 600, 600, 0, 800, 350, 350 ]
+    },
+    {
+      "oracion": "<strong>Vuts:</strong> Are there animals in the forest? <br><strong>Child:</strong> Yes! Come with me! <br><strong>Child:</strong> That is a monkey. Monkeys eat fruit from the trees. <br><strong>Vuts:</strong> What do the trees eat? <br><strong>Child:</strong> The trees need water to live. The rain makes the trees healthy.",
+      "tiempo": [ 0, 0, 600, 600, 500, 500, 500, 500, 0, 600, 600, 500, 500, 0, 1500, 500, 400, 600, 800, 500, 400, 400, 400, 0, 400, 400, 500, 500, 400, 400, 0, 600, 600, 500, 500, 500, 500, 400, 400, 400, 400, 500, 600 ]
+    },
+    {
+      "oracion": "I live in Paso Canoas.",
+      "tiempo": [0, 800, 500, 200, 600, 600]
+    },
+    {
+      "oracion": "I am tall.",
+      "tiempo": [0, 500, 600, 500]
+    },
+    {
+      "oracion": "I am beautiful.",
+      "tiempo": [0, 700, 600, 200]
+    },
+    {
+      "oracion": "I am happy.",
+      "tiempo": [0, 400, 700, 800]
+    },
+    {
+      "oracion": "Bye!",
+      "tiempo": [0, 1000 ]
+    }
+
+]

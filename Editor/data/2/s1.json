@@ -1,0 +1,38 @@
+[
+  {
+    "oracion": "<strong>Students:</strong> Look! Aliens in a UFO! <br><strong>Students:</strong> The aliens come from different planets. <br><strong>Students:</strong> They want to learn about Earth.",
+     "tiempo": [0, 0, 1450, 750, 200, 300, 550, 0, 650, 600, 375, 300, 500, 700, 0, 450, 300, 175, 250, 250, 700 ]
+   },
+  {
+    "oracion": "<strong>Ebcad:</strong> Hello I am Ebcad. <br><strong>Student:</strong> Hi, Ebcad! How are you? <br><strong>Ebcad:</strong> I am fine.",
+    "tiempo": [0, 0, 800, 600, 500, 800, 0, 500, 800, 500, 300, 650, 0, 800, 200, 600 ]
+    },
+    {
+    "oracion": "<strong>Ebcad:</strong> What is this? <br><strong>Student:</strong> This is my school! Come with me.",
+    "tiempo": [0, 0, 700, 300, 800, 0, 850, 300, 400, 800, 500, 400, 300 ]
+  },
+  {
+    "oracion": "<strong>Student:</strong> That is my classroom. That is my teacher. My teacher is nice. <br><strong>Ebcad:</strong> Hello, teacher",
+    "tiempo": [0, 0, 1000, 400, 300, 900, 900, 300, 300, 900, 700, 500, 300, 800, 0, 600, 800 ]
+  },
+
+  {
+    "oracion": "<strong>Student:</strong> We learn about Math, <br><strong>Student:</strong> English, and Science. <br><strong>Ebcad:</strong> Do you like to do Math? <br><strong>Student:</strong> Yes! I like Math, but I don’t like homework",
+    "tiempo": [0, 0, 800, 500, 525, 600, 0, 700, 450, 700, 0,1000, 400, 500, 150, 200, 700, 0, 1500, 200, 500, 500, 300, 200, 500, 300, 800 ]
+  },
+
+  {
+    "oracion": "<strong>Ebcad:</strong> How do you feel at school? <br><strong>Student:</strong> I feel happy at school!",
+    "tiempo": [0,0, 800, 300, 300, 500, 200, 700, 0, 500, 500, 500, 200, 700 ]
+    },
+
+  {
+    "oracion": "<strong>Ebcad:</strong> Interesting. Thank you for teaching me. I will teach my alien friends about school.",
+    "tiempo": [0, 0, 2000, 550, 200, 450, 500, 700, 450, 220, 560, 215, 400, 400, 400, 800 ]
+  },
+
+  {
+    "oracion": "<strong>Ebcad:</strong> Goodbye. <br><strong>Students:</strong> Bye, Ebcad!",
+    "tiempo": [0, 0, 2000, 0, 1000, 1000 ]
+    }
+]

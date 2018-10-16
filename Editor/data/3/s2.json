@@ -1,0 +1,66 @@
+[
+  {
+    "oracion1": "Unit 2 Families Celebrate Together:",
+     "tiempo1": [2000,500,600,1000,300],
+  },
+
+  {
+    "oracion1": "Ok,Fogtag, your next!",
+     "tiempo1": [2000,500,600,1000,300],
+  },
+
+  {
+    "oracion1": "What is a celebration?",
+    "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "A celebration is an event where people get together to have fun and give gifts. ",
+    "tiempo2": [2000,500,600,1000,300],
+
+    },
+
+    {
+      "oracion1": "Today is your birthday, Fogtag, so I baked you a cake!",
+      "tiempo1": [2000,500,600,300,1000],
+      "oracion2": "Thank you! Do you eat cake on your birthday?",
+      "tiempo2": [2000,500,600,1000,300],
+      "oracion3": "Yes, I do!",
+      "tiempo3": [2000,500,600,1000,300]
+      },
+
+      {
+        "oracion1": "I also got you this gift! ",
+        "tiempo1": [2000,500,600,300,1000],
+        "oracion2": "I love it! Thank you, Maria!",
+        "tiempo2": [2000,500,600,1000,300],
+        "oracion3": "You’re welcome, Fogtag. ",
+        "tiempo3": [2000,500,600,1000,300],
+        "oracion4": "What do you want for your birthday, Maria?",
+        "tiempo4": [2000,500,600,1000,300],
+        "oracion5": "Well, I always need more tools in my workshop. ",
+        "tiempo5": [2000,500,600,1000,300]
+      },
+
+      {
+        "oracion1": "When is your birthday?",
+        "tiempo1": [2000,500,600,300,1000],
+        "oracion2": "My birthday is in December.There is a big celebration in December, too. It’s called Christmas.",
+        "tiempo2": [2000,500,600,1000,300],
+
+      },
+
+  {
+    "oracion1": "What is Christmas? Do you eat cake on Christmas?",
+     "tiempo1": [2000,500,600,1000,300],
+  },
+
+  {
+    "oracion1": "No, no. Christmas is a time when friends and families get together to decorate a tree, give presents, and eat good food. ",
+     "tiempo1": [2000,500,600,1000,300],
+  },
+
+  {
+    "oracion1": "Wow! I want to see more celebrations. I know, Fogtag. There are so many for you to see!",
+     "tiempo1": [2000,500,600,1000,300],
+  },
+
+
+]

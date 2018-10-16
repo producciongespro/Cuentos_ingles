@@ -1,0 +1,58 @@
+[
+  {
+    "oracion": "Fun Games and Activities - Unit 6.",
+     "tiempo": [2000,500,600,1000,300],
+    },
+
+  {
+    "oracion": "I like to play with my friends. ",
+     "tiempo": [2000,500,600,300,1000],
+    },
+
+
+  {
+    "oracion": "We play with cars.",
+    "tiempo": [500, 1000, 500, 600, 600],
+  }
+
+  {
+    "oracion": "We play with dolls.",
+    "tiempo": [500, 1000, 500, 600, 600],
+  }
+
+  {
+    "oracion": "We play with ropes.",
+    "tiempo": [500, 1000, 500, 600, 600],
+  }
+
+  {
+    "oracion": "We play with toys.",
+    "tiempo": [500, 1000, 500],
+  }
+
+  {
+    "oracion": "I run, ",
+    "tiempo": [500, 1000, 2000],
+  }
+
+  {
+    "oracion": "I kick",
+    "tiempo": [500, 1000, 2000],
+  }
+
+  {
+    "oracion": "I catch",
+    "tiempo": [500, 1000, 2000],
+  }
+
+  {
+    "oracion": "I  throw",
+    "tiempo": [500, 1000, 2000],
+  }
+
+  {
+    "oracion": "We play and have fun.",
+    "tiempo": [500, 1000, 2000],
+  }
+
+]

@@ -1,0 +1,38 @@
+  {
+    "oracion": "<strong>Students:</strong> I learned about school. Gafikh, you’re next.",
+    "tiempo": [0, 0,200, 700, 500, 700, 800, 600, 600 ]
+    }    
+{
+    "oracion": "<strong>Gafikh:</strong> Hello. I am Gafikh. <br><strong>Child:</strong> Hi, Gafikh! how are you today? <br><strong>Gafikh:</strong>  I am fine.",
+    "tiempo": [0, 0, 500, 300, 200, 700, 0, 600, 700, 500, 300, 400, 600, 0, 300, 200, 500]
+  },
+
+  {
+    "oracion": "<strong>Gafikh:</strong> What are these? <br><strong>Child:</strong> These are fruits and vegetables! We eat fruits and vegetables to be healthy. ",
+    "tiempo": [0, 0, 400, 200, 500, 0, 500, 200, 600, 200, 500, 600, 500, 400, 200, 600, 200, 200, 500]
+  },
+
+  {
+    "oracion": "<strong>Gafikh:</strong> What is healthy? <br><strong>Child:</strong> Healthy means to have a good, strong body. To be healthy, we need to exercise, eat fruits and vegetables, and wash our hands.",
+    "tiempo": [0, 0, 500, 200, 600, 0, 600, 500, 200, 300, 100, 400, 500, 400, 200, 200, 600, 300, 600, 200, 500, 400, 500, 200, 600, 200, 400, 200, 500 ]
+  },
+
+  {
+    "oracion": "<strong>Gafikh:</strong> What is your favorite way to exercise? <br><strong>Child:</strong> I like playing soccer.",
+    "tiempo": [0,0 500, 200, 400, 600, 300, 200, 700, 0, 200, 400, 500, 700 ]
+  },
+
+  {
+    "oracion1": "<strong>Gafikh:</strong> What healthy food do you eat? <br><strong>Child:</strong> I eat apples. Here, have an apple!",
+    "tiempo1": [0,0 400, 800, 600, 400, 400, 500, 0, 200, 400, 600, 700, 500, 200, 600 ]
+  },
+
+  {
+    "oracion": "<strong>Gafikh:</strong> I like apples. Thank you! I will teach my alien friends about being healthy.",
+    "tiempo": [0, 0, 200, 500, 700, 600, 500, 200, 400, 500, 300, 400, 700, 700, 600, 800 ]
+  },
+
+  {
+    "oracion": "<strong>Gafikh:</strong> Goodbye. <br><strong>Child:</strong> Bye, Gafikh!",
+    "tiempo": [0, 0, 1000,0, 600, 800 ]
+  }

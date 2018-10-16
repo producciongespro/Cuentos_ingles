@@ -1,0 +1,60 @@
+[
+  {
+    "oracion1": "Unit 4 Getting around town",
+     "tiempo1": [2000,500,600,1000,300],
+  },
+
+  {
+    "oracion1": "Ok, Millrug, you’re next! You’re a special robot because you are going to be a GPS.",
+     "tiempo1": [2000,500,600,1000,300],
+  },
+
+  {
+    "oracion1": "What is a GPS?",
+    "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "A GPS is a software that tells us where to find things. A GPS gives us directions.
+I gave you special abilities to tell humans directions. Let’s practice, ok?",
+    "tiempo2": [2000,500,600,1000,300],
+    "oracion3": "Ok, Maria.",
+    "tiempo3": [2000,500,600,1000,300]
+    },
+
+    {
+      "oracion1": "Millrug, can you tell me where the bank is?",
+      "tiempo1": [2000,500,600,300,1000],
+      "oracion2": "Yes. The bank is on Main Street. Go straight, then take a left.",
+      "tiempo2": [2000,500,600,1000,300],
+      "oracion3": "Perfect! ",
+      "tiempo3": [2000,500,600,1000,300]
+      },
+
+  {
+    "oracion1": "Let’s practice another one. Millrug, I am looking for a restaurant Where are the good restaurants? ",
+     "tiempo1": [2000,500,600,1000,300],
+  },
+
+  {
+    "oracion1": "There are five restaurants nearby. The closest restaurant is 1 km away. First, take a left, then turn right and you arrive.",
+     "tiempo1": [2000,500,600,1000,300],
+  },
+
+
+
+  {
+    "oracion1": "Is the restaurant on the right or the left side?",
+    "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "It is on the right side.",
+    "tiempo2": [2000,500,600,1000,300],
+
+    },
+
+
+    {
+      "oracion1": "Great job, Millrug! I think you’re ready to give good directions to your new family.",
+       "tiempo1": [2000,500,600,1000,300],
+    },
+
+
+
+
+]

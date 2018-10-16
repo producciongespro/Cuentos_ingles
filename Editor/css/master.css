@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+.container {
+    background-color: rgb(238, 226, 212);
+    min-height: 600px;
+    margin-top: 1%;
+}
+
+#contImage{
+    /* background-color:seagreen; */
+    height: 450px;
+}
+
+#contSentence {
+    /* background-color: yellow; */
+    height: 100px;
+    padding-top: 0.5em;
+    font-size: 2em;
+    font-family: 'Quicksand', sans-serif;
+}
+#contButtons {
+    height: 50px;
+    /* background-color: aqua; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.img-page {
+    height: 100%;
+    text-align: center;
+}
+
+.highlighted {
+    background-color: rgba(214, 212, 238, 0.5);
+    padding: 8px;    
+}
+
+.div-hidden {
+    display: none;
+}
