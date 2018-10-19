@@ -1,67 +1,74 @@
 [
   {
-    "oracion1": "Unit 5 - Fabulous Flora and Fauna",
+    "oracion1": "Unit 5 Fun Places and Spaces:",
      "tiempo1": [2000,500,600,1000,300],
   },
 
   {
-    "oracion1": "“I learned about farms and animals. Vuts, you’re next.”",
+    "oracion1": "Alright, Jetsun, you’re next. I’m going to teach you about activities that humans like to do. When you go live with your new family, you can do these activities with them! ",
     "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "Ok, let’s go!",
+    "tiempo2": [2000,500,600,1000,300],
+
     },
 
 
+  {
+    "oracion1": "This is a basketball. You shoot the basketball into the hoop, like this! ",
+     "tiempo1": [2000,500,600,1000,300],
+  },
+
+
+  {
+    "oracion1": "What happens after you shoot the basketball into the hoop?",
+    "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "Well, you get points. Two teams play against each other to see who gets more points.  ",
+    "tiempo2": [2000,500,600,1000,300],
+    "oracion3": "That sounds fun! ",
+    "tiempo3": [2000,500,600,1000,300],
+    "oracion4": "It is!",
+    "tiempo4": [2000,500,600,1000,300]
+
+  },
+
+  {
+    "oracion1": "Now this is a soccer ball. You kick it into the goal, like this.",
+     "tiempo1": [2000,500,600,1000,300],
+  },
+
+  {
+    "oracion1": "Ok, let me try! ",
+    "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "Good job, Jetsun! ",
+    "tiempo2": [2000,500,600,1000,300],
+
+    },
+
     {
-      "oracion1": "Hello. I am Vuts.",
+      "oracion1": "People like to play these sports to get exercise and fresh air. There are many sports in the world. ",
       "tiempo1": [2000,500,600,300,1000],
-      "oracion2": "Hi, Vuts. How are you today?",
+
+      },
+
+
+  {
+    "oracion1": " There’s basketball, baseball, soccer, volleyball, tennis… and many more!",
+     "tiempo1": [2000,500,600,1000,300],
+  },
+
+  
+
+    {
+      "oracion1": "Do you like playing these sports?",
+      "tiempo1": [2000,500,600,300,1000],
+      "oracion2": "Yes, I enjoy playing soccer the most! ",
       "tiempo2": [2000,500,600,1000,300],
-      "oracion3": "I am fine.",
+      "oracion3": "Great! You are going to be a good teammate for your new family.",
       "tiempo3": [2000,500,600,1000,300],
-    }
 
-  {
-    "oracion1": "What is this? ",
-    "tiempo1": [2000,500,600,300,1000],
-    "oracion2": "This is a forest. Those are trees.",
-    "tiempo2": [2000,500,600,1000,300],
-  }
+    },
 
-  {
-    "oracion1": "Are there animals in the forest?",
-    "tiempo1": [2000,500,600,300,1000],
-    "oracion2": "Yes! Come with me!",
-    "tiempo2": [2000,500,600,1000,300],
-    "oracion3": "That is a monkey. Monkeys eat fruit from the trees.",
-    "tiempo3": [2000,500,600,1000,300],
-    "oracion4": "What do the trees eat?",
-    "tiempo4": [2000,500,600,1000,300],
-    "oracion5": "The trees need water to live. The rain makes the trees healthy.",
-    "tiempo5": [2000,500,600,1000,300],
-  }
 
-  {
-    "oracion1": "What is that? Child: That’s a frog. It is sitting on a flower.",
-    "tiempo1": [2000,500,600,300,1000],
-    "oracion2": "Does the frog eat the flower?",
-    "tiempo2": [2000,500,600,1000,300],
-    "oracion3": "No, the frog eats insects. ",
-    "tiempo3": [2000,500,600,1000,300],
-  }
 
-  {
-    "oracion1": "The forest is beautiful.",
-    "tiempo1": [2000,500,600,300,1000],
-    "oracion2": "Yes, it is. Here, take a leaf home with you.",
-    "tiempo2": [2000,500,600,1000,300],
-    "oracion3": "Thank you. I will teach my alien friends about forests",
-    "tiempo3": [2000,500,600,1000,300],
-  }
-
-  {
-    "oracion1": "Goodbye.",
-    "tiempo1": [2000,500,600,300,1000],
-    "oracion2": "Bye, Vuts!",
-    "tiempo2": [2000,1000],
-  }
 
 ]

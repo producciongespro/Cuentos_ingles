@@ -1,64 +1,60 @@
 [
   {
-    "oracion1": "Unit 4 - Loving and Caring for Animals",
+    "oracion1": "Unit 4 Getting around town",
      "tiempo1": [2000,500,600,1000,300],
   },
 
   {
-    "oracion1": "“I learned about houses. Quoper, you’re next.”",
+    "oracion1": "Ok, Millrug, you’re next! You’re a special robot because you are going to be a GPS.",
+     "tiempo1": [2000,500,600,1000,300],
+  },
+
+  {
+    "oracion1": "What is a GPS?",
     "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "A GPS is a software that tells us where to find things. A GPS gives us directions.
+I gave you special abilities to tell humans directions. Let’s practice, ok?",
+    "tiempo2": [2000,500,600,1000,300],
+    "oracion3": "Ok, Maria.",
+    "tiempo3": [2000,500,600,1000,300]
+    },
+
+    {
+      "oracion1": "Millrug, can you tell me where the bank is?",
+      "tiempo1": [2000,500,600,300,1000],
+      "oracion2": "Yes. The bank is on Main Street. Go straight, then take a left.",
+      "tiempo2": [2000,500,600,1000,300],
+      "oracion3": "Perfect! ",
+      "tiempo3": [2000,500,600,1000,300]
+      },
+
+  {
+    "oracion1": "Let’s practice another one. Millrug, I am looking for a restaurant Where are the good restaurants? ",
+     "tiempo1": [2000,500,600,1000,300],
+  },
+
+  {
+    "oracion1": "There are five restaurants nearby. The closest restaurant is 1 km away. First, take a left, then turn right and you arrive.",
+     "tiempo1": [2000,500,600,1000,300],
+  },
+
+
+
+  {
+    "oracion1": "Is the restaurant on the right or the left side?",
+    "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "It is on the right side.",
+    "tiempo2": [2000,500,600,1000,300],
+
     },
 
 
-  {
-    "oracion1": "Hello. I am Quoper.",
-    "tiempo1": [2000,500,600,300,1000],
-    "oracion2": "Hi, Quoper. How are you?",
-    "tiempo2": [2000,500,600,1000,300],
-    "oracion3": "I am fine.",
-    "tiempo3": [2000,500,600,1000,300],
-  }
+    {
+      "oracion1": "Great job, Millrug! I think you’re ready to give good directions to your new family.",
+       "tiempo1": [2000,500,600,1000,300],
+    },
 
-  {
-    "oracion1": "What is this?",
-    "tiempo1": [2000,500,600,300,1000],
-    "oracion2": "This a farm and these are animals.",
-    "tiempo2": [2000,500,600,1000,300],
-  }
 
-  {
-    "oracion1": "What are the names of the animals?",
-    "tiempo1": [2000,500,600,300,1000],
-    "oracion2": "This is a cow and cows say “moo”.",
-    "tiempo2": [2000,500,600,1000,300],
-    "oracion3": "Moo.Good job, Quoper!",
-    "tiempo3": [2000,500,600,1000,300],
-  }
 
-  {
-    "oracion1": "This is a dog and this is a cat. They like you!",
-    "tiempo1": [2000,500,600,300,1000],
-    "oracion2": "I like these animals.",
-    "tiempo2": [2000,500,600,1000,300],
-  }
-
-  {
-    "oracion1": "This is a pig and this is a bird. They live on the farm.",
-    "tiempo1": [2000,500,600,300,1000],
-  }
-
-  {
-    "oracion1": "Who takes care of the animals?",
-    "tiempo1": [2000,500,600,300,1000],
-    "oracion2": "The farmer takes care of the animals. He feeds them, grooms them, and gives them shelter.",
-    "tiempo2": [2000,500,600,1000,300],
-  }
-
-  {
-    "oracion1": "I like this farm. Thank you for teaching me. I will teach my alien friends about farms and animals. Goodbye.",
-    "tiempo1": [2000,500,600,300,1000],
-    "oracion2": "Bye, Quoper!",
-    "tiempo2": [2000,1000],
-  }
 
 ]
