@@ -1,0 +1,39 @@
+[
+  {
+    "oracion": "<strong>Quoper:</strong> “ I learned about farms and animals. Vuts, you’re next.”",
+    "tiempo": [0, 0, 500,400,300,400,300,400,500,600,400]
+    },
+
+
+    {
+      "oracion": "<strong>Vuts:</strong> Hello. I am Vuts. <br><strong>Child:</strong> Hi, Vuts. How are you today? <br><strong>Vuts:</strong> I am fine.",
+      "tiempo": [0, 0, 1000,800,500,500,0,500,500, 500, 300, 400,600, 0, 600, 300, 500]
+    },
+
+  {
+    "oracion": "<strong>Vuts:</strong> What is this? <br><strong>Child:</strong> This is a forest. Those are trees.",
+    "tiempo": [0, 0, 800,300,400,0, 800,300,300,800,800,500,500]
+  },
+
+  {
+    "oracion": "<strong>Vuts:</strong> Are there animals in the forest? <br><strong>Child:</strong> Yes! Come with me! That is a monkey. Monkeys eat fruit from the trees. <br><strong>Vuts:</strong> What do the trees eat? <br><strong>Child:</strong> The trees need water to live. The rain makes the trees healthy.",
+    "tiempo": [0, 0, 800,500,600,300,300,700, 0,600, 400, 400, 2100, 500, 300, 200, 800, 600, 500, 600, 400,300,500,0, 1200, 200, 200, 200,400, 0, 1000, 400, 400, 400, 400, 500, 500, 400,300, 400, 400, 400]
+  },
+
+  {
+    "oracion": "<strong>Vuts:</strong> What is that? <br><strong>Child:</strong> That’s a frog. It is sitting on a flower. <br><strong>Vuts:</strong> Does the frog eat the flower? <br><strong>Child:</strong> No, the frog eats insects.",
+    "tiempo": [0, 0, 800,300,400,0,800,300,400, 700, 300, 400, 200, 200, 700,0, 800,300, 500, 400, 300,1200,0,800,400,400,300,600]
+  },
+
+  {
+    "oracion": "<strong>Vuts:</strong> The forest is beautiful. <br><strong>Child:</strong> Yes, it is. Here, take a leaf home with you. <br><strong>Vuts:</strong> Thank you. I will teach my alien friends about forests.",
+    "tiempo": [0, 0, 800,800,300,900,0,600, 300, 300, 1200, 600, 200,200,400,300,600,0, 400, 500,500,200,400,400,300,400,400,500]
+  },
+
+  {
+    "oracion": "<strong>Vuts:</strong> Goodbye. <br><strong>Child:</strong> Bye, Vuts!",
+    "tiempo": [0, 0,2000,0,600,600]
+
+  }
+
+]
