@@ -4,16 +4,22 @@ var arrayT, cont, limit=0, objAudio,
 page = -1, //setea la pagina en -1 para cargar la pag 0
 resaltadoRecursivo, // objeto que almacena higlith en settimeout
 grado, // grado del cuento
+unidad,
 titulo;  //titulo
+
 
 $(document).ready(function () {         
     obtenerInfoSesion();
 });
 
 
+
+
+
 function obtenerInfoSesion() {
     grado = sessionStorage.getItem("grado");
     titulo = sessionStorage.getItem("titulo");
+    unidad = sessionStorage.getItem("unidad");
     //carga el json
     loadModule( grado, titulo );  
 }
@@ -96,7 +102,30 @@ function handlerEvents(maxPages) {
         /** Fin evento de botones **/               
     })  
         
+            $("#btnMini").click(function () { 
+                 switch (parseInt(grado)) {
+                    case 1:
+                    window.location.assign("../navigation/first.html"); 
+                    break;
+                    case 2:
+                    window.location.assign("../navigation/second.html"); 
+                    break;
+                    case 1:
+                    window.location.assign("../navigation/third.html"); 
+                    break;
+                 
+                    default:
+                        console.log("Opción fuera de rango");                        
+                    break;
+                 }               
+                
+            });
 
+            $("#btnReload").click(function () { 
+               
+                window.location.assign("../frontpage/index.php?grado="+grado+"&unidad="+unidad+"&nombre="+titulo+"" ); 
+                
+            });
     
 }
 
