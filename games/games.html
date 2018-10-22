@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Activity</title>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">     
-   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">  
     <link rel="stylesheet" href="../vendor/bootstrap-4.1/css/bootstrap.min.css">
-        
+
     <link rel="stylesheet" href="./css/games.css">
 
     <script src="../vendor/jquery-3.3.1/jquery-3.3.1.min.js"></script>
@@ -31,36 +31,36 @@
 <br>
 <br>
 <div class="container">
-    
+
     <div class="row row-questions">
         <div class="col-2 col-numbers text-right" id="vNumber"></div>
         <div class="col-8 col-question" id="vQuestion"  ></div>
-        <div class="col-2"></div>       
+        <div class="col-2"></div>
     </div>
     <br>
 <br>
 <br>
 
     <div class="row row-images">
-        <div class="col-2"></div>    
-                <div class="col-4 col-opt-images" id="vImage1"></div>    
-                <div class="col-4 col-opt-images" id="vImage2"></div>    
-        <div class="col-2"></div>   
+        <div class="col-2"></div>
+                <div class="col-4 col-opt-images" id="vImage1"></div>
+                <div class="col-4 col-opt-images" id="vImage2"></div>
+        <div class="col-2"></div>
     </div>
     <br>
     <div class="row row-footer">
-        <div class="col-1"></div>   
+        <div class="col-1"></div>
             <div class="col-10 text-center col-contStars" >
                 <img class="img-stars" src="./img/star_gray.png" id="imgStar1" alt="estrella 1">
                 <img class="img-stars" src="./img/star_gray.png" id="imgStar2" alt="estrella 2">
                 <img class="img-stars" src="./img/star_gray.png" id="imgStar3" alt="estrella 3">
-                <img class="img-stars" src="./img/star_gray.png"id="imgStar4"  alt="estrella 4">                
-            </div>    
+                <img class="img-stars" src="./img/star_gray.png"id="imgStar4"  alt="estrella 4">
+            </div>
 			<br>
 			<br>
         <div class="col-1">
             <button class="btn btn-outline-success" id="btnForward"> <i class="fas fa-forward ico-bigger"></i>  </button>
-        </div> 
+        </div>
     </div>
 
     <div class="row row-cont-images nodisplay" ></div>
@@ -69,9 +69,9 @@
         <audio src="./audio/good.mp3" preload id="audGood" ></audio>
         <audio src="./audio/wrong.mp3" preload id="audWrong"></audio>
     </div>
-    	   	  
+
 </div>
-  
+
   <!-- Modal -->
   <div class="modal fade" id="mdlFinish" tabindex="-1" role="dialog" aria-labelledby="labelmdlFinish" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -83,31 +83,31 @@
           </button>
         </div>
         <div class="modal-body">
-            
-            <span class="message" id="spnNumbersOfStars" > 5 </span>   
+
+            <span class="message" id="spnNumbersOfStars" > 5 </span>
             <br>
 
-         
+
         </div>
         <div class="modal-footer">
           <div class="row">
               <div class="col-6">
-                <button type="button" class="btn btn-3d btn-3d-blue" id="btnGoToGrade" >  
-                    <i class="fas fa-home"></i> 
+                <button type="button" class="btn btn-3d btn-3d-blue" id="btnGoToGrade" >
+                    <i class="fas fa-home"></i>
                 </button>
               </div>
               <div class="col-6">
                 <button type="button" class="btn btn-3d btn-3d-green"  id="btnReloadTale" >
-                    <i class="fas fa-undo"></i> 
+                    <i class="fas fa-undo"></i>
                 </button>
               </div>
           </div>
-          
+
         </div>
       </div>
     </div>
   </div>
 
-    
+
 </body>
 </html>

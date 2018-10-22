@@ -22,7 +22,7 @@ body {
     height: 100px;
     padding-top: 0.5em;
     font-size: 2em;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Poppins';
 }
 #contButtons {
     height: 50px;
@@ -38,7 +38,7 @@ body {
 
 .highlighted {
     background-color: rgba(214, 212, 238, 0.5);
-    padding: 8px;    
+    padding: 8px;
 }
 
 .div-hidden {
