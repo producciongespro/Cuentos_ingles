@@ -55,7 +55,9 @@
 <div class="row footer1">
   <div class="col-2"></div>
         <div class="col-2">
-        <a id="lnkGrado"  href="" class="btn btn-3d btn-3d-green">Minibooks </a>
+        <a id="lnkGrado"  href="" class="btn btn-3d btn-3d-green" title="Minibooks">
+        <i class="far fa-grin-beam"> </i>
+        </a>
       </div>
 
         <div class="col-4 text-center">
@@ -63,7 +65,7 @@
         </div>
 
         <div class="col-2">
-          <button type="button"  id="btnCargarCuento"  class="btn btn-3d btn-3d-blue">
+          <button type="button"  id="btnCargarCuento"  class="btn btn-3d btn-3d-blue" title="Forward">
             <i class="fas fa-forward"></i>
           </button>
         </div>
