@@ -7,7 +7,7 @@
 <script type="text/javascript">
     var grado = '<?php echo $grado;?>'
     var unidad = '<?php echo $unidad;?>'
-    var nombre = '<?php echo $nombre;?>'    
+    var nombre = '<?php echo $nombre;?>'
 </script>
 
 <!DOCTYPE html>
@@ -55,8 +55,8 @@
 <div class="row footer1">
   <div class="col-2"></div>
         <div class="col-2">
-        <a id="lnkGrado"  href="" class="btn btn-3d btn-3d-green" title="Minibooks">
-        <i class="far fa-grin-beam"> </i>
+        <a id="lnkGrado"  href="" class="btn btn-3d btn-3d-cyan" title="Minibooks">
+        <i class="fas fa-grip-horizontal"></i>
         </a>
       </div>
 

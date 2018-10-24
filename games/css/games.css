@@ -2,7 +2,7 @@
 .img-stars {
     width: 7%;
     height: auto;
-    margin-left: 1.5em;		
+    margin-left: 1.5em;
 }
 
 .col-contStars {
@@ -18,24 +18,24 @@
 
 
 
-.col-question {     
+.col-question {
     font-family: 'muli';
 	color:#EDF2F5;
     font-size: 3em;
 }
 
 .col-numbers {
-    font-family: 'muli';
+  font-family: 'Poppins', sans-serif;
 	color:#EDF1DB;
-    font-size: 3em;    
+    font-size: 3em;
 }
 
-.img-gray {   
-        filter:grayscale(100%);   
+.img-gray {
+        filter:grayscale(100%);
 }
 
-.img-color {   
-    filter:grayscale(0);   
+.img-color {
+    filter:grayscale(0);
 }
 
 .col-4 img:hover {
@@ -46,25 +46,25 @@ cursor:pointer;
 
 .jumbotron{
 	padding: 1em;
-	font-family: 'Muli';
+font-family: 'Poppins', sans-serif;
 	background-color:#8DD7EA;
-		
+
 }
 .col-10 {
-    background-color:#4C8CB5; 
+    background-color:#4C8CB5;
     padding:auto;
 }
 .nodisplay{
 	display: none;
 }
-	
+
 	body{
 		background-image: url("../img/indice.jpg");
 		background-repeat: no-repeat;
         background-size: 100%;
     }
-    
-.message {      
+
+.message {
     color: darkorchid;
     font-size: 4em;
     padding-top: 3em;
@@ -79,7 +79,7 @@ cursor:pointer;
 }
 
 /*  footer del Modal al final de las preguntas*/
-.modal-footer {  
+.modal-footer {
     justify-content: center;
 }
 
@@ -137,4 +137,3 @@ cursor:pointer;
                 0 0 0 2px rgba(255,255,255,0.15) inset,
                 0 0 0 1px rgba(0,0,0,0.4);
 }
-	
