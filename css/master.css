@@ -22,7 +22,7 @@ body {
     height: 100px;
     padding-top: 0.5em;
     font-size: 2em;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
 }
 #contButtons {
     height: 50px;
