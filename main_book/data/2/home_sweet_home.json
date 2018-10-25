@@ -3,32 +3,26 @@
  "oracion": "<strong>Gafikh:</strong> I learned about being healthy. Klemen, you’re next.",
   "tiempo": [0, 0,750, 500, 300, 800, 1000, 800, 300, 200, 3000 ]
   },
-
  {
     "oracion": "<strong>Klemen:</strong> Hello. I am Klemen. <br><strong>Students:</strong> Hi, Klemen! How are you? <br><strong>Klemen:</strong> I am fine.",
     "tiempo": [0,0,790, 400, 500, 800, 0, 800, 800, 400, 200, 600, 0, 700, 200, 600]
 	},
-
   {
     "oracion": "<strong>Klemen:</strong> What is this? <br><strong>Students:</strong> This is my house! We have three bedrooms, two bathrooms, a kitchen, and a living room.",
     "tiempo": [0,0, 600, 300, 800, 0, 1000, 300, 350, 700, 650, 600, 300, 800, 300, 800, 400, 810, 500, 400, 500, 500]
 	},
-
   {
     "oracion": "<strong>Klemen:</strong> Please show me your house. <br><strong>Child:</strong> This is the kitchen. We cook food here. That is my brother. He is helping my mom cook.",
     "tiempo": [0, 0, 1150, 800, 400, 550, 800, 0, 975, 350, 300, 670, 550, 300, 400, 600, 600, 200, 300, 800, 500, 300, 700, 300, 400, 500]
   },
-
   {
     "oracion": "<strong>Klemen:</strong> Where do you sleep? <br><strong>Child:</strong> This is my bedroom. I sleep here!",
     "tiempo": [0, 0, 1000, 300, 600, 800, 0, 1000, 300, 500, 800, 300, 500, 800]
 	},
-
   {
     "oracion": "<strong>Klemen:</strong> Where do you play? <br><strong>Child:</strong> I play in here with my grandma, but she is sleeping right now.",
     "tiempo": [0, 0, 1000, 300, 300, 1000, 0, 1000, 550, 150, 350, 250, 200, 1000, 200, 500, 150, 800, 300, 600]
 	},
-
     {
     "oracion": "<strong>Klemen:</strong> Thank you for showing me your house. I will teach my alien friends about human houses. Goodbye. <br><strong>Child:</strong> Bye, Klemen!",
     "tiempo": [0,0, 1750, 300, 400, 700, 300, 450, 800, 600, 600, 400, 175, 350, 600, 400, 600, 1500, 2000,0, 1000, 1000]
