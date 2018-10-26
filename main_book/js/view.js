@@ -14,7 +14,7 @@ View.prototype.writePage = function (arraySentence, contImg, contSnt, idImg, gra
      for (let index = 0; index < limit; index++) {
         //console.log(arraySentence[index]);                 
         var htmlword = $("<span class='span-word'></span>");
-        $(htmlword).text(" " + arraySentence[index] + " ");
+        $(htmlword).html(" " + arraySentence[index] + " ");
         $(htmlword).attr("id", "wrd" + index);
         $(htmlSentence).append(htmlword);
     }
