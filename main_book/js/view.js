@@ -1,20 +1,20 @@
-'use strict'; 
+'use strict';
 
 
 function View  () {
-    
+
 }
 
-View.prototype.writePage = function (arraySentence, contImg, contSnt, idImg, grado, titulo   ) {  
-    var limit = arraySentence.length,      
+View.prototype.writePage = function (arraySentence, contImg, contSnt, idImg, grado, titulo   ) {
+    var limit = arraySentence.length,
     htmlImage = $("<img class='img-page  img-fluid'  src='img/" + grado + "/" + titulo  + "/pic" +idImg+".png'> "),
     //htmlSentence = $("<div class='alert  alert-warning' role='alert'></div>");
     htmlSentence = $("<div class='divOracion' ></div>");
-    
+
      for (let index = 0; index < limit; index++) {
-        //console.log(arraySentence[index]);                 
+        //console.log(arraySentence[index]);
         var htmlword = $("<span class='span-word'></span>");
-        $(htmlword).text(" " + arraySentence[index] + " ");
+        $(htmlword).html(" " + arraySentence[index] + " ");
         $(htmlword).attr("id", "wrd" + index);
         $(htmlSentence).append(htmlword);
     }
@@ -32,8 +32,8 @@ View.prototype.preLoadAudios = function (container, maxPages,  grade, story  ) {
 
     for (let index = 0; index < maxPages; index++) {
         //Se crean los audios y se incrustan en el cont temporal
-        $(htmlStringAudios).append("<audio id='aud"+ index +"' preload='auto' controls='false' src='./audio/"+ grade +"/"+ story +"/audio"+ index +".mp3' >");        
-    }   
+        $(htmlStringAudios).append("<audio id='aud"+ index +"' preload='auto' controls='false' src='./audio/"+ grade +"/"+ story +"/audio"+ index +".mp3' >");
+    }
     //Se renderiza el contenedor con los audio en el html dentro del contendor de audios
     $(container).append(htmlStringAudios);
 
@@ -41,12 +41,12 @@ View.prototype.preLoadAudios = function (container, maxPages,  grade, story  ) {
 
 
 
-View.prototype.preLoadImages = function (container, longArray, grado, titulo) {      
+View.prototype.preLoadImages = function (container, longArray, grado, titulo) {
       var htmlStringImages = $("<div></div>");
 
-      for (let index = 0; index < longArray; index++) {         
+      for (let index = 0; index < longArray; index++) {
         $(htmlStringImages).append("<img id='imgTmp"+ index +"' src='img/" + grado + "/" + titulo  + "/pic" +index+".png'> ");
-          
+
       }
       $(container).append(htmlStringImages);
 }
