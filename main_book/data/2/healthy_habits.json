@@ -4,6 +4,10 @@
      "tiempo": [0, 0, 750, 475, 300, 1000, 700, 400, 1500 ]
    },
   {
+  "oracion": "",
+  "tiempo": [0, 0]
+},
+  {
     "oracion": "<strong>Gafikh:</strong> Hello. I am Gafikh. <br><strong>Child:</strong> Hi, Gafikh! how are you today? <br><strong>Gafikh:</strong> I am fine.",
     "tiempo": [0, 0, 800, 600, 500, 800, 0, 500, 800, 500, 100, 300, 700, 0, 800, 200, 600 ]
     },

@@ -4,6 +4,10 @@
     "tiempo": [0, 0,1000,500,600,1000,1000, 1000, 800,800]
     },
   {
+    "oracion": "",
+    "tiempo": [0, 0]
+  },
+  {
     "oracion": "<strong>Quoper:</strong> Hello. I am Quoper. <br><strong>Child:</strong> Hi, Quoper. How are you? <br><strong>Quoper:</strong> I am fine.",
     "tiempo": [0, 0,900,800,200,400,0,400,900, 600, 500, 500,0,500,500,600]
   },
