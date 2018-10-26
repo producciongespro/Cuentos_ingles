@@ -38,7 +38,11 @@
 <div class="row fila-encabezado">
   <div class="col-12" > </div>
 </div>
-
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <div class="row fila-imagen">
 <div class="col-1" > </div>
