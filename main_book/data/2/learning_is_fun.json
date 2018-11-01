@@ -3,10 +3,9 @@
   "oracion": "Look! Aliens in a UFO! ",
   "tiempo": [0, 1450, 750, 200, 300, 550, 0]
 },
-
   {
-    "oracion": "<strong>Students:</strong>Look! Aliens in a UFO! <br><strong>Students:</strong>The aliens come from different planets. <br><strong>Students:</strong> They want to learn about Earth.",
-     "tiempo": [0, 0, 650, 600, 375, 300, 500, 700, 0, 450, 300, 175, 250, 250, 700 ]
+    "oracion": "<strong>Students:</strong> The aliens come from different planets. They want to learn about Earth.",
+     "tiempo": [0, 0, 650, 600, 375, 300, 500, 500, 300, 400, 100, 500, 250, 700 ]
    },
   {
     "oracion": "<strong>Ebcad:</strong> Hello I am Ebcad. <br><strong>Student:</strong> Hi, Ebcad! How are you? <br><strong>Ebcad:</strong> I am fine.",
@@ -22,8 +21,8 @@
   },
 
   {
-    "oracion": "<strong>Student:</strong> We learn about Math, <br><strong>Student:</strong> English, and Science. <br><strong>Ebcad:</strong> Do you like to do Math? <br><strong>Student:</strong> Yes! I like Math, but I don’t like homework",
-    "tiempo": [0, 0, 800, 500, 525, 600, 0, 700, 450, 700, 0,1000, 400, 500, 150, 200, 700, 0, 1500, 200, 500, 500, 300, 200, 500, 300, 800 ]
+    "oracion": "<strong>Student:</strong> We learn about Math, English, and Science. <br><strong>Ebcad:</strong> Do you like to do Math? <br><strong>Student:</strong> Yes! I like Math, but I don’t like homework.",
+    "tiempo": [0, 0, 800, 500, 525, 600, 700, 450, 700, 0, 820, 500, 700, 200, 200, 800, 0, 1500, 200, 500, 500, 300, 200, 500, 300, 900 ]
   },
 
   {

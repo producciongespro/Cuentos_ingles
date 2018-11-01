@@ -9,7 +9,7 @@
   },
   {
     "oracion": "<strong>Quoper:</strong> Hello. I am Quoper. <br><strong>Child:</strong> Hi, Quoper. How are you? <br><strong>Quoper:</strong> I am fine.",
-    "tiempo": [0, 0,900,800,200,400,0,400,900, 600, 500, 500,0,500,500,600]
+    "tiempo": [0, 0,900,500,200,1500,0,200,1000, 300, 200, 300, 0, 500, 500, 600]
   },
   {
     "oracion": "<strong>Quoper:</strong> What is this? <br><strong>Child:</strong> This is a farm and these are animals.",
