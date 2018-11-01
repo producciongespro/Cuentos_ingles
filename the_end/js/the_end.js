@@ -4,7 +4,9 @@ $(document).ready(function () {
 
 
 function loadModule() {
+   
     loadDataSession();
+  
 }
 
 
@@ -13,12 +15,10 @@ function loadDataSession() {
     var 
     grado = sessionStorage.getItem("grado"),
     titulo = sessionStorage.getItem("titulo"),
-    unidad = sessionStorage.getItem("unidad");
+    unidad = sessionStorage.getItem("unidad"); 
 
-  
-    
     handlerEvents(grado, unidad, titulo);
-
+    //audioHoverButtons ()
 }
 
 function handlerEvents(grado, unidad, titulo) {
@@ -70,7 +70,42 @@ function handlerEvents(grado, unidad, titulo) {
       window.location.assign(urlGrado);
     });
 
+    //Efecto de audios en evento hover de botones
+
+
  
+}
+
+
+function audioHoverButtons () {
+    
+
+  var audWorksheets = $("#audWorksheets")[0];
+
+    $("body").click(function (e) { 
+        e.preventDefault();
+        audWorksheets.play();
+    });
+
+    $("#btnAudio").click(function (e) { 
+        e.preventDefault();        
+        audWorksheets.play();
+    });
+
+    $("#btnAudio").mouseenter(function (e) { 
+        e.preventDefault();        
+        audWorksheets.play();
+    });
+
+
+  $("#btnWorksheets").mouseenter(function() {
+    audWorksheets.play();
+  });
+
+  
+
+
+
 }
 
 
