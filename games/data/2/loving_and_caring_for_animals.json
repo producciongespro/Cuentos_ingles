@@ -2,5 +2,5 @@
  {"id":"1","pregunta":"This is a farm. There are different animals.","opc1":"<img class='img-thumbnail' src='img/2/04_1.png'>","opc2":"<img class='img-thumbnail' src='img/2/04_2.png'>","correcta":"1"},
  {"id":"2","pregunta":"This is a cow and the cow says “moo”.","opc1":"<img class='img-thumbnail' src='img/2/04_3.png'>","opc2":"<img class='img-thumbnail' src='img/2/04_4.png'>","correcta":"2"},
  {"id":"3","pregunta":"This is a dog and dogs like to bark.","opc1":"<img class='img-thumbnail' src='img/2/04_5.png'>","opc2":"<img class='img-thumbnail' src='img/2/04_6.png'>","correcta":"1"},
- {"id":"4","pregunta":"This is a pig and the pig says “oink”.","opc1":"<img class='img-thumbnail' src='img/2/04_7.png'>","opc2":"<img class='img-thumbnail' src='img/2/04_8.png'>","correcta":"2"},
+ {"id":"4","pregunta":"This is a pig and the pig says “oink”.","opc1":"<img class='img-thumbnail' src='img/2/04_7.png'>","opc2":"<img class='img-thumbnail' src='img/2/04_8.png'>","correcta":"2"}
 ]
