@@ -2,6 +2,8 @@
 
 var m = new Model(), v = new View(), 
 enabledBtn = false,
+enabledBtnLeft = false,
+enabledBtnRight = false, //desactiva los botonrd fr opcuibes oara evutar qye el usuario siga dando clic en correctas o incorrectas
 stars=0, //cantidad de estrellas ganadas
 i=0; // indice que recorre el array de preguntas
 
@@ -25,9 +27,11 @@ function reset() {
         $("#imgStar"+index ).attr("src", "./img/star_gray.png");        
     }
     //limpieza de variables
-    enabledBtn = false,
-    stars=0, //cantidad de estrellas ganadas
+    enabledBtn = false;
+    stars=0; //cantidad de estrellas ganadas
     i=0;
+    enabledBtnLeft = false;
+    enabledBtnRight = false;
 }
 
 function loadMod() {  
@@ -57,7 +61,7 @@ function playIntro() {
 
 
 function showItem ( index) { 
-    console.log(index);
+    //console.log(index);
        
     v.NumberOfQuestion(m.getItem(index), "#vNumber" );
     v.question(m.getItem(index), "#vQuestion" );
@@ -76,10 +80,14 @@ function playAudio(index ) {
 
         //Evento que se activa cuando se ha termina el audio de la pregunta
         
-        objAudio.addEventListener('ended', function(){        
+        objAudio.addEventListener('ended', function(){       
            
+            //habilita toda la clase de botones para poder dar clic
             enabledBtn = true;
             v.setColor(".col-opt-images");
+            //habilita los botones izquierdo y derecho
+            enabledBtnLeft = true;
+            enabledBtnRight = true;
          });
          
 
@@ -103,29 +111,21 @@ function eventsStart() {
     
     //Seleccionar opcion
     $(".col-opt-images").click(function () { 
+        var idOptSelected =  $(this).attr("id");      
+    
         // si está habilitada se lanza la verifcicacion de respuesta
         if (enabledBtn) {
-            let opt = $(this).attr("id").slice(6);
-            //console.log(opt);
-            //console.log(i);
-            if (opt == m.getItem(i).correcta  ) {
-                //TODO acciones que se dan si la tiene buena
-                correctStar(i);
-            } else {
-                wrongStar(i);
-            }
-            //console.log(i);
-            // si el indice es igual a tres ya terminó las preguntas
-            //Espera un tiempo y lanza un modal para mostrrle al usuario cuantas estrellas tiene 
-            // y pregutnarle qué desea hacer
-            
-            if (i>=3) {
-                //antes de mostrr el modal renderiza la cantidad de estrellas obtenidas
-               v.modalStars(stars);
-                setTimeout ( function () {
-                    $("#mdlFinish").modal();
-                  }, 3000 );  
-            }                        
+                if (idOptSelected == "vImage1" && enabledBtnLeft == true ) {
+                    checkOption( $(this).attr("id").slice(6) );
+                     //deshabilita el botón una vez que la da clic
+                    enabledBtnLeft = false;
+                };
+                if (idOptSelected == "vImage2" && enabledBtnRight == true ) {
+                    checkOption( $(this).attr("id").slice(6) );
+                     //deshabilita el botón una vez que la da clic
+                    enabledBtnRight = false;
+                };
+
         };      
         
     });
@@ -174,8 +174,77 @@ function correctStar(index) {
 }
 
 function wrongStar(index) {
-    console.log("equivocada");
+    //console.log("equivocada");
     $("#audWrong").trigger("play");
     index = index + 1;
     $("#imgStar"+index ).attr("src", "./img/star_activa.png"); 
+}
+
+
+function playAudioStars(i) {
+    
+    var audioStars, audioYou = $("#audYou")[0];
+    audioYou.play();
+    console.log(i);
+
+    switch (i) {
+        case 1:
+        audioStars = $("#audStar1")[0];
+        console.log(1);        
+        break;
+        case 2:
+        audioStars = $("#audStar2")[0];        
+        console.log(2);        
+        break;
+        case 3:
+        audioStars = $("#audStar3")[0];
+        console.log(3);        
+        break;
+        case 4:
+        audioStars = $("#audStar4")[0];
+        console.log(4);        
+        break;
+    
+        default:
+        console.log("fuera de rando");        
+        break;
+    }
+
+    audioYou.addEventListener('ended', function(){        
+        audioStars.play();
+     });
+
+
+   
+  
+
+    
+    
+}
+
+
+function checkOption(opt) {    
+    //console.log(opt);
+    //console.log(i);
+    if (opt == m.getItem(i).correcta  ) {
+        // acciones que se dan si la tiene buena
+        correctStar(i);
+    } else {
+        wrongStar(i);
+    }
+    //console.log(i);
+    // si el indice es igual a tres ya terminó las preguntas
+    //Espera un tiempo y lanza un modal para mostrrle al usuario cuantas estrellas tiene 
+    // y pregutnarle qué desea hacer
+    
+    if (i>=3) {
+        //antes de mostrr el modal renderiza la cantidad de estrellas obtenidas
+       
+       v.modalStars(stars);
+        setTimeout ( function () {
+            $("#mdlFinish").modal();
+            playAudioStars( parseInt(i));
+          }, 3000 );  
+    }
+    
 }

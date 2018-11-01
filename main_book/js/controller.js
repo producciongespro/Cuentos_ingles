@@ -121,6 +121,9 @@ function handlerEvents(maxPages) {
                 
             });
 
+
+      //TODO: Trabajar el evento hover de los botones para reproducir audios
+
             $("#btnReload").click(function () { 
                
                 window.location.assign("../frontpage/index.php?grado="+grado+"&unidad="+unidad+"&nombre="+titulo+"" ); 
