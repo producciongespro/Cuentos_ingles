@@ -1,98 +1,60 @@
 [
   {
-    "oracion1": "Unit 1 Our Family ‘To do’ List",
-     "tiempo1": [2000,500,600,1000,300],
+    "oracion": "This is Maria. She is an inventor. She makes robots. Today, Maria finishes building her five robots.",
+     "tiempo": [0, 500,300,900, 450,200,200,900, 350,200,700, 700,800,650,650,200,500,1000 ]
   },
 
   {
-    "oracion1": "This is Maria. She is an inventor. She makes robots. Today, Maria finishes building her five robots.",
-     "tiempo1": [2000,500,600,1000,300],
-  },
+    "oracion": "<strong>María:</strong> Finished! Now I can teach my robots about how humans live before I send them to live with different families.",
+    "tiempo": [0,0,1000, 500,400,200,400,200,600,500,300,550,400,300,200,300, 300,100, 300, 400, 600, 800]
+    },
 
+    {
+    "oracion": "<strong>María:</strong> First, I teach you, Canman, about how we keep our house clean. <br><strong>Canman:</strong> Ok, I am ready to learn.",
+    "tiempo": [0,0,700,175,450,350, 900, 525,250,200,200,150,500,600,0, 600,550,150,450,100,600]
+    },
 
-  {
-    "oracion1": "Finished! Now I can teach my robots about how humans live before I send them to live with different families.  ",
-    "tiempo1": [2000,500,600,300,1000],
+    {
+    "oracion": "<strong>María:</strong> This kitchen is a mess! First, we need to put the food back in the refrigerator.",
+   "tiempo": [0, 0,400,550,300,100,600, 800,400,250,200,150,100,500,200,100,200,1000]
+    },
+
+    {
+    "oracion": "<strong>Canman:</strong> Am I doing it correctly? <br><strong>María:</strong> Yes, Canman. Good job! Now we need to wash the dishes. Here, use soap and this sponge ",
+    "tiempo": [0, 0,400,200,400,100,900, 0, 500,700,400,450,600,300,400,100,500,200,600, 700, 400,500,300, 250, 700 ]
 
     },
 
     {
-      "oracion1": "First, I teach you, Canman, about how we keep our house clean. ",
-      "tiempo1": [2000,500,600,300,1000],
-      "oracion2": "Ok, I am ready to learn.",
-      "tiempo2": [2000,500,600,1000,300],
+    "oracion": "<strong>Canman:</strong> So my job is washing dishes in my new home? <br><strong>María:</strong> No, Canman. Familes share the chores. Sometimes somebody else does the dishes and you do a different chore.",
+    "tiempo": [0,0, 400,200,400,200,600,650,200,100,400,800, 0, 300,1050,1000,700,500,800, 1000,800,250,300,300,700,200,300,100,200,700,800]
 
-      },
+    },
 
+    {
+   "oracion": "<strong>Canman:</strong> What is another chore in the house? <br><strong>María:</strong> Come with me! This room is messy, too!",
+   "tiempo": [0,0,500,200,475,600,100,300,600, 0, 500,300,500, 400,600,200,600,500 ]
 
-      {
-        "oracion1": "This kitchen is a mess! First, we need to put the food back in the refrigerator. ",
-         "tiempo1": [2000,500,600,1000,300],
-      },
+    },
 
+    {
+    "oracion": "<strong>María:</strong> We need to dust and sweep. Just sweep the dirt to one place, then sweep it into this dust pan. Here, Canman, you can sweep with this broom while I dust off the table and the TV.",
+    "tiempo": [0,0,400,300,200,400,400,600, 600,500,100,700,100,100,600, 700,300,100,400,300,600,700, 700,1000,300,200,500,300,200,600,500,100,500,300,300,500,100,200,500]
 
-      {
-        "oracion1": "Am I doing it correctly?",
-        "tiempo1": [2000,500,600,300,1000],
-        "oracion2": "Yes, Canman. Good job! Now we need to wash the dishes. Here, use soap and this sponge",
-        "tiempo2": [2000,500,600,1000,300],
+    },
 
-      },
-
-      {
-        "oracion1": "So my job is washing dishes in my new home?",
-        "tiempo1": [2000,500,600,300,1000],
-        "oracion2": "No, Canman.",
-        "tiempo2": [2000,500,600,1000,300],
-        "oracion3": "Familes share the chores. Sometimes somebody else does the dishes and you do a different chore.",
-        "tiempo3": [2000,500,600,1000,300],
-
-      },
-
-        {
-          "oracion1": "What is another chore in the house?",
-          "tiempo1": [2000,500,600,300,1000],
-          "oracion2": "Come with me!",
-          "tiempo2": [2000,500,600,1000,300],
-          "oracion3": "This room is messy, too!",
-          "tiempo3": [2000,500,600,1000,300],
-
-        },
-
-          {
-            "oracion1": "We need to dust and sweep. ",
-            "tiempo1": [2000,500,600,300,1000],
-            "oracion2": "Just sweep the dirt to one place, then sweep it into this dust pan.Here, Canman, you can sweep with this broom while I dust off the table and the TV.",
-            "tiempo2": [2000,500,600,1000,300],
-
-          },
-
-  {
-    "oracion1": "Good job, Canman! ",
-     "tiempo1": [2000,500,600,1000,300],
-     "oracion2": "Thank you. Now where do I put the dirt?",
-     "tiempo2": [2000,500,600,1000,300],
+   {
+    "oracion": "<strong>María:</strong> Good job, Canman! <br><strong>Canman:</strong> Thank you. Now where do I put the dirt?",
+     "tiempo": [0, 0, 400,400,1000, 0, 450,400, 500,600,100,100,300,100,300 ]
   },
 
   {
-    "oracion1": "Put it in the trashcan.",
-    "tiempo1": [2000,500,600,300,1000],
-    "oracion2": "Where is the trashcan?",
-    "tiempo2": [2000,500,600,1000,300],
-    "oracion3": "Over here!",
-    "tiempo3": [2000,500,600,1000,300],
-    "oracion4": "Thank you.Do I always have to sweep in my new home?",
-    "tiempo4": [2000,500,600,1000,300],
-    "oracion5": "No, Canman.",
-    "tiempo5": [2000,500,600,1000,300],
-  },
+    "oracion": "<strong>María:</strong> Put it in the trashcan. <br><strong>Canman:</strong> Where is the trashcan? <br><strong>María:</strong> Over here! <br><strong>Canman:</strong> Thank you. Do I always have to sweep in my new home? <br><strong>María:</strong> No, Canman.",
+    "tiempo": [0,0, 400,100,300,200,800, 0, 1000,200,300,1000, 0, 1000,800, 0, 1000,500, 500,200,400,300,100,400, 300, 200, 200,800, 0, 700,1000 ]
+    },
 
   {
-    "oracion1": "Remember, families share the chores. Maybe the mother sweeps, and the father dusts. Or maybe the mother washes the dishes, and the son or daughter sweeps.",
-    "tiempo1": [2000,500,600,300,1000],
-
-  },
-
-
-
+    "oracion": "<strong>María:</strong> Remember, families share the chores. Maybe the mother sweeps, and the father dusts. Or maybe the mother washes the dishes, and the son or daughter sweeps.",
+    "tiempo": [0, 0, 800, 800,550,200,900, 700,200,600,600,150,100,500,600, 300,300,300,800,800, 100, 500, 200, 100, 500, 100, 700, 800]
+  }
 ]
