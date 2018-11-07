@@ -1,72 +1,57 @@
 [
-  {
-    "oracion1": "Unit 5 Fun Places and Spaces:",
-     "tiempo1": [2000,500,600,1000,300],
-  },
 
   {
-    "oracion1": "Alright, Jetsun, you’re next. I’m going to teach you about activities that humans like to do. When you go live with your new family, you can do these activities with them! ",
-    "tiempo1": [2000,500,600,300,1000],
-    "oracion2": "Ok, let’s go!",
-    "tiempo2": [2000,500,600,1000,300],
+    "oracion": "<strong>Maria:</strong> Alright, Jetsun, you’re next. I’m going to teach you about activities that humans like to do. When you go live with your new family, you can do these activities with them! Ok, let’s go!",
+    "tiempo": [0, 0,1000,500,600,500,1100,300,300,400,300,600,600,800,800,400,300,200,1300,400,400,400,400,300,300,500,400,200,400,600,900,400,1000,600,600]
+
 
     },
 
 
   {
-    "oracion1": "This is a basketball. You shoot the basketball into the hoop, like this! ",
-     "tiempo1": [2000,500,600,1000,300],
+    "oracion": "<strong>Maria:</strong> This is a basketball. You shoot the basketball into the hoop, like this! ",
+     "tiempo": [0, 0,800,300,300,1000,600,500,300,1000,400,300,500,600,500]
   },
 
 
   {
-    "oracion1": "What happens after you shoot the basketball into the hoop?",
-    "tiempo1": [2000,500,600,300,1000],
-    "oracion2": "Well, you get points. Two teams play against each other to see who gets more points.  ",
-    "tiempo2": [2000,500,600,1000,300],
-    "oracion3": "That sounds fun! ",
-    "tiempo3": [2000,500,600,1000,300],
-    "oracion4": "It is!",
-    "tiempo4": [2000,500,600,1000,300]
+    "oracion": "<strong>Jetsun:</strong> What happens after you shoot the basketball into the hoop? <br><strong>Maria:</strong> Well, you get points. Two teams play against each other to see who gets more points. <br><strong>Jetsun:</strong> That sounds fun! <br><strong>Maria:</strong> It is!",
+    "tiempo": [0, 0,1000,800,600,300,500,300,800,300,300,500,0,1000,400,300,500, 1500,600,500,400,400,500,200,400,400,300,400,400,0,1500,600,700,0,900,900]
 
   },
 
   {
-    "oracion1": "Now this is a soccer ball. You kick it into the goal, like this.",
-     "tiempo1": [2000,500,600,1000,300],
+    "oracion": "<strong>Maria:</strong> Now this is a soccer ball. You kick it into the goal, like this.",
+     "tiempo": [0, 0,600,400,400,200,500,400,800,200,200,800,400,600,500,400]
   },
 
   {
-    "oracion1": "Ok, let me try! ",
-    "tiempo1": [2000,500,600,300,1000],
-    "oracion2": "Good job, Jetsun! ",
-    "tiempo2": [2000,500,600,1000,300],
+    "oracion": "<strong>Jetsun:</strong> Ok, let me try! <br><strong>Maria:</strong> Good job, Jetsun!",
+    "tiempo": [0, 0,800,700,800,600,0,700,500,800]
 
     },
+
 
     {
-      "oracion1": "People like to play these sports to get exercise and fresh air. There are many sports in the world. ",
-      "tiempo1": [2000,500,600,300,1000],
+      "oracion": "<strong>Maria:</strong> People like to play these sports to get exercise and fresh air. There are many sports in the world. ",
+      "tiempo": [0, 0,700,500,200,600,400,500,200,400,700,400,700,700,1000,400,600,500,200,300,800]
 
       },
 
 
   {
-    "oracion1": " There’s basketball, baseball, soccer, volleyball, tennis… and many more!",
-     "tiempo1": [2000,500,600,1000,300],
+    "oracion": "<strong>Maria:</strong> There’s basketball, baseball, soccer, volleyball, tennis… and many more!",
+     "tiempo": [0, 0,1000,1000,900,800,900,900,400,500,500]
   },
 
-  
+
 
     {
-      "oracion1": "Do you like playing these sports?",
-      "tiempo1": [2000,500,600,300,1000],
-      "oracion2": "Yes, I enjoy playing soccer the most! ",
-      "tiempo2": [2000,500,600,1000,300],
-      "oracion3": "Great! You are going to be a good teammate for your new family.",
-      "tiempo3": [2000,500,600,1000,300],
+      "oracion": "<strong>Maria:</strong> Do you like playing these sports? <br><strong>Jetsun:</strong> Yes, I like playing soccer the most! <br><strong>Maria:</strong> Great! You are going to be a good teammate for your new family",
+      "tiempo": [0, 0,600,500,600,500,400,400,0,1200,1000,500,600,600,400,400,0,1300,500,500,600,200,300,200,400,900,400,500,500,700]
 
-    },
+
+    }
 
 
 
