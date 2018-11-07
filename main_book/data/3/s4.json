@@ -1,44 +1,60 @@
 [
-
-
   {
-    "oracion":  "<strong>Maria:</strong> Ok, Millrug, you’re next! You’re a special robot because you are going to be a GPS.",
-     "tiempo": [0, 0, 600,900,600,400,1800,200,500,400,800,500,300,300,300,200,400,900]
+    "oracion1": "Unit 4 Getting around town",
+     "tiempo1": [2000,500,600,1000,300],
   },
 
   {
-    "oracion": "<strong>Millrug:</strong> What is a GPS? <br><strong>Ebcad:</strong> A GPS is a software that tells us where to find things. A GPS gives us directions. I gave you special abilities to tell humans directions. Let’s practice, ok?  <br><strong>Ebcad:</strong> Ok, Maria.",
-    "tiempo": [0, 0,800,300,200,1500,0,1000,900,300,300,600,600,400,400,600,200,500,600,1000,900,400,400,900,1000,500,400,400,700,300,500,700,800,900,700,500,800,0,500,800]
+    "oracion1": "Ok, Millrug, you’re next! You’re a special robot because you are going to be a GPS.",
+     "tiempo1": [2000,500,600,1000,300],
+  },
 
+  {
+    "oracion1": "What is a GPS?",
+    "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "A GPS is a software that tells us where to find things. A GPS gives us directions.
+I gave you special abilities to tell humans directions. Let’s practice, ok?",
+    "tiempo2": [2000,500,600,1000,300],
+    "oracion3": "Ok, Maria.",
+    "tiempo3": [2000,500,600,1000,300]
     },
 
     {
-      "oracion": "<strong>Maria:</strong> Millrug, can you tell me where the bank is? <br><strong>Ebcad:</strong> Yes. The bank is on Main Street. Go straight, then take a left. <br><strong>Maria:</strong> Perfect",
-      "tiempo": [0, 0,900,500,400,300,300,300,200,400,200,0,1800,400,500,200,200,500,600,800,700,600,800,200,600,0,1200]
-
+      "oracion1": "Millrug, can you tell me where the bank is?",
+      "tiempo1": [2000,500,600,300,1000],
+      "oracion2": "Yes. The bank is on Main Street. Go straight, then take a left.",
+      "tiempo2": [2000,500,600,1000,300],
+      "oracion3": "Perfect! ",
+      "tiempo3": [2000,500,600,1000,300]
       },
 
   {
-    "oracion": "<strong>Maria:</strong> Let’s practice another one. Millrug, I am looking for a restaurant. Where are the good restaurants? ",
-     "tiempo": [0, 0,300,700,400,400,1600,800,400,600,300,300,700,900,400,200,400,900]
+    "oracion1": "Let’s practice another one. Millrug, I am looking for a restaurant Where are the good restaurants? ",
+     "tiempo1": [2000,500,600,1000,300],
   },
 
   {
-    "oracion": "<strong>Millrug:</strong> There are five restaurants nearby. The closest restaurant is 1 km away. First, take a left, then turn right and you arrive.",
-     "tiempo": [0, 0,400,500,600,800,1200,1000,500,500,500,500,800,900,1200,700,400,500,900,900,900,400,500,600]
+    "oracion1": "There are five restaurants nearby. The closest restaurant is 1 km away. First, take a left, then turn right and you arrive.",
+     "tiempo1": [2000,500,600,1000,300],
   },
 
+
+
   {
-    "oracion": "<strong>Maria:</strong> Is the restaurant on the right or the left side? <br><strong>Ebcad:</strong> It is on the right side.",
-    "tiempo": [0, 0,300,400,500,300,300,400,200,300,400,700,0,1000,300,200,300,700,800]
+    "oracion1": "Is the restaurant on the right or the left side?",
+    "tiempo1": [2000,500,600,300,1000],
+    "oracion2": "It is on the right side.",
+    "tiempo2": [2000,500,600,1000,300],
 
     },
 
 
     {
-      "oracion": "<strong>Maria:</strong> Great job, Millrug! I think you’re ready to give good directions to your new family.",
-       "tiempo": [0, 0,500,500,600,1200,400,400,400,300,500,400,600,200,500,400,700]
-    }
+      "oracion1": "Great job, Millrug! I think you’re ready to give good directions to your new family.",
+       "tiempo1": [2000,500,600,1000,300],
+    },
+
+
 
 
 ]
