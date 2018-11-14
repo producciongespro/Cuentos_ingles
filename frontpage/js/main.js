@@ -1,7 +1,6 @@
 $(document).ready(function () {
-    obtenerParametrosUrl();
-   
-    
+    eCargarAudio();
+    obtenerParametrosUrl();    
 });
 
 
@@ -63,4 +62,16 @@ function eCargarLibro( grado,unidad, nombre ) {
         sessionStorage.setItem("unidad", unidad);
         window.location.assign( "../main_book/index.html"  );        
     });
+}
+
+
+function eCargarAudio() {    
+var audMinibooks = $("#audMinibooks")[0];
+        $("#lnkGrado").mouseenter(function () { 
+            console.log("enter");
+            audMinibooks.pause();
+            audMinibooks.currentTime=0;
+            audMinibooks.play();        
+        });    
+
 }

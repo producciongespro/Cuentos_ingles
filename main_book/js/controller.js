@@ -10,6 +10,7 @@ titulo;  //titulo
 
 $(document).ready(function () {         
     obtenerInfoSesion();
+    eCargarAudio();
 });
 
 
@@ -218,7 +219,16 @@ function highlight (resaltadoRecursivo) {
 }
 
 
-
+function eCargarAudio() {    
+    var audMinibooks = $("#audMinibooks")[0];
+            $("#btnMini").mouseenter(function () { 
+                console.log("enter");
+                audMinibooks.pause();
+                audMinibooks.currentTime=0;
+                audMinibooks.play();        
+            });    
+    
+    }
 
 
 

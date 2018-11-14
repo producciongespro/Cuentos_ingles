@@ -16,10 +16,16 @@ function loadDataSession() {
     grado = sessionStorage.getItem("grado"),
     titulo = sessionStorage.getItem("titulo"),
     unidad = sessionStorage.getItem("unidad"); 
-
+    playAudioIntro();
     handlerEvents(grado, unidad, titulo);
-    //audioHoverButtons ()
+    audioHoverButtons ()
 }
+
+
+function playAudioIntro() {
+    $("#audTheEnd").trigger("play");
+}
+
 
 function handlerEvents(grado, unidad, titulo) {
     //Establece link con parámetros para recargar el cuento
@@ -70,39 +76,40 @@ function handlerEvents(grado, unidad, titulo) {
       window.location.assign(urlGrado);
     });
 
-    //Efecto de audios en evento hover de botones
+    
 
 
  
 }
 
-
+//Efecto de audios en evento hover de botones
 function audioHoverButtons () {
-    
 
-  var audWorksheets = $("#audWorksheets")[0];
+    var audMinibooks = $("#audMinibooks")[0],
+    audWorksheets = $("#audWorksheets")[0],
+    audActivity = $("#audActivity")[0];
 
-    $("body").click(function (e) { 
-        e.preventDefault();
-        audWorksheets.play();
-    });
-
-    $("#btnAudio").click(function (e) { 
-        e.preventDefault();        
-        audWorksheets.play();
-    });
-
-    $("#btnAudio").mouseenter(function (e) { 
-        e.preventDefault();        
-        audWorksheets.play();
-    });
-
-
-  $("#btnWorksheets").mouseenter(function() {
-    audWorksheets.play();
-  });
-
-  
+        $("#btnGoToGrade").mouseenter(function () { 
+            console.log("enter");
+            audMinibooks.pause();
+            audMinibooks.currentTime=0;
+            audMinibooks.play();        
+        });
+        
+   
+        $("#btnWorksheets").mouseenter(function () { 
+            console.log("enter");
+            audWorksheets.pause();
+            audWorksheets.currentTime=0;
+            audWorksheets.play();        
+        });
+        
+        $("#btnActivity").mouseenter(function () { 
+            console.log("enter");
+            audActivity.pause();
+            audActivity.currentTime=0;
+            audActivity.play();        
+        }); 
 
 
 

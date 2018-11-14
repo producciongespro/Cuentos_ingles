@@ -17,6 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="shortcut icon" href="../img/book.png" type="image/png">
     <!-- Esta es la referencia para fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
@@ -40,9 +41,7 @@
 </div>
 <br>
 <br>
-<br>
-<br>
-<br>
+
 
 <div class="row fila-imagen">
 <div class="col-1" > </div>
@@ -60,7 +59,7 @@
   <div class="col-2"></div>
         <div class="col-2">
         <a id="lnkGrado"  href="" class="btn btn-3d btn-3d-cyan" title="Minibooks">
-        <i class="fas fa-grip-horizontal"></i>
+              <i class="fas fa-grip-horizontal"></i>
         </a>
       </div>
 
@@ -88,7 +87,9 @@
 
 
 
-
+<div class="row ">
+  <audio id="audMinibooks" preload src="../audio_effects/minibooks.mp3"></audio>
+</div>
 
 </body>
 </html>
