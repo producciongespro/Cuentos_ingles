@@ -4,9 +4,7 @@ $(document).ready(function () {
 
 
 function loadModule() {
-   
-    loadDataSession();
-  
+       loadDataSession();  
 }
 
 
