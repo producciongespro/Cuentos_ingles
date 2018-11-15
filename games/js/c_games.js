@@ -22,7 +22,7 @@ $(document).ready(function () {
 
 
 function reset() {
-    //imágenes de ña estrellas
+    //imágenes de las estrellas
     for (let index = 1; index < 5; index++) {
         $("#imgStar"+index ).attr("src", "./img/star_gray.png");        
     }
@@ -32,6 +32,8 @@ function reset() {
     i=0;
     enabledBtnLeft = false;
     enabledBtnRight = false;
+    //muestra el botón que se ocultó en el último item al usuario 
+    $("#btnForward").css("display", "inline");
 }
 
 function loadMod() {  
@@ -62,6 +64,8 @@ function playIntro() {
 
 function showItem ( index) { 
     //console.log(index);
+    console.log("Estrellas obtenidas " + stars);
+    
        
     v.NumberOfQuestion(m.getItem(index), "#vNumber" );
     v.question(m.getItem(index), "#vQuestion" );
@@ -185,7 +189,7 @@ function playAudioStars(i) {
     
     var audioStars, audioYou = $("#audYou")[0];
     audioYou.play();
-    console.log(i);
+    console.log( "Parametro: " + i);
 
     switch (i) {
         case 1:
@@ -243,7 +247,7 @@ function checkOption(opt) {
        v.modalStars(stars);
         setTimeout ( function () {
             $("#mdlFinish").modal();
-            playAudioStars( parseInt(i));
+            playAudioStars( parseInt(stars));
           }, 3000 );  
     }
     
