@@ -5,7 +5,7 @@ function View  () {
 
 }
 
-View.prototype.writePage = function (arraySentence, contImg, contSnt, idImg, grado, titulo   ) {
+View.prototype.writePage = function (arraySentence, contImg, contSnt, idImg, grado, titulo, page   ) {
     var limit = arraySentence.length,
     htmlImage = $("<img class='img-page  img-fluid'  src='img/" + grado + "/" + titulo  + "/pic" +idImg+".png'> "),
     //htmlSentence = $("<div class='alert  alert-warning' role='alert'></div>");
@@ -21,6 +21,7 @@ View.prototype.writePage = function (arraySentence, contImg, contSnt, idImg, gra
 
     $(contSnt).html(htmlSentence);
     $(contImg).html(htmlImage);
+    $("#spnNumPage").html(page);
 
 }
 
