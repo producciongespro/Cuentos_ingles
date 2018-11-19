@@ -1,6 +1,6 @@
 [
- {"id":"1","pregunta":"This is a beach. I like to eat ice cream at the beach.","opc1":"<img class='img-thumbnail' src='img/2/05_1.png'>","opc2":"<img class='img-thumbnail' src='img/2/05_2.png'>","correcta":"2"},
- {"id":"2","pregunta":"The weather at the beach it is sunny.","opc1":"<img class='img-thumbnail' src='img/2/05_3.png'>","opc2":"<img class='img-thumbnail' src='img/2/05_4.png'>","correcta":"2"},
- {"id":"3","pregunta":"In the mountains it rains and you can see wildlife.","opc1":"<img class='img-thumbnail' src='img/2/05_5.png'>","opc2":"<img class='img-thumbnail' src='img/2/05_6.png'>","correcta":"1"},
- {"id":"4","pregunta":"You can camp and hike in the mountains.","opc1":"<img class='img-thumbnail' src='img/2/05_7.png'>","opc2":"<img class='img-thumbnail' src='img/2/05_8.png'>","correcta":"2"}
+ {"id":"1","pregunta":"This is a beach. I like to eat ice cream at the beach.","opc1":"<img class='img-thumbnail' src='img/2/06_1.png'>","opc2":"<img class='img-thumbnail' src='img/2/06_2.png'>","correcta":"2"},
+ {"id":"2","pregunta":"The weather at the beach it is sunny.","opc1":"<img class='img-thumbnail' src='img/2/06_3.png'>","opc2":"<img class='img-thumbnail' src='img/2/06_4.png'>","correcta":"2"},
+ {"id":"3","pregunta":"In the mountains it rains and you can see wildlife.","opc1":"<img class='img-thumbnail' src='img/2/06_5.png'>","opc2":"<img class='img-thumbnail' src='img/2/06_6.png'>","correcta":"1"},
+ {"id":"4","pregunta":"You can camp and hike in the mountains.","opc1":"<img class='img-thumbnail' src='img/2/06_7.png'>","opc2":"<img class='img-thumbnail' src='img/2/06_8.png'>","correcta":"2"}
 ]
