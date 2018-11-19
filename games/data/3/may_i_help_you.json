@@ -1,0 +1,7 @@
+[
+ {"id":"1","pregunta":"May I help you?","opc1":"Yes, can I please try on these white shoes?","opc2":"They cost 100 colones","correcta":"1"},
+ {"id":"2","pregunta":"How much do these shoes cost?","opc1":"I would like to buy them.","opc2":"They cost 10.000 colones","correcta":"2"},
+ {"id":"3","pregunta":"Are you paying with cash or a credit card?","opc1":"I am paying with cash","opc2":"Have a nice day.","correcta":"1"},
+ {"id":"4","pregunta":"Where can we buy bread?","opc1":"There is a bakery right here.","opc2":"We buy bread at the bakery.","correcta":"2"},
+
+]
