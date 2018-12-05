@@ -39,12 +39,20 @@ function loadModule( grade, story ) {
         v.preLoadImages($("#contImages"),maxPages, grade, story );
 
 
-        handlerEvents(maxPages); 
+        handlerEvents(maxPages);
+        
+        
+               //titulo en encabezado
+               let tmpTitulo = titulo.replace(/_/g, " " ),
+               tmpPrimeraMayuscula = tmpTitulo.slice(0,1).toUpperCase();               
+               $("#spnMaintitle").text(tmpPrimeraMayuscula +  tmpTitulo.slice(1) );
 
         //Carga de la primera pagina:
         page++;
         //carga el método que dibuja la pagina y activa el resaltado     
         loadPage(page, resaltadoRecursivo);
+        
+ 
      });
 }
 
@@ -94,6 +102,8 @@ function handlerEvents(maxPages) {
             if (page > 0) {
                 page--; 
                 //carga el método que dibuja la pagina y activa el resaltado
+                console.log(page);
+                
                 loadPage(page, resaltadoRecursivo);
             }
             if (page==0) {

@@ -21,6 +21,8 @@ View.prototype.writePage = function (arraySentence, contImg, contSnt, idImg, gra
 
     $(contSnt).html(htmlSentence);
     $(contImg).html(htmlImage);
+    console.log("desde la vista " + page );
+    
     $("#spnNumPage").html(page);
 
 }
