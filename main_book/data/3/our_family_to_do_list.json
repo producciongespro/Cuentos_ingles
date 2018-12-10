@@ -1,6 +1,6 @@
 [
   {
-    "oracion": "This is Maria. She is an inventor. She makes robots. Today, Maria finishes building her five robots.",
+    "oracion": "This is María. She is an inventor. She makes robots. Today, María finishes building her five robots.",
      "tiempo": [0, 500,300,900, 450,200,200,900, 350,200,700, 700,800,650,650,200,500,1000 ]
   },
 
@@ -20,7 +20,7 @@
     },
 
     {
-    "oracion": "<strong>Canman:</strong> Am I doing it correctly? <br><strong>María:</strong> Yes, Canman. Good job! Now we need to wash the dishes. Here, use soap and this sponge ",
+    "oracion": "<strong>Canman:</strong> Am I doing it correctly? <br><strong>María:</strong> Yes, Canman. Good job! Now we need to wash the dishes. Here, use soap and this sponge.",
     "tiempo": [0, 0,400,200,400,100,900, 0, 500,700,400,450,600,300,400,100,500,200,600, 700, 400,500,300, 250, 700 ]
 
     },
@@ -44,7 +44,7 @@
     },
 
    {
-    "oracion": "<strong>María:</strong> Good job, Canman! <br><strong>Canman:</strong> Thank you. Now where do I put the dirt?",
+    "oracion": "<strong>María:</strong> Good job, Canman! <br><strong>Canman:</strong> Thank you. Now, where do I put the dirt?",
      "tiempo": [0, 0, 400,400,1000, 0, 450,400, 500,600,100,100,300,100,300 ]
   },
 
