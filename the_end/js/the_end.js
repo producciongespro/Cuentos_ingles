@@ -1,3 +1,5 @@
+"use4 strict";
+
 $(document).ready(function () {
     loadModule();
 });
@@ -10,10 +12,15 @@ function loadModule() {
 
 function loadDataSession() {
     // Cargar la info para llamara al método que recarga el cuento.
-    var 
+   
     grado = sessionStorage.getItem("grado"),
     titulo = sessionStorage.getItem("titulo"),
-    unidad = sessionStorage.getItem("unidad"); 
+    unidad = sessionStorage.getItem("unidad");
+
+    var pathImg = "./img/end"+grado+".png";
+    console.log(pathImg);
+    
+    $("#imgTheEnd").attr("src", pathImg); 
     playAudioIntro();
     handlerEvents(grado, unidad, titulo);
     audioHoverButtons ()

@@ -45,7 +45,7 @@ function loadModule( grade, story ) {
                //titulo en encabezado
                let tmpTitulo = titulo.replace(/_/g, " " ),
                tmpPrimeraMayuscula = tmpTitulo.slice(0,1).toUpperCase();               
-               $("#spnMaintitle").text(tmpPrimeraMayuscula +  tmpTitulo.slice(1) );
+               $("#spnMaintitle").text("Unit " + unidad + ": " + tmpPrimeraMayuscula +  tmpTitulo.slice(1) );
 
         //Carga de la primera pagina:
         page++;
@@ -133,13 +133,12 @@ function handlerEvents(maxPages) {
                  }               
                 
             });
-
-
-      //TODO: Trabajar el evento hover de los botones para reproducir audios
+      
 
             $("#btnReload").click(function () { 
                
-                window.location.assign("../frontpage/index.php?grado="+grado+"&unidad="+unidad+"&nombre="+titulo+"" ); 
+                //window.location.assign("../frontpage/index.php?grado="+grado+"&unidad="+unidad+"&nombre="+titulo+"" ); 
+                loadPage(page, resaltadoRecursivo);
                 
             });
     
