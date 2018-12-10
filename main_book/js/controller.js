@@ -44,7 +44,12 @@ function loadModule( grade, story ) {
         
                //titulo en encabezado
                let tmpTitulo = titulo.replace(/_/g, " " ),
-               tmpPrimeraMayuscula = tmpTitulo.slice(0,1).toUpperCase();               
+               tmpPrimeraMayuscula = tmpTitulo.slice(0,1).toUpperCase(); 
+               
+               if (tmpTitulo=="may I help you") {
+                tmpTitulo = tmpTitulo + "?";
+            }
+
                $("#spnMaintitle").text("Unit " + unidad + ": " + tmpPrimeraMayuscula +  tmpTitulo.slice(1) );
 
         //Carga de la primera pagina:
@@ -123,7 +128,7 @@ function handlerEvents(maxPages) {
                     case 2:
                     window.location.assign("../navigation/second.html"); 
                     break;
-                    case 1:
+                    case 3:
                     window.location.assign("../navigation/third.html"); 
                     break;
                  

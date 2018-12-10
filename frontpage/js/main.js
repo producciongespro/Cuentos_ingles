@@ -39,7 +39,16 @@ function cargarImagenPortada(  grado, nombreCuento  ) {
 
 function cargarTitulo(nombreCuento, unidad ) {
     let tmpTitulo = nombreCuento.replace(/_/g, " " ),
-    tmpPrimeraMayuscula = tmpTitulo.slice(0,1).toUpperCase();        
+    tmpPrimeraMayuscula = tmpTitulo.slice(0,1).toUpperCase();
+
+    console.log(tmpTitulo);
+
+    if (tmpTitulo=="may I help you") {
+        tmpTitulo = tmpTitulo + "?";
+    }
+    
+
+    
    $("#tituloNombreCuento").text(tmpPrimeraMayuscula +  tmpTitulo.slice(1) );
    $("#tituloUnidad").text( "Unit " +  unidad);
 }
