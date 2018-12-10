@@ -16,7 +16,7 @@
 I gave you special abilities to tell humans directions. Let’s practice, ok?",
     "tiempo2": [2000,500,600,1000,300],
     "oracion3": "Ok, Maria.",
-    "tiempo3": [2000,500,600,1000,300]
+    "tiempo3": [2000,500,600,1000,300],
     },
 
     {
@@ -25,7 +25,7 @@ I gave you special abilities to tell humans directions. Let’s practice, ok?",
       "oracion2": "Yes. The bank is on Main Street. Go straight, then take a left.",
       "tiempo2": [2000,500,600,1000,300],
       "oracion3": "Perfect! ",
-      "tiempo3": [2000,500,600,1000,300]
+      "tiempo3": [2000,500,600,1000,300],
       },
 
   {
@@ -53,8 +53,4 @@ I gave you special abilities to tell humans directions. Let’s practice, ok?",
       "oracion1": "Great job, Millrug! I think you’re ready to give good directions to your new family.",
        "tiempo1": [2000,500,600,1000,300],
     },
-
-
-
-
-]
+  ]

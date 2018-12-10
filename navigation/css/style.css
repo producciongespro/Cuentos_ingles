@@ -44,7 +44,7 @@ font-family: 'Poppins', sans-serif;
 
 .col-marco4 {
   background-color: #C8DBE8;
-  padding: 2em;
+  padding: 1em;
   border-radius: 0px;
 
 }
@@ -573,19 +573,19 @@ font-family: 'Poppins', sans-serif;
   margin-bottom: 40px;
 }
 .work .work-grid {
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 300px;
-  margin-bottom: 20px;
+  height: 400px;
+  margin-bottom: 50px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
 .work .work-grid .inner {
   display: table;
-  height: 300px;
+  height: 400px;
   width: 100.1%;
   opacity: 0;
   background: rgba(237, 237, 237, 0.9);
@@ -602,7 +602,7 @@ font-family: 'Poppins', sans-serif;
 .work .work-grid .inner .desc {
   display: table-cell;
   vertical-align: middle;
-  padding: 40px;
+  padding: 1px;
 }
 .work .work-grid .inner .desc h3 {
   font-size: 20px;

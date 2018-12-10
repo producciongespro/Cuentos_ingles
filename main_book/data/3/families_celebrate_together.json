@@ -15,7 +15,7 @@
     },
 
       {
-        "oracion": "<strong>María:</strong> I also got you this gift! <br><strong>Fogtag:</strong> I love it! Thank you, Maria! <br><strong>María:</strong> You’re welcome, Fogtag. <br><strong>Fogtag:</strong> What do you want for your birthday, Maria? <br><strong>María:</strong> Well, I always need more tools in my workshop.",
+        "oracion": "<strong>María:</strong> I also got you this gift! <br><strong>Fogtag:</strong> I love it! Thank you, María! <br><strong>María:</strong> You’re welcome, Fogtag. <br><strong>Fogtag:</strong> What do you want for your birthday, María? <br><strong>María:</strong> Well, I always need more tools in my workshop.",
         "tiempo": [0,0,500,300,300,300,400,700, 0, 600,300,500,400,200,800, 0, 500,500,1000, 0, 400,150,200,400,200,400,700,700, 0, 800,200,500,300,300, 500, 200, 200, 800]
       },
 
