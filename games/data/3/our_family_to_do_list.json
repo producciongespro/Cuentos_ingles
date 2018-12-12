@@ -1,7 +1,6 @@
 [
- {"id":"1","pregunta":"María teaches Canman to______.","opc1":"<text class='put the food in the refrigerator'>","opc2":"<text class='clean a mess'>","correcta":"1"},
- {"id":"2","pregunta":"The second job Canman learned was to______.","opc1":"clean the bathroom","opc2":"wash the dishes","correcta":"2"},
- {"id":"3","pregunta":"Where do i put the dirt?","opc1":"Put it in the trashcan.","opc2":"You can sweep with this broom.","correcta":"1"},
- {"id":"4","pregunta":"Canman learned to sweep with the________.","opc1":"trashcan","opc2":"broom","correcta":"2"},
-
+ {"id":"1","pregunta":"María teaches Canman to______.","opc1":"<img class='img-thumbnail' src='img/3/01_1.png'>","opc2":"<img class='img-thumbnail' src='img/3/01_2.png'>","correcta":"2"},
+ {"id":"2","pregunta":"The second job Canman learned was to______.","opc1":"<img class='img-thumbnail' src='img/3/01_3.png'>","opc2":"<img class='img-thumbnail' src='img/3/01_4.png'>","correcta":"1"},
+ {"id":"3","pregunta":"Where do i put the dirt?","opc1":"<img class='img-thumbnail' src='img/3/01_5.png'>","opc2":"<img class='img-thumbnail' src='img/3/01_6.png'>","correcta":"2"},
+ {"id":"4","pregunta":"Canman learned to sweep with the________.","opc1":"<img class='img-thumbnail' src='img/3/01_7.png'>","opc2":"<img class='img-thumbnail' src='img/3/01_8.png'>","correcta":"1"}
 ]
