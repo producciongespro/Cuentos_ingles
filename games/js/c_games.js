@@ -44,6 +44,9 @@ function loadMod() {
         playIntro();        
         showItem(i);
         v.setGrayScale(".col-opt-images");
+        //oculta el botón de adelantar pregunta
+        $("#btnForward").css("display", "none");
+
     });
 }
 
@@ -64,7 +67,10 @@ function playIntro() {
 
 function showItem ( index) { 
     //console.log(index);
+
     console.log("Estrellas obtenidas " + stars);
+    //oculta el botón pasra siguiente pregunta
+    $("#btnForward").css("display", "none");
     
        
     v.NumberOfQuestion(m.getItem(index), "#vNumber" );
@@ -250,5 +256,6 @@ function checkOption(opt) {
             playAudioStars( parseInt(stars));
           }, 3000 );  
     }
-    
+    //Muestra el botón siguiente para ir a la pregutna siguiente
+    $("#btnForward").css("display", "inline");
 }
