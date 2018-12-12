@@ -1,6 +1,6 @@
 [
- {"id":"1","pregunta":"María teaches Canman to______.","opc1":"<img class='img-thumbnail' src='img/3/01_1.png'>","opc2":"<img class='img-thumbnail' src='img/3/01_2.png'>","correcta":"2"},
- {"id":"2","pregunta":"The second job Canman learned was to______.","opc1":"<img class='img-thumbnail' src='img/3/01_3.png'>","opc2":"<img class='img-thumbnail' src='img/3/01_4.png'>","correcta":"1"},
- {"id":"3","pregunta":"Where do i put the dirt?","opc1":"<img class='img-thumbnail' src='img/3/01_5.png'>","opc2":"<img class='img-thumbnail' src='img/3/01_6.png'>","correcta":"2"},
- {"id":"4","pregunta":"Canman learned to sweep with the________.","opc1":"<img class='img-thumbnail' src='img/3/01_7.png'>","opc2":"<img class='img-thumbnail' src='img/3/01_8.png'>","correcta":"1"}
+ {"id":"1","pregunta":"María teaches Canman to _____.","opc1":"<span class='spn-opciones'> a) put the food in the refrigerator</span>","opc2":"<span class='spn-opciones'> b) bake a cake</span>","correcta":"1"},
+ {"id":"2","pregunta":"The second job Canman learned was to _____.","opc1":"<span class='spn-opciones'> a) clean the bathroom</span>","opc2":"<span class='spn-opciones'> b) wash the dishes</span>","correcta":"2"},
+ {"id":"3","pregunta":"Where do i put the dirt?","opc1":"<span class='spn-opciones'> a) Put in the trashcan.</span>","opc2":"<span class='spn-opciones'> b) You can sweep with this broom.</span>","correcta":"1"},
+ {"id":"4","pregunta":"Canman learned to sweep with the _____.","opc1":"<span class='spn-opciones'> a) trashcan</span>","opc2":"<span class='spn-opciones'> b) broom</span>","correcta":"2"}
 ]

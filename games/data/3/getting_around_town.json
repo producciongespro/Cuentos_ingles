@@ -1,7 +1,7 @@
 [
- {"id":"1","pregunta":"What is a GPS for?","opc1":"A GPS is for making calls.","opc2":"A GPS gives us directions.","correcta":"2"},
- {"id":"2","pregunta":"Where is the bank?","opc1":"The bank is huge.","opc2":"The bank is on the Main Street.","correcta":"2"},
- {"id":"3","pregunta":"Where can we find good restaurants?","opc1":"In town close to the bank.","opc2":"There are two restaurants.","correcta":"1"},
- {"id":"4","pregunta":"Where is the closest restaurant?","opc1":"1 km way.","opc2":"Marco´s Dining.","correcta":"1"},
- {"id":"5","pregunta":"I the restaurant on the right or the left side?","opc1":"On the next corner.","opc2":"It is on the right side.","correcta":"2"},
+{"id":"1","pregunta":"What is a GPS for?","opc1":"<span class='spn-opciones'> a) A GPS is for making calls.</span>","opc2":"<span class='spn-opciones'> b) A GPS gives us directions.</span>","correcta":"2"},
+{"id":"2","pregunta":"Where is the bank?","opc1":"<span class='spn-opciones'> a) The bank is huge.</span>","opc2":"<span class='spn-opciones'>b) The bank is on the Main Street.</span>","correcta":"2"},
+{"id":"3","pregunta":"Where can we find good restaurants?","opc1":"<span class='spn-opciones'> a) In town close to the park.</span>","opc2":"<span class='spn-opciones'>b) There are two Shoes Store.</span>","correcta":"1"},
+{"id":"4","pregunta":"Where is the closest restaurant?","opc1":"<span class='spn-opciones'> a) 1 km way.</span>","opc2":"<span class='spn-opciones'>b) Marco´s Dining.</span>","correcta":"1"},
+{"id":"5","pregunta":"I the restaurant on the right or the left side?","opc1":"<span class='spn-opciones'> a) Over the table.</span>","opc2":"<span class='spn-opciones'>b) It is on the right side.</span>","correcta":"2"}
 ]
