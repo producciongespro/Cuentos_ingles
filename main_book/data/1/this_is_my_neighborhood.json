@@ -30,7 +30,7 @@
   },
 
   {
-    "oracion": "These are the community helpers. Doctors, teachers and police officers.",
+    "oracion": "These are the community helpers: doctors, teachers and police officers.",
     "tiempo": [0, 1000, 300, 300,500,600,600,950,700,600,700]
   },
 

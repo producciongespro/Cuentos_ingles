@@ -10,7 +10,7 @@
   },
 
     {
-      "oracion": "<strong>María:</strong> Riptin, here comes the clerk. <br><strong>Clerk:</strong> May I help you? <br><strong>María:</strong> Yes, can I please try on these white shoes? <br><strong>Clerk:</strong> Of course, ma’am.",
+      "oracion": "<strong>María:</strong> Riptin, here comes the clerk. <br><strong>Seller:</strong> May I help you? <br><strong>María:</strong> Yes, can I please try on these white shoes? <br><strong>Seller:</strong> Of course, ma’am.",
       "tiempo": [0,0,1000,300,200,200,700, 0, 500,200,300,800, 0, 1050,200,150,350,300,100,300,400,800, 0, 600,500,1000]
     },
 
@@ -20,12 +20,12 @@
       },
 
       {
-        "oracion": "<strong>María:</strong> How much do these shoes cost? <br><strong>Clerk:</strong> They cost 10.000 colones. <br><strong>María:</strong> Great! I would like to buy them, please. <br><strong>Clerk:</strong> Certainly! Are you paying with cash or a credit card? <br><strong>María:</strong> I am paying with cash. Here you go!",
+        "oracion": "<strong>María:</strong> How much do these shoes cost? <br><strong>Seller:</strong> They cost 10.000 colones. <br><strong>María:</strong> Great! I would like to buy them, please. <br><strong>Seller:</strong> Certainly! Are you paying with cash or a credit card? <br><strong>María:</strong> I am paying with cash. Here you go!",
         "tiempo": [0,0,500,350,200,300,600,500, 0, 800,500,1000,1000, 0, 1200,500,300,300,100,300,400,800,  0, 1300,500,400,400,300,500,200,100,400,500, 0, 800,300,250,400,500, 450,300,600]
       },
 
       {
-        "oracion": "<strong>Clerk:</strong> Thank you! Have a nice day! <br><strong>María:</strong> Tell the clerk thank you, Riptin. <br><strong>Riptin:</strong> Thank you! You have a nice day, too!",
+        "oracion": "<strong>Seller:</strong> Thank you! Have a nice day! <br><strong>María:</strong> Tell the clerk thank you, Riptin. <br><strong>Riptin:</strong> Thank you! You have a nice day, too!",
         "tiempo": [0,0,400,500, 400,150,325,500, 0, 500,200,300,500,300,800, 0, 600,500, 600,400,150,400,300, 800]
       },
 
@@ -45,12 +45,12 @@
   },
 
   {
-    "oracion": "<strong>María:</strong> We are ready to pay. How much does this bread cost? <br><strong>Cash:</strong> It costs 1000 colones <br><strong>María:</strong> Here, Riptin, give this money to the cashier.",
+    "oracion": "<strong>María:</strong> We are ready to pay. How much does this bread cost? <br><strong>Cashier:</strong> It costs 1000 colones <br><strong>María:</strong> Here, Riptin, give this money to the cashier.",
     "tiempo": [0,0,800,250,500,300,800, 400,400,300,200,600,800, 0, 800,500,800,800, 0, 1000,800,800,200,500,200,200,600]
   },
 
   {
-    "oracion": "<strong>cash:</strong> Thank you! Have a nice day! <br><strong>Riptin:</strong> Thank you! You have a nice day, too. See you later!",
+    "oracion": "<strong>Cashier:</strong> Thank you! Have a nice day! <br><strong>Riptin:</strong> Thank you! You have a nice day, too. See you later!",
     "tiempo": [0,0,500,700,300,150,350,800, 0, 300,700, 400,300,200,400,475,650, 375,300,1000]
     },
   {

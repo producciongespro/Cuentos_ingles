@@ -4,29 +4,29 @@
   "tiempo": [0, 1450, 750, 200, 300, 550, 0]
 },
   {
-    "oracion": "<strong>Students:</strong> The aliens come from different planets. They want to learn about Earth.",
-     "tiempo": [0, 0, 650, 600, 375, 300, 500, 500, 300, 400, 100, 500, 250, 700 ]
+    "oracion": "The aliens come from different planets. They want to learn about Earth.",
+     "tiempo": [0, 650, 600, 375, 300, 500, 500, 300, 400, 100, 500, 250, 700 ]
    },
   {
-    "oracion": "<strong>Ebcad:</strong> Hello I am Ebcad. <br><strong>Student:</strong> Hi, Ebcad! How are you? <br><strong>Ebcad:</strong> I am fine.",
+    "oracion": "<strong>Ebcad:</strong> Hello I am Ebcad. <br><strong>David:</strong> Hi, Ebcad! How are you? <br><strong>Ebcad:</strong> I am fine.",
     "tiempo": [0, 0, 800, 600, 500, 800, 0, 500, 800, 500, 300, 650, 0, 800, 200, 600 ]
     },
     {
-    "oracion": "<strong>Ebcad:</strong> What is this? <br><strong>Student:</strong> This is my school! Come with me.",
+    "oracion": "<strong>Ebcad:</strong> What is this? <br><strong>David:</strong> This is my school! Come with me.",
     "tiempo": [0, 0, 700, 300, 800, 0, 850, 300, 400, 800, 500, 400, 300 ]
   },
   {
-    "oracion": "<strong>Student:</strong> That is my classroom. That is my teacher. My teacher is nice. <br><strong>Ebcad:</strong> Hello, teacher.",
+    "oracion": "<strong>David:</strong> That is my classroom. That is my teacher. My teacher is nice. <br><strong>Ebcad:</strong> Hello, teacher.",
     "tiempo": [0, 0, 1000, 400, 300, 900, 900, 300, 300, 900, 700, 500, 300, 800, 0, 600, 800 ]
   },
 
   {
-    "oracion": "<strong>Student:</strong> We learn about Math, English, and Science. <br><strong>Ebcad:</strong> Do you like to do Math? <br><strong>Student:</strong> Yes! I like Math, but I don’t like homework.",
+    "oracion": "<strong>David:</strong> We learn about Math, English, and Science. <br><strong>Ebcad:</strong> Do you like to do Math? <br><strong>David:</strong> Yes! I like Math, but I don’t like homework.",
     "tiempo": [0, 0, 800, 500, 525, 600, 700, 450, 700, 0, 820, 500, 700, 200, 200, 800, 0, 1500, 200, 500, 500, 300, 200, 500, 300, 900 ]
   },
 
   {
-    "oracion": "<strong>Ebcad:</strong> How do you feel at school? <br><strong>Student:</strong> I feel happy at school!",
+    "oracion": "<strong>Ebcad:</strong> How do you feel at school? <br><strong>David:</strong> I feel happy at school!",
     "tiempo": [0,0, 800, 300, 300, 500, 200, 700, 0, 500, 500, 500, 200, 700 ]
     },
 
@@ -36,7 +36,7 @@
   },
 
   {
-    "oracion": "<strong>Ebcad:</strong> Goodbye. <br><strong>Students:</strong> Bye, Ebcad!",
+    "oracion": "<strong>Ebcad:</strong> Goodbye. <br><strong>David:</strong> Bye, Ebcad!",
     "tiempo": [0, 0, 2000, 0, 1000, 1000 ]
     }
 ]

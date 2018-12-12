@@ -26,17 +26,17 @@
   },
 
   {
-    "oracion": "I run,",
+    "oracion": "I run.",
     "tiempo": [0, 800, 500]
   },
 
   {
-    "oracion": "I kick,",
+    "oracion": "I kick.",
     "tiempo": [0, 800, 500]
   },
 
   {
-    "oracion": "I catch,",
+    "oracion": "I catch.",
     "tiempo": [0, 500, 500]
   },
 
