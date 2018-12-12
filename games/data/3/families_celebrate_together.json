@@ -1,5 +1,5 @@
 [
- {"id":"1","pregunta":"Do you eat cake on your birthday?","opc1":"<img class='img-thumbnail' src='img/3/01_1.png'>","opc2":"<img class='img-thumbnail' src='img/3/01_2.png'>","correcta":"1"},
+ {"id":"1","pregunta":"Do you eat cake on your birthday?","opc1":"<img class='img-thumbnail'src='img/3/01_1.png'>","opc2":"<img class='img-thumbnail'src='img/3/01_2.png'>","correcta":"1"},
  {"id":"2","pregunta":"I always need more tools in my workshop.","opc1":"<img class='img-thumbnail' src='img/3/01_3.png'>","opc2":"<img class='img-thumbnail' src='img/3/01_4.png'>","correcta":"2"},
  {"id":"3","pregunta":"Today is your birthday, Fogtag, so I baked you a cake!","opc1":"<img class='img-thumbnail' src='img/3/01_5.png'>","opc2":"<img class='img-thumbnail' src='img/3/01_6.png'>","correcta":"1"},
  {"id":"4","pregunta":"When is your birthday, María? It is in December.","opc1":"<img class='img-thumbnail' src='img/1/01_7.png'>","opc2":"<img class='img-thumbnail' src='img/3/01_8.png'>","correcta":"2"},
