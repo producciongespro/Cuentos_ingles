@@ -1,6 +1,6 @@
 [
  {"id":"1","pregunta":"May I help you?","opc1":"<span class='spn-opciones'> a) Yes, can I please try on these white shoes?</span>","opc2":"<span class='spn-opciones'> b) They cost 1000 colones.</span>","correcta":"1"},
- {"id":"2","pregunta":"How much do theses shoes cost?","opc1":"<span class='spn-opciones'> a) I would like to buy them.</span>","opc2":"<span class='spn-opciones'> b) They cost 10000 colones.</span>","correcta":"2"},
+ {"id":"2","pregunta":"How much do theses shoes cost?","opc1":"<span class='spn-opciones'> a) I would like to buy them.</span>","opc2":"<span class='spn-opciones'> b) They cost 10.000 colones.</span>","correcta":"2"},
  {"id":"3","pregunta":"Are you paying with cash or a credit card?","opc1":"<span class='spn-opciones'> a) I am paying with cash.</span>","opc2":"<span class='spn-opciones'> b) Have a nice day.</span>","correcta":"1"},
  {"id":"4","pregunta":"Where can we buy bread?","opc1":"<span class='spn-opciones'> a) There is a bank right here.</span>","opc2":"<span class='spn-opciones'> b) We buy bread at the bakery.</span>","correcta":"2"}
 ]
