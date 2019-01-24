@@ -165,7 +165,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 a {
-  color: #cabcab;
+  color: #2c55de;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -672,7 +672,7 @@ font-family: 'Poppins', sans-serif;
 }
 .intro h2 .fh5co-highlight {
   display: block;
-  font-size: 16px;
+  font-size: 20px;
 }
 .intro h2 .fh5co-highlight i {
   position: relative;
