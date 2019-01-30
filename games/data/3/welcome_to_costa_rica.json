@@ -1,6 +1,0 @@
-[
- {"id":"1","pregunta":"In Monteverde, you can go hiking in the forest and see many animals.","opc1":"<img class='img-thumbnail' src='img/3/06_1.png'>","opc2":"<img class='img-thumbnail' src='img/3/06_2.png'>","correcta":"1"},
- {"id":"2","pregunta":"In Manuel Antonio, you can swim in the water and enjoy the warm sun.","opc1":"<img class='img-thumbnail' src='img/3/06_3.png'>","opc2":"<img class='img-thumbnail' src='img/3/06_4.png'>","correcta":"2"},
- {"id":"3","pregunta":"In the city you can go to many concerts, plays, shopping centers and museums.","opc1":"<img class='img-thumbnail' src='img/3/06_5.png'>","opc2":"<img class='img-thumbnail' src='img/3/06_6.png'>","correcta":"1"},
- {"id":"4","pregunta":"Costa Rica is a beautiful and unique country.","opc1":"<img class='img-thumbnail' src='img/3/06_7.png'>","opc2":"<img class='img-thumbnail' src='img/3/06_8.png'>","correcta":"2"}
-]

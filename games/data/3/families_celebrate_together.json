@@ -1,6 +1,0 @@
-[
- {"id":"1","pregunta":"Do you eat cake on your birthday?","opc1":"<img class='img-thumbnail' src='img/3/02_1.png'>","opc2":"<img class='img-thumbnail' src='img/3/02_2.png'>","correcta":"2"},
- {"id":"2","pregunta":"I always need more tools in my workshop.","opc1":"<img class='img-thumbnail' src='img/3/02_3.png'>","opc2":"<img class='img-thumbnail' src='img/3/02_4.png'>","correcta":"1"},
- {"id":"3","pregunta":"Today is your birthday, Fogtag, so I baked you a cake!","opc1":"<img class='img-thumbnail' src='img/3/02_5.png'>","opc2":"<img class='img-thumbnail' src='img/3/02_6.png'>","correcta":"2"},
- {"id":"4","pregunta":"When is your birthday, María? It is in December.","opc1":"<img class='img-thumbnail' src='img/3/02_7.png'>","opc2":"<img class='img-thumbnail' src='img/3/02_8.png'>","correcta":"2"}
-]
