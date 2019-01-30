@@ -1,0 +1,37 @@
+[
+  {
+    "oracion": "<strong>María:</strong> Ok, Fogtag, your next! I’m going to teach you about celebrations.",
+     "tiempo": [0,0,500,1000,500,650, 300,200,500,200,200,700,800,1000]
+  },
+
+  {
+    "oracion": "<strong>Fogtag:</strong> What is a celebration? <br><strong>María:</strong> A celebration is an event where people get together to have fun and give gifts.",
+    "tiempo": [0,0, 550,300,175,800, 0, 800,1000,100,200,400,500,400,200,600,100,400,500,200,300,500 ]
+    },
+
+    {
+      "oracion": "<strong>María:</strong> Today is your birthday, Fogtag, so I baked you a cake! <br><strong>Fogtag:</strong> Thank you! Do you eat cake on your birthday? <br><strong>María:</strong> Yes, I do!",
+      "tiempo": [0,0, 450,200,300,800,900, 300,200,300,100,100,800,  0, 500,700, 500,300,500,300,100,350,700, 0, 600,215,500]
+    },
+
+      {
+        "oracion": "<strong>María:</strong> I also got you this gift! <br><strong>Fogtag:</strong> I love it! Thank you, María! <br><strong>María:</strong> You’re welcome, Fogtag. <br><strong>Fogtag:</strong> What do you want for your birthday, María? <br><strong>María:</strong> Well, I always need more tools in my workshop.",
+        "tiempo": [0,0,500,300,300,300,400,700, 0, 600,300,500,400,200,800, 0, 500,500,1000, 0, 400,150,200,400,200,400,700,700, 0, 800,200,500,300,300, 500, 200, 200, 800]
+      },
+
+      {
+        "oracion": "<strong>Fogtag:</strong> When is your birthday? <br><strong>María:</strong> My birthday is in December. There is a big celebration in December, too. It’s called Christmas.",
+        "tiempo": [0, 0, 500,200,400,1000, 0, 300,800,100,200,800, 600,200,200,500,800,100,750,950, 575,575,800]
+      },
+
+  {
+    "oracion": "<strong>Fogtag:</strong> What is Christmas? Do you eat cake on Christmas? <br><strong>María:</strong><br> No, no. Christmas is a time when friends and families get together to decorate a tree, give presents, and eat good food.",
+     "tiempo": [0, 0, 600,450,1200, 1050,200,400,700,100,1000, 0, 700,800, 800,100,100,450,350,375,200,700,175,700,175,700,100,500, 700,800, 200, 300, 700, 800]
+  },
+
+  {
+    "oracion": "<strong>Fogtag:</strong> Wow! I want to see more celebrations. <br><strong>María:</strong><br> I know, Fogtag. There are so many for you to see!",
+     "tiempo": [0, 0, 1000,300,100,300,300,300,1100, 0, 800,200,900, 450,350,200,400,250,400,100,800 ]
+  }
+
+]

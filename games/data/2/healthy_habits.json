@@ -1,0 +1,6 @@
+[
+ {"id":"1","pregunta":"These are fruits and vegetables.","opc1":"<img class='img-thumbnail' src='img/2/02_1.png'>","opc2":"<img class='img-thumbnail' src='img/2/02_2.png'>","correcta":"2"},
+ {"id":"2","pregunta":"Healthy means: good and strong body and do exercise.","opc1":"<img class='img-thumbnail' src='img/2/02_3.png'>","opc2":"<img class='img-thumbnail' src='img/2/02_4.png'>","correcta":"2"},
+ {"id":"3","pregunta":"I like playing soccer.","opc1":"<img class='img-thumbnail' src='img/2/02_5.png'>","opc2":"<img class='img-thumbnail' src='img/2/02_6.png'>","correcta":"2"},
+ {"id":"4","pregunta":"This is healthy food.","opc1":"<img class='img-thumbnail' src='img/2/02_7.png'>","opc2":"<img class='img-thumbnail' src='img/2/02_8.png'>","correcta":"1"}
+]

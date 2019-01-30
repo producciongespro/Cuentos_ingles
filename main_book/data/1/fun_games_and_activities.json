@@ -1,0 +1,53 @@
+[
+
+  {
+    "oracion": "I like to play with my friends.",
+     "tiempo": [0, 900,300,100,300,200,300,600]
+    },
+
+  {
+    "oracion": "We play with cars.",
+    "tiempo": [0, 500, 400, 400, 600]
+  },
+
+  {
+    "oracion": "We play with dolls.",
+    "tiempo": [0, 700, 300, 400, 600]
+  },
+
+  {
+    "oracion": "We play with ropes.",
+    "tiempo": [0, 600, 300, 400, 600]
+  },
+
+  {
+    "oracion": "We play with toys.",
+    "tiempo": [0, 700, 300, 400, 600]
+  },
+
+  {
+    "oracion": "I run.",
+    "tiempo": [0, 800, 500]
+  },
+
+  {
+    "oracion": "I kick.",
+    "tiempo": [0, 800, 500]
+  },
+
+  {
+    "oracion": "I catch.",
+    "tiempo": [0, 500, 500]
+  },
+
+  {
+    "oracion": "I throw.",
+    "tiempo": [0, 800, 500]
+  },
+
+  {
+    "oracion": "We play and have fun.",
+    "tiempo": [0, 800, 200, 300, 400,500]
+  }
+
+]

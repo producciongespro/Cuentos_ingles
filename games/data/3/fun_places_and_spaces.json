@@ -1,0 +1,6 @@
+[
+ {"id":"1","pregunta":"This sport is basketball.","opc1":"<img class='img-thumbnail' src='img/3/05_1.png'>","opc2":"<img class='img-thumbnail' src='img/3/05_2.png'>","correcta":"2"},
+ {"id":"2","pregunta":"This sport is soccer.","opc1":"<img class='img-thumbnail' src='img/3/05_3.png'>","opc2":"<img class='img-thumbnail' src='img/3/05_4.png'>","correcta":"1"},
+ {"id":"3","pregunta":"This sport is volleyboll.","opc1":"<img class='img-thumbnail' src='img/3/05_5.png'>","opc2":"<img class='img-thumbnail' src='img/3/05_6.png'>","correcta":"1"},
+ {"id":"4","pregunta":"Jetsun enjoys playing soccer the most.","opc1":"<img class='img-thumbnail' src='img/3/05_7.png'>","opc2":"<img class='img-thumbnail' src='img/3/05_8.png'>","correcta":"2"}
+]
