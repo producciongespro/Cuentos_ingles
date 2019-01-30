@@ -7,8 +7,8 @@
   },
 
   {
-    "oracion": "<strong>Millrug:</strong> What is a GPS? <br><strong>María:</strong> A GPS is a software that tells us where to find things. A GPS gives us directions. I gave you special abilities to tell humans directions. Let’s practice, ok? <br><strong>Millrug:</strong> Ok, María.",
-    "tiempo": [0, 0,800,300,200,1500,0,1000,900,300,300,600,600,400,400,600,200,500,600,1000,900,400,400,900,1000,500,400,400,700,300,500,700,800,900,700,500,800,0,500,800]
+    "oracion": "<strong>Millrug:</strong> What is a GPS? <br><strong>María:</strong> A GPS is a software that tells us where to find things. A GPS gives us directions. I gave you special abilities to tell humans directions. Let’s practice, ok? <br><strong> Millrug:</strong> Ok, María.",
+    "tiempo": [0, 0,800,300,200,1500,0,1000,900,300,300,600,600,400,400,600,200,500,600,1000,900,400,400,900,1000,500,400,400,700,300,500,700,800,900,700,500,1000,0,800,1000]
 
     },
 
