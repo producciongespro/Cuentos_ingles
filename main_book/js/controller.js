@@ -1,6 +1,7 @@
 'use strict'; 
 const v = new View(), m = new Model();
-var arrayT, cont, limit=0, objAudio, vistaPage=0,
+var arrayT, cont, limit=0, objAudio, 
+vistaPage, // página mostrada en pantalla
 page = -1, //setea la pagina en -1 para cargar la pag 0
 resaltadoRecursivo, // objeto que almacena higlith en settimeout
 grado, // grado del cuento
@@ -8,7 +9,8 @@ unidad,
 titulo;  //titulo
 
 
-$(document).ready(function () {         
+$(document).ready(function () {
+    vistaPage=1;             
     obtenerInfoSesion();
     eCargarAudio();
 });
@@ -27,7 +29,7 @@ function obtenerInfoSesion() {
 
 function loadModule( grade, story ) {
     //reset de variable que muestra la pagina al usuario:
-    vistaPage=0;
+    
     //asigna el estilo  a los botones:
     $(".btn-load-page").css("cursor", "not-allowed");
   
@@ -89,6 +91,7 @@ function handlerEvents(maxPages) {
         let idBtnActual = $(this).attr("id");
 
         if ( idBtnActual == "btnAdelante" ) {
+            vistaPage++;
             //validación de limite superior
             if (page < maxPages - 1 ) {
                 page++;
@@ -108,6 +111,8 @@ function handlerEvents(maxPages) {
                 page--; 
                 //carga el método que dibuja la pagina y activa el resaltado
                 console.log(page);
+                //Aumenta la página 
+                vistaPage--;
                 
                 loadPage(page, resaltadoRecursivo);
             }
@@ -154,7 +159,7 @@ function loadPage(page, resaltadoRecursivo ) {
     //console.log("página " + page);
     //inicializar el contador para que carge una nueva oración
     cont=-1;
-    vistaPage++; 
+   
     
     //Escribe la oración 
     v.writePage(m.convertTotArray(page), $("#visorImage"), $("#contSentence"), page, grado, titulo, vistaPage  );
@@ -246,6 +251,3 @@ function eCargarAudio() {
             });    
     
     }
-
-
-
