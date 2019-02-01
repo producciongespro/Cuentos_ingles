@@ -198,6 +198,10 @@ function playAudioStars(i) {
     console.log( "Parametro: " + i);
 
     switch (i) {
+        case 0:
+        audioStars = $("#audStar0")[0];
+        console.log(0);        
+        break;
         case 1:
         audioStars = $("#audStar1")[0];
         console.log(1);        
