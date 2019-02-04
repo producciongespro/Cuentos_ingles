@@ -62,6 +62,9 @@ font-family: 'Poppins', sans-serif;
 
 }
 
+#btnReload {
+    cursor: not-allowed;    
+}
 
 
 .btn-3d {

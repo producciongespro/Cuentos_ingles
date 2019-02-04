@@ -6,6 +6,7 @@ page = -1, //setea la pagina en -1 para cargar la pag 0
 resaltadoRecursivo, // objeto que almacena higlith en settimeout
 grado, // grado del cuento
 unidad,
+audioMuteHover=true,  // bandera que determina si debe mutear el audio. Se convierte en False cuando se termina la narración.
 titulo;  //titulo
 
 
@@ -30,8 +31,7 @@ function obtenerInfoSesion() {
 function loadModule( grade, story ) {
     //reset de variable que muestra la pagina al usuario:
     
-    //asigna el estilo  a los botones:
-    $(".btn-load-page").css("cursor", "not-allowed");
+      
   
     m.loadJson("./data/"+grade+"/"+ story+".json",  function () { 
         //console.log("Data Loaded");
@@ -62,15 +62,6 @@ function loadModule( grade, story ) {
  
      });
 }
-
-
-function eTerminarReproduccionAudio() {
-    var aud = document.getElementById("myAudio");
-    aud.onended = function() {
-        alert("The audio has ended");
-    };
-}
-
 
 
 
@@ -146,8 +137,7 @@ function handlerEvents(maxPages) {
       
 
             $("#btnReload").click(function () { 
-               
-                //window.location.assign("../frontpage/index.php?grado="+grado+"&unidad="+unidad+"&nombre="+titulo+"" ); 
+                //Recarga la página
                 loadPage(page, resaltadoRecursivo);
                 
             });
@@ -159,6 +149,15 @@ function loadPage(page, resaltadoRecursivo ) {
     //console.log("página " + page);
     //inicializar el contador para que carge una nueva oración
     cont=-1;
+
+
+         //Desactiva el botón:
+         $("#btnReload").prop("disabled", true);        
+         $("#btnReload").css("cursor", "not-allowed");
+
+         //Desahbilita los botones de adelante - atrás
+         $(".btn-load-page").prop("disabled", true);        
+         $(".btn-load-page").css("cursor", "not-allowed");
    
     
     //Escribe la oración 
@@ -185,13 +184,28 @@ function loadPage(page, resaltadoRecursivo ) {
     objAudio.play();
     // fin de manejador de audio
 
+    //habilita la bandera mute para que no se pueda reproducir el hover hasta que termine la narración
+    audioMuteHover=true;
+
 
     //Activa los botones cuando se lanza el evento end del audio (cundo termina el audio)
     objAudio.onended = function() {
-        $(".btn-load-page").prop("disabled", false);
-        
+        // *****************************
+        //Botones de adelantar o atrasar página:
+        $(".btn-load-page").prop("disabled", false);        
         $(".btn-load-page").css("cursor", "pointer");
+        
+
+        // *****************************
+        //Botón de recargar página:
+
+        $("#btnReload").prop("disabled", false);        
+        $("#btnReload").css("cursor", "pointer");
         //console.log("ACtivado");
+        
+
+        // deshabilita el mute para que suene el audio al pasar el mouse sobre lso botones.
+        audioMuteHover = false;
     };
 
 
@@ -245,9 +259,12 @@ function eCargarAudio() {
     var audMinibooks = $("#audMinibooks")[0];
             $("#btnMini").mouseenter(function () { 
                 console.log("enter");
-                audMinibooks.pause();
+                if (!audioMuteHover) {
+                    audMinibooks.pause();
                 audMinibooks.currentTime=0;
-                audMinibooks.play();        
+                audMinibooks.play();   
+                }
+                     
             });    
     
     }
