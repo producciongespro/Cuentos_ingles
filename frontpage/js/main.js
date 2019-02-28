@@ -1,7 +1,24 @@
+var grado, unidad, nombre;
+
 $(document).ready(function () {
+    cargarParametrosURL();
     eCargarAudio();
     obtenerParametrosUrl();    
 });
+
+
+function cargarParametrosURL() {
+    var str = window.location.href,
+    url = new URL(str);
+        console.log(url);   
+
+        grado = url.searchParams.get("grado");
+        unidad = url.searchParams.get("unidad");
+        nombre = url.searchParams.get("nombre");
+    
+}
+
+
 
 
 function obtenerParametrosUrl() {  
