@@ -56,11 +56,32 @@ function loadModule( grade, story ) {
 
         //Carga de la primera pagina:
         page++;
-        //carga el método que dibuja la pagina y activa el resaltado     
-        loadPage(page, resaltadoRecursivo);
+
+ 
+
+        viewIntro();
+
+
+  
         
  
      });
+}
+
+
+function viewIntro() {
+      //carga el método que dibuja la pagina y activa el resaltado  
+    
+    
+
+
+      $("#btnReproducir").click(function (e) { 
+        e.preventDefault();  
+        $(".div-shadow").addClass("invisible");                  
+        //carga el método que dibuja la pagina y activa el resaltado             
+        loadPage(page, resaltadoRecursivo);            
+    });
+    
 }
 
 
@@ -255,7 +276,8 @@ function highlight (resaltadoRecursivo) {
 }
 
 
-function eCargarAudio() {    
+function eCargarAudio() { 
+    
     var audMinibooks = $("#audMinibooks")[0];
             $("#btnMini").mouseenter(function () { 
                 console.log("enter");

@@ -16,7 +16,7 @@ $(document).ready(function () {
 
     //-----------------------
 
-    loadMod();
+    viewIntro();
     eventsStart();
 });
 
@@ -35,6 +35,24 @@ function reset() {
     //muestra el botón que se ocultó en el último item al usuario 
     $("#btnForward").css("display", "inline");
 }
+
+
+
+function viewIntro() {
+    //carga el método que dibuja la pagina y activa el resaltado  
+  
+  
+
+
+    $("#btnReproducir").click(function (e) { 
+      e.preventDefault();  
+      $(".div-shadow").addClass("invisible");                  
+      //carga el método que dibuja la pagina y activa el resaltado             
+      loadMod();
+  });
+  
+}
+
 
 function loadMod() {  
     //carga el json de acuerdo a los datos de sessionstorage
