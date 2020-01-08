@@ -62,7 +62,7 @@ font-family: 'Poppins', sans-serif;
 	background-color:#8DD7EA;
 
 }
-.col-10 {
+.col-stars {
     background-color:#4C8CB5;
     padding:auto;
 }
@@ -70,12 +70,24 @@ font-family: 'Poppins', sans-serif;
 	display: none;
 }
 
-	body{
-		background-image: url("../img/indice.jpg");
-		background-repeat: no-repeat;
-        background-size: 100%;
-    }
+.container-fluid{
+    background-image: url("../img/indice.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.jumbotron-games {
+    margin-bottom: 0px!important;
+}
+
+.row-footer {
+    background: transparent;
+    background-image: linear-gradient(to top, white 70%, transparent 70%);
+    /* background: -moz-linear-gradient(top, transparent 92%,white 92%);
+    background: -webkit-linear-gradient(top, transparent 92%, white 92%);
+    background: linear-gradient(to bottom, transparent 92%,white 92%); */
+    /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009fc7', endColorstr='#a9cd25',GradientType=0 ); */
+}
 .message {
     color: darkorchid;
     font-size: 4em;
@@ -104,9 +116,9 @@ font-family: 'Poppins', sans-serif;
     position: relative;
     display: inline-block;
     font-size: 20px;
-    padding: 20px 60px;
+    /* padding: 20px 60px; */
     color: white;
-    margin: 20px 10px 10px;
+    margin: 3px 10px 10px;
     border-radius: 6px;
     text-align: center;
     transition: top .01s linear;
@@ -160,7 +172,6 @@ font-family: 'Poppins', sans-serif;
 }
 
 
-
 .div-shadow {
     z-index: 999;
     position: absolute;
@@ -210,3 +221,72 @@ font-family: 'Poppins', sans-serif;
                 0 0 0 2px rgba(255,255,255,0.15) inset,
                 0 0 0 1px rgba(0,0,0,0.4);
   }
+
+  /* QUERIES */
+
+    /* Extra large devices (large desktops, 1200px and up) */
+  /* @media (min-width: 1200px) {  
+  
+  } */
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .btn-block-footer {
+      height: 100%;
+    }
+   }
+  
+   /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+    .btn-block-footer {
+      height: 70%;
+    }
+   }
+  
+
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) { 
+    .btn-block-footer {
+      height: 50%;
+    }
+  
+   }
+
+@media (max-width: 849.98px) { 
+    .col-question, .col-numbers, .spn-opciones {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 650.98px) { 
+    .col-question, .col-numbers, .spn-opciones {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 499.98px) { 
+    .img-stars {
+        width: 17%;
+        margin-left: 1px;
+    }
+}
+    
+  /* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 385.98px) { 
+  .fa-forward {
+    font-size: 12px!important;
+    }
+    .btn-block-footer  {
+        /* padding-left: 2px; */
+        max-height: 50px;
+    }
+}
+@media (max-width: 364.98px) { 
+        .btn-block-footer  {
+            padding-left: 2px;
+        }
+        .col-question, .col-numbers, .spn-opciones {
+            font-size: 1em;
+        }
+}

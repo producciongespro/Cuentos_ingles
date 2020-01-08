@@ -10,6 +10,7 @@ View.prototype.writePage = function (arraySentence, contImg, contSnt, idImg, gra
     htmlImage = $("<img class='img-page  img-fluid'  src='img/" + grado + "/" + titulo  + "/pic" +idImg+".png'> "),
     //htmlSentence = $("<div class='alert  alert-warning' role='alert'></div>");
     htmlSentence = $("<div class='divOracion' ></div>");
+    // htmlSentence = $("<div class='row'> <div class='col-12 divOracion' ></div></div>");
 
      for (let index = 0; index < limit; index++) {
         //console.log(arraySentence[index]);

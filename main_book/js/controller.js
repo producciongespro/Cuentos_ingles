@@ -14,10 +14,48 @@ $(document).ready(function () {
     vistaPage=1;             
     obtenerInfoSesion();
     eCargarAudio();
+    window.addEventListener("resize", function(){console.log('resize!')}, true);
+    window.addEventListener("resize", cambiaGrid);
+    cambiaGrid();
 });
+{/* <div class="row fila-imagen-texto" id="divContenedor">
+  <div class="col-1" id="colPrimera" ></div>
+  <div class="col-7 col-marco3" id="visorImage"   ></div>
+    <div class="col-3 col-marco1"  id="contSentence" > </div>
+     <div class="col-1" id="colUltima" ></div>
+</div> */}
 
-
-
+function cambiaGrid() {  
+    console.log("en cambiaGrid");
+    
+    if (window.innerWidth < 700)
+    {
+        $("#divContenedor").removeClass("row");
+        $("#divContenedor").addClass(" d-flex flex-column");
+        $("#colPrimera").removeClass("col-1");
+        $("#colPrimera").addClass("p-2");
+        $("#visorImage").removeClass("col-6");
+        $("#visorImage").addClass("p-2");
+        $("#contSentence").removeClass("col-4");
+        $("#contSentence").addClass("p-2");
+        $("#colUltima").removeClass("col-1");
+        $("#colUltima").addClass("p-2");
+        
+    }
+    else
+    {
+        $("#divContenedor").addClass("row");
+        $("#divContenedor").removeClass("d-flex flex-column");
+        $("#colPrimera").addClass("col-1");
+        $("#colPrimera").removeClass("p-2");
+        $("#visorImage").addClass("col-6");
+        $("#visorImage").removeClass("p-2");
+        $("#contSentence").addClass("col-4");
+        $("#contSentence").removeClass("p-2");
+        $("#colUltima").addClass("col-1");
+        $("#colUltima").removeClass("p-2");
+    }
+}
 
 
 function obtenerInfoSesion() {
