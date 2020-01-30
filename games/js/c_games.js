@@ -274,7 +274,7 @@ function checkOption(opt) {
        
        v.modalStars(stars);
         setTimeout ( function () {
-            $("#mdlFinish").modal();
+            $("#mdlFinish").modal({backdrop: 'static', keyboard: false});
             playAudioStars( parseInt(stars));
           }, 3000 );  
     }

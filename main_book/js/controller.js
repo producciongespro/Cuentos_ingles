@@ -14,16 +14,12 @@ $(document).ready(function () {
     vistaPage=1;             
     obtenerInfoSesion();
     eCargarAudio();
+    console.log("controler.js");
+    
     window.addEventListener("resize", function(){console.log('resize!')}, true);
     window.addEventListener("resize", cambiaGrid);
     cambiaGrid();
 });
-{/* <div class="row fila-imagen-texto" id="divContenedor">
-  <div class="col-1" id="colPrimera" ></div>
-  <div class="col-7 col-marco3" id="visorImage"   ></div>
-    <div class="col-3 col-marco1"  id="contSentence" > </div>
-     <div class="col-1" id="colUltima" ></div>
-</div> */}
 
 function cambiaGrid() {  
     console.log("en cambiaGrid");
@@ -39,8 +35,7 @@ function cambiaGrid() {
         $("#contSentence").removeClass("col-4");
         $("#contSentence").addClass("p-2");
         $("#colUltima").removeClass("col-1");
-        $("#colUltima").addClass("p-2");
-        
+        $("#colUltima").addClass("p-2"); 
     }
     else
     {

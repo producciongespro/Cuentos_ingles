@@ -28,6 +28,8 @@ function loadDataSession() {
 
 
 function playAudioIntro() {
+    console.log("estoy en playAudioIntro");
+    
     $("#audTheEnd").trigger("play");
 }
 
@@ -40,7 +42,7 @@ function handlerEvents(grado, unidad, titulo) {
     //recarga el cuento
     // Se pasan los datos a través de parametros get ya que el sript de la plantilla  no deja utilizar sessión 
     $("#btnReloadTale").click(function () { 
-       let urlCuento = "../frontpage/index.php?grado="+grado+"&unidad="+unidad+"&nombre="+titulo;             
+       let urlCuento = "../frontpage/index.html?grado="+grado+"&unidad="+unidad+"&nombre="+titulo;             
         window.location.assign(urlCuento);
     });
 
